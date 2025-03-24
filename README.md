@@ -29,6 +29,6 @@
  
    wget http://files.ipd.uw.edu/pub/RFdiffusion/12fc204edeae5b57713c5ad7dcb97d39/Base_epoch8_ckpt.pt
 
-### 2. DeepBSRPred, ProteinMPNN, dssp, freesasa를 4개의 디렉토리를 Gradio 디렉토리 하위로 이동시킨다.(같은 환경설정. Gradio/requirements.txt 참조)
+### 2. DeepBSRPred, ProteinMPNN, dssp, freesasa 4개의 디렉토리를 Gradio 디렉토리 하위로 이동시킨다.(같은 환경설정. Gradio/requirements.txt 참조)
 ### 3. RFdiffusion은 하위 Dockerfile로 이미지생성한다.
 ### 4. ScanNet은 별도 가상환경으로 기동한다. (ScanNet/requirements.txt 참조)
