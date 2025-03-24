@@ -1,7 +1,7 @@
 # BindQ
 ## 다운방법
 ### 1. 모든 디렉토리를 내려받기
-- ProteinMPNN 하위에 params 디렉토리를 생성하고 "wget"으로 파라미터를 다운로드받는다.
+- ProteinMPNN 하위에 params 디렉토리를 생성하고 wget으로 파라미터를 다운로드받는다.
  wget https://huggingface.co/spaces/simonduerr/ProteinMPNN/resolve/main/params/LICENSE
  wget https://huggingface.co/spaces/simonduerr/ProteinMPNN/resolve/main/params/params_model_1.npz
  wget https://huggingface.co/spaces/simonduerr/ProteinMPNN/resolve/main/params/params_model_1_ptm.npz
