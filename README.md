@@ -51,3 +51,5 @@ https://www.ebi.ac.uk/thornton-srv/software/HBPLUS/install.html
   https://github.com/ScanNet/ScanNet
   
   https://huggingface.co/spaces/simonduerr/ProteinMPNN
+
+  https://web.iitm.ac.in/bioinfo2/deepbsrpred/download.html
