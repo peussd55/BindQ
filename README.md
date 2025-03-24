@@ -53,3 +53,6 @@ https://www.ebi.ac.uk/thornton-srv/software/HBPLUS/install.html
   https://huggingface.co/spaces/simonduerr/ProteinMPNN
 
   https://web.iitm.ac.in/bioinfo2/deepbsrpred/download.html
+
+### ***기타 :
+  해당 소스코드는 향후 리팩토링예정
