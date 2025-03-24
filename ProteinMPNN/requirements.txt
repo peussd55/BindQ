@@ -1,0 +1,25 @@
+absl-py==0.13.0
+git+https://github.com/biopython/biopython.git@biopython-180
+git+https://github.com/Acellera/moleculekit.git@1.5.9
+chex==0.0.7
+dm-haiku==0.0.5
+dm-tree==0.1.6
+docker==5.0.0
+immutabledict==2.0.0
+https://storage.googleapis.com/jax-releases/jax/jax-0.3.7.tar.gz
+https://storage.googleapis.com/jax-releases/cuda11/jaxlib-0.3.7+cuda11.cudnn805-cp310-none-manylinux2014_x86_64.whl
+ml-collections==0.1.0
+numpy==1.22
+pandas==1.3.4
+scipy
+tensorflow-gpu==2.8.4
+torch
+plotly
+GPUtil
+ray==1.13.0
+tqdm
+protobuf<4
+matplotlib==3.8
+mdtraj
+pydantic<2
+-f https://storage.googleapis.com/jax-releases/jax_releases.html
