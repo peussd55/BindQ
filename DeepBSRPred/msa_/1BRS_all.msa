@@ -1,0 +1,218 @@
+CLUSTAL format alignment by MAFFT FFT-NS-2 (v7.490)
+
+
+QuerySeq        -----------------------VINTFDGVAD---------------------YLQTYH
+sp|O43390|HNRPR -----------------------MANQVNG-------------------NA---VQLKEE
+sp|Q5M731|TPS1L ------------------------MNSLGGI--------RSWPANWRSTTASMTTTESVR
+sp|Q00175|PRGR_ ------------------------------------------------------MTELQA
+sp|P00371|OXDA_ ------------------------------------------------------------
+sp|Q4WED9|XANB_ -------------------MIAVLQNPQNAA--------ISYSGEPQEHNL---LGSYET
+sp|Q6BQ23|SYF1_ MSGSVWDIEGLLCEDDIPYEQEVAKNPNNLSNWLRYYRFKSSTSSCTFQNRVFILERAVK
+                                                                            
+
+QuerySeq        KLPDNYITKSEAQA-----------LGWVASKGNL-ADV----APG---KSIGGDIF---
+sp|O43390|HNRPR EEP---------------------------------MDT----------SSVTHT-----
+sp|Q5M731|TPS1L KVPQVLTVAGS---------------DSGAGAGIQ-ADLKVCAARGVYCASVITAVT---
+sp|Q00175|PRGR_ KDPQVLHTSGASPSPPHIGSPLLARLDSGPFQGSQHSDV----------SSVVSPIPISL
+sp|P00371|OXDA_ ------------------------------------MRVVVIG------AGVIGLST---
+sp|Q4WED9|XANB_ KAPN--------------------------------VET----------SEIAASSS---
+sp|Q6BQ23|SYF1_ QLPRSYKLWMIY------------------------IDVVL--------QEVQTSVS---
+                                                                   :        
+
+QuerySeq        -------SNREGKLP-GKSGRT----------WREADINYTSG---------FRNSDRIL
+sp|O43390|HNRPR -------------------------------------EHYKTLIEAGLPQKVAERLDE--
+sp|Q5M731|TPS1L -----AQNTR-----------------------GVQSVHL------LPPEFISEQLKSVL
+sp|Q00175|PRGR_ DGLLFPRSCRGPELPDGKTGDQQSLSDVEGAFSGVEATHREGGRNSRAPEKDSRLLDSVL
+sp|P00371|OXDA_ -----------------------ALC-------------------------IHERYHSVL
+sp|Q4WED9|XANB_ -------SSEAPE--------------------DLAEEHHRN--EASLQQPLSE------
+sp|Q6BQ23|SYF1_ ---------------------------------------YKSKSEILSVNMVFERSLQLL
+                                                                     .      
+
+QuerySeq        YSSDWLIYKT-----TDHYQTFTKIRAQVI------------NTFDG-------------
+sp|O43390|HNRPR ------IFQTGLVAYVDLDER--AIDAL--------------REFNE--------EGALS
+sp|Q5M731|TPS1L SDFEFDVVKTGM---L------PSTEIVEV-------LLQNLSDFPV--------RALVV
+sp|Q00175|PRGR_ DSL---LTPSGT---EQSHASPPACEAITSWCLFGPELPEDPRSVPA--------TKGLL
+sp|P00371|OXDA_ QPLDVKV-------YADRFTPFTTTDVA----------------------------AGLW
+sp|Q4WED9|XANB_ ---------------VDRHEQPAASD-------------------NT--------RSGLD
+sp|Q6BQ23|SYF1_ NRAPILWIK-----YLEFLVETQPYEIT---------LLR--RKFNECLYNLPISQHHLI
+                                                                            
+
+QuerySeq        ----------VAD-------------YLQTYHKL----------------PD--------
+sp|O43390|HNRPR V----LQQFKESDLSHVQNKSAFLCGVMKTYRQR--------EKQGSKVQ----------
+sp|Q5M731|TPS1L DPVM------VSTSGHVLAGSSI----LSIFRERLLPIADI-------ITPNVKEASALL
+sp|Q00175|PRGR_ SPLMSRPEIKAGDSSGTGAGQKVLPKGLSPPRQLLLPTSGSAHWPGAGVKPSPQPAAGEV
+sp|P00371|OXDA_ QPYT--------------------------------------------SEPS--------
+sp|Q4WED9|XANB_ IPPVTVSTPQSSDNPLVESKEA----VPVTFKD---------EGKGTKADPSHLLTEA-L
+sp|Q6BQ23|SYF1_ WPLY----IRFADDVGGMTGVKVYLKYLQY------------------ANP---------
+                                                                            
+
+QuerySeq        --------NYITKSEAQALGWV---ASKGNLADVAPG----------KSIGG--------
+sp|O43390|HNRPR ESTKG-------PDEAKIKALL---ERTGYTLDVTTG----------QRKYG--------
+sp|Q5M731|TPS1L D---G------FRIETVAE--M---RSAAKSLH-EMG-----------------------
+sp|Q00175|PRGR_ EEDSG------LETEGSAAPLL---KSKPRALE-GTGSGGGVAANAASAAPGGVTLVP--
+sp|P00371|OXDA_ -----------NPQEANWNQ-----QTFNYLLS-HIG-----------------------
+sp|Q4WED9|XANB_ ETTNGEENSPISEDEATAIAVLKVIERYGVNFE-KTG----------ESWQGLTSFIPTV
+sp|Q6BQ23|SYF1_ ESLQGLN----NEQEGELGITI---DDIISKLV-EFG----------------------D
+                              *                     *                       
+
+QuerySeq        -----------------D----------------------------IFSNRE--------
+sp|O43390|HNRPR ------------------------------------------------------------
+sp|Q5M731|TPS1L ---------PRFVL----------------------------------------------
+sp|Q00175|PRGR_ -KEDSRFSAPRVSLEQ-DSPIAPGRSPLATTVVDFIHVPILPLNHALLAARTRQLLEGDS
+sp|P00371|OXDA_ ------------------------------------------------------------
+sp|Q4WED9|XANB_ VEQVKKREAVRMIL------------------------PAFPF-----------------
+sp|Q6BQ23|SYF1_ VKEASKL--FQHILQHTDKFIGLSKSPLQLW-IEYID---------LLVNSV--------
+                                                                            
+
+QuerySeq        ---------------------------GKLPGKS--------------------------
+sp|O43390|HNRPR ----------------GPPPDS--VYSGVQPGIG--------TEVF--------------
+sp|Q5M731|TPS1L ------------------------VKGGDLPDSS---------DSVDVYFD---------
+sp|Q00175|PRGR_ YDGGATAQGPFAPPRGSPSAPSPPVPCGDFPDCTYPLEGDPKEDVFPLYGDF--------
+sp|P00371|OXDA_ ----------------SPNA----ANMGLTPVSGYNLF----REAV--------------
+sp|Q4WED9|XANB_ ---------------KSPNARD--KVLGVMPDLG--------EELALYHLNGL-------
+sp|Q6BQ23|SYF1_ ----------------SKNKRS-----------------TVNYNEFDYFFEKLIKDGLQK
+                                                                            
+
+QuerySeq        -----GRTWRE----ADI----------------------NY------------------
+sp|O43390|HNRPR ----VGK-----------------------------------------------------
+sp|Q5M731|TPS1L -----GKEFHE--------LRSPR------------------------------------
+sp|Q00175|PRGR_ --QTPGLKIKEEEEGADAAVRSPRPYLS---AGASSSTFPDFPLAPAPQRAPSSRPGEAA
+sp|P00371|OXDA_ ----------------------PDPYWKDMVLG---------------------------
+sp|Q4WED9|XANB_ -CENIGRVYEP---GADVYISSDGLVYND-ILGVPDETVWEY--------------GEAL
+sp|Q6BQ23|SYF1_ FPDQIGKFYLK-------------------------------------------------
+                                                                            
+
+QuerySeq        ----TSGFRNSDRILYSSD-----------W-----------------------------
+sp|O43390|HNRPR ----------IPRDLYEDELVPLFEKAGPIWDLRLMMDPLSG--QNRGY-----------
+sp|Q5M731|TPS1L ---------IATRNTHGTG---------------CTLASCIAAELAKGS-----------
+sp|Q00175|PRGR_ VAGGPSSAAVSPASSSGSAL-------------ECILYKAEGAPPTQGSFAPLPCKPPAA
+sp|P00371|OXDA_ ------FRKLTPREL---------------------------------------------
+sp|Q4WED9|XANB_ ------RRMAVEKELHHVKFIRLFELLEHPW------IPLTSAEQAKSYY----------
+sp|Q6BQ23|SYF1_ ----LTFYFIKRKNLF----------------------------KARYYF----------
+                                                                            
+
+QuerySeq        ---------------------------------LIYKTTDHYQTFTKIRVINTFDGVADY
+sp|O43390|HNRPR -------------------------------------------------------AFITF
+sp|Q5M731|TPS1L --------------SMLSAVKVAKRFVDNA---LDYSKDIVIGSGMQ-------GPFDHF
+sp|Q00175|PRGR_ GSCLLPRDSLPAAPATAAAPAIYQPLGLNGLPQLGYQAAVLKDSLPQV-----YPPYLNY
+sp|P00371|OXDA_ ------------------------------------------------------DMFPDY
+sp|Q4WED9|XANB_ -----------LAHAQCLRRELMYRFEDRS---FDADAAIRSDNDTCL----TYRGYIKF
+sp|Q6BQ23|SYF1_ --------------------------------DEGLKTCVSVKDFTMI-----FDSYTEF
+                                                                           :
+
+QuerySeq        LQTYHKLPDNYITKSEAQAL--------GWVASKGNLADVAPGKSIGGDIF---------
+sp|O43390|HNRPR --CGKEAAQEAVKLCDSYEI------------RPGKHLGVCIS-VANNRLFVGSIPKNKT
+sp|Q5M731|TPS1L FGLKKDPQSSRCSIFNPDDL------------------------------FLYAVTDSRM
+sp|Q00175|PRGR_ --LRPDSEASQSPQYGFDSLPQKICLICG-DEASGCHYGVLTC--GSCKVFFKRAMEGQH
+sp|P00371|OXDA_ --------------------------------RYG---WFNTSLILEGRKYLQWLTERLT
+sp|Q4WED9|XANB_ --LTKDLAPQMDTQYTSKKA------------RAAHIAQIARSMIVRGKMFAAAIKANRA
+sp|Q6BQ23|SYF1_ --------EENILTNMSEKL-----------EKLGEDSDLNNELDLRMNVFEKLINDR--
+                                                                  :         
+
+QuerySeq        --------------------------SNRE-----------------------------G
+sp|O43390|HNRPR KENILEEF--SKVTEGLVDVILYHQPDDKK--KNRGFCFLEYEDHKSAAQARRRLMSGKV
+sp|Q5M731|TPS1L N---------KKWNRSIVDAL-------K------------------------------A
+sp|Q00175|PRGR_ N------YLCAGRNDCIVDKI-------RR--KNCPA-------------CRLRKCCQAG
+sp|P00371|OXDA_ ERGV--KF----------------------------------------------------
+sp|Q4WED9|XANB_ D-------------------------------------YVRLSIHESNG-ARKLSISLVP
+sp|Q6BQ23|SYF1_ ------PYL-------LNDMML------RQDVNNLDEWFKKIVLYKKDS-----------
+                                                                            
+
+QuerySeq        KLPGKSGRT-WREA----DIN-----YTSGFRN-----SDRILYSSD------WL----I
+sp|O43390|HNRPR KVWGNVVTVEWADPVEEPDPEVMAKVKVLFVRNLATTVTEEILEKS--------------
+sp|Q5M731|TPS1L AIEGGATIIQLREKEAE-------------TRE---------------------------
+sp|Q00175|PRGR_ MVLGG--------------------------RK---------------------------
+sp|P00371|OXDA_ -----------------------------FLRKVES------------------------
+sp|Q4WED9|XANB_ QVRGVLGYTPWHSSIAVDADGTLRAVHAEDVRE-----THELVYKNGQP-----------
+sp|Q6BQ23|SYF1_ ------------------DINMMLDTYAAALRTINPLKAHSLANKKENTLPNLWINYANV
+                                               *                            
+
+QuerySeq        YKTTDHYQT----FTKIRKKAVINGEQIRSISDLHQTLKKELALPEYYGENLDALWDALT
+sp|O43390|HNRPR -------------FSEFGK--L---ERVKKLKDYAFV-----------------------
+sp|Q5M731|TPS1L -------------FLEEAKACI----DICRS-HGVSL-----------------------
+sp|Q00175|PRGR_ -------------FKKFNK--V----RVMRTLDGVALP-QSVGLPNES--------QALG
+sp|P00371|OXDA_ -------------FEEVAR-------------GGADV-----------------------
+sp|Q4WED9|XANB_ -----------YYFREKSK--L-----FDWVEDGLRV-----------------------
+sp|Q6BQ23|SYF1_ YASQNDVKTANLIFSKSVKS------QFQSPDDLATL-----------------------
+                             * :  :                                         
+
+QuerySeq        GWVEYPLVLEWRQFEQSKQLTGAESVLQVFREAKAEGA---DITIILSKAV---------
+sp|O43390|HNRPR ------------HFEDR---GAAVKAMDEMNGKEIEGE---EIEI-------VLAKPPDK
+sp|Q5M731|TPS1L ------------LINDRIDIALACDADGVHVGQSD--------------------MPVDL
+sp|Q00175|PRGR_ QRITFSPNQEIQLVPPLINLLMSIEPDVVYAGHDN--------------------TKPDT
+sp|P00371|OXDA_ ----------------------IINCTGVWAGV----------------------LQPD-
+sp|Q4WED9|XANB_ ------------KFEPLYPCGLIIRPSDIDDSR----------------------PPPSI
+sp|Q6BQ23|SYF1_ -YIEWC-ELFVKHNDDKKAIEIVEDICTSERGKFDYNDSSIDIHIRVQKSIKLWSFYLDL
+                                                                            
+
+QuerySeq        ----------INGEQIRSI----------SDLH------------QTL------------
+sp|O43390|HNRPR KRKERQAARQAS-----------RSTA-YEDYYYHPPPRMPP------------------
+sp|Q5M731|TPS1L VRSL------LGPDKIIGV---SCKTP--EQAH-------------------QAWK----
+sp|Q00175|PRGR_ SSSLLTSLNQLGERQLLSVVKWSKSLPGFRNLHIDDQITLIQYSWMSLMVFGLGWR----
+sp|P00371|OXDA_ ------PLLQPGRGQIIKV--------------------------------DAPWL----
+sp|Q4WED9|XANB_ SHLPMHKVRQLSTGLSPVVLRGFRETL-KEELYVQKASELGTI---------LPWSFGII
+sp|Q6BQ23|SYF1_ LESMIENNNQID--EIEKVINAYNITI---DLKIATPLTIINFA-----NFLEEWNFY--
+                           .                                                
+
+QuerySeq        ----------------------KKELA----------LPEYY------------------
+sp|O43390|HNRPR -PIRGRGRGGGRG-----GYG----------------YPPDYYGYEDYYDDYYGYDYHDY
+sp|Q5M731|TPS1L DGADYIGSGGVFPTNTKANNR---------------------------------------
+sp|Q00175|PRGR_ SYKHVSGQMLYFAPDLILNEQRMKELSFYSLCLTMWQIPQEFVKLQVTHEEFLCMKVLLL
+sp|P00371|OXDA_ -----------------------KNFII--------------------------------
+sp|Q4WED9|XANB_ QKVRDAGRTDKLGNNVTSNEA----------------MPMHYDGMFKFEEE---------
+sp|Q6BQ23|SYF1_ ----------------------ERSFSAYEM------------GLKIFKDSKIKFEIWNI
+                                                                            
+
+QuerySeq        --------GENLDALWD--------------ALTGW----------------VEYPLVLE
+sp|O43390|HNRPR RGG----YEDPYYGYDD------------GYAVRGRGGGRGGRGAPPPPRGRGAPPPR--
+sp|Q5M731|TPS1L --------TIGLDGLKEVCEASKLPVV----AIGGI------------------------
+sp|Q00175|PRGR_ LN------TIPLEGLRSQSQFEEMRSSYIRELIKAI------------------------
+sp|P00371|OXDA_ --------THDLER----------------------------------------------
+sp|Q4WED9|XANB_ --------TDPVTG-----------------EVK-----------------RVQKPP---
+sp|Q6BQ23|SYF1_ YLSKIIKHELNIERIRDLFE-QCLNES----SIEGY------NGCP----ANLCKPVYLL
+                                                                            
+
+QuerySeq        WRQFEQSKQLTGAESVLQVFREAKAE--GA------------------DITIILSKKAVI
+sp|O43390|HNRPR -----GRAGYSQRGAP---LGPPRGSRGG-------------------------------
+sp|Q5M731|TPS1L --------GISNAGSVM-QIDAPNLK--G----------------------VAVVSALF-
+sp|Q00175|PRGR_ --------GLRQKGVV------PSSQ--R----------------------FYQLTKLL-
+sp|P00371|OXDA_ --------GIYNSPYII-----PGLQ-------------------------AVTLGGTF-
+sp|Q4WED9|XANB_ --------GYQFFTCP---ATAPKGS--GY--------------------TLFASSRLFF
+sp|Q6BQ23|SYF1_ YSQYEQSKGWFTKSVKILQQGLSKLD-DGYNQEFYTKAEKDTILRDKFDIYQVLISKIL-
+                                      .  .                                  
+
+QuerySeq        ----------NGEQIRSISD-LHQTL----KK--ELALPEYYGENLDALWDALTGWVEYP
+sp|O43390|HNRPR RGGPAQQQRGRGSRGSRG-N--RGGNVGGKRK--------------------ADG-----
+sp|Q5M731|TPS1L -------------------D--QDCVLTQAKK----------------------------
+sp|Q00175|PRGR_ -------------------DSLHDLV----KQ----------------------------
+sp|P00371|OXDA_ -------QVGNWNEINNIQD--HNTIWEGCCR----------------------------
+sp|Q4WED9|XANB_ RYLPLPWTTERLQKVTWGMD--NDGFWDAKLKNLPLVVPH-----------PVTGL---P
+sp|Q6BQ23|SYF1_ -------------KLN---D--HNET----RK----------------------------
+                                   :  .        :                            
+
+QuerySeq        -LVLE---WRQFEQSKQLTEN------------GAESVLQVFREAKAEGADITIILS---
+sp|O43390|HNRPR ---YN----QP-DSKRR----------Q-------------TNNQQNWGS--------QP
+sp|Q5M731|TPS1L ---LH----KTLKESKR--------------------------------GI---------
+sp|Q00175|PRGR_ ---LHLYCLNTFIQSRTLA-------VEFPE---MMSEVIAAQLPKILAGMVKPLLFHKK
+sp|P00371|OXDA_ ---LE----PTLKDAKIVG--------EYTGFRPVRPQVRLEREQLRFGSSNTEVIHNYG
+sp|Q4WED9|XANB_ CMRWH----QPWDSTKT----------KFS-----TCAVTIENDEQELASVVDDLTYDYR
+sp|Q6BQ23|SYF1_ --IYE----QSLKDNQLTLPNLIQLTMEFINF---ETELMEFNRVRSLFKYVCQLSNPQS
+                    .        . :                                            
+
+QuerySeq        ------------------------------------------------------------
+sp|O43390|HNRPR IAQQPLQQGGDY----SGNYGYNNDNQEFYQDTYGQQWK---------------------
+sp|Q5M731|TPS1L ------------------------------------------------------------
+sp|Q00175|PRGR_ ------------------------------------------------------------
+sp|P00371|OXDA_ ----------------HGGYGLT-----IHWGCALEVAKLFGKVLEERNL----------
+sp|Q4WED9|XANB_ VCLRFSWEQGDLL--VSDNTAMLHTRTGYKTNCERELWRI--------------------
+sp|Q6BQ23|SYF1_ PLIEPIWHNWETFELNHGNEATFKDMLRFKRKIVTEFEK---DIILKNSLNPMGFVKSSQ
+                                                                            
+
+QuerySeq        ---------------------------
+sp|O43390|HNRPR ---------------------------
+sp|Q5M731|TPS1L ---------------------------
+sp|Q00175|PRGR_ ---------------------------
+sp|P00371|OXDA_ --------LTMP-----PSHL------
+sp|Q4WED9|XANB_ -------------------HFD-----
+sp|Q6BQ23|SYF1_ GPKVSSIAISAPKEENNPDSIDLDMDM
+                                           

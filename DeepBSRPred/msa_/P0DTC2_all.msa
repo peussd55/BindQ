@@ -1,0 +1,277 @@
+CLUSTAL format alignment by MAFFT FFT-NS-2 (v7.490)
+
+
+QuerySeq        MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFS
+sp|Q9UL45|BL1S6 ------------------------------------------------------------
+sp|Q9UI40|NCKX2 -------MDLQQSTTITSLEKWCLD-----------------------------------
+sp|Q08DU8|BL1S6 ------------------------------------------------------------
+sp|Q925B4|SYT8_ ------------------------------------------------------------
+sp|P48479|NIM1_ ---------MSESDKYELLEK--IG-----------------------------------
+sp|Q9LYP4|BAG3_ ------------------------------------------------------------
+sp|Q09094|REC15 ------------------------------------------------------------
+sp|P46502|PRS6B ------------------------------------------------------------
+                                                                            
+
+QuerySeq        NVTWFHAIHVSGTNGTKRFDNPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIV
+sp|Q9UL45|BL1S6 -----------------------------------------------------------M
+sp|Q9UI40|NCKX2 ----------ESLSGCRRH------------YSVKKKLKLIR--VLGLFMGLVAISTVSF
+sp|Q08DU8|BL1S6 -----------------------------------------------------------M
+sp|Q925B4|SYT8_ ---------------------------------------------------MQADRSMKM
+sp|P48479|NIM1_ ----------HGSFGIIR--------------KVRRKAD-------GMILCRKEISYLKM
+sp|Q9LYP4|BAG3_ --------------------------------------------------------MMKM
+sp|Q09094|REC15 ---------------------------------------------------------MSY
+sp|P46502|PRS6B ---------------------------------------------------MSAAALEEI
+                                                                            
+
+QuerySeq        N----NATNVVIKVCEFQFCND---PFLGVYYHKNNKSWMESEFRVYSSANN--CTFEYV
+sp|Q9UL45|BL1S6 SVPGPSSPDGALT----------RPPYCLEAGEPT-------------------------
+sp|Q9UI40|NCKX2 SISAFSETDTQST-GEASVVSG---PRVAQGYHQ----------RTLLDLND--KILDYT
+sp|Q08DU8|BL1S6 SVPGPPSPDGVLA----------GPPEGLEAGDLT-------------------------
+sp|Q925B4|SYT8_ GHVS-NPLSTS-------------APVDATAGPN--------------------LIPDLI
+sp|P48479|NIM1_ S----QKEREQLH-AEFSILSTLRHPNIVGYYHR----------EHLKATQDLHLYMEYC
+sp|Q9LYP4|BAG3_ N----TGTS----------------PSV--------------------------------
+sp|Q09094|REC15 SVSAAQLWSRKLA----------MQAEDMQQHQK--------------------------
+sp|P46502|PRS6B GIAP-LQENTSLR----------PPPLPATCVDV--------------------SSDDYI
+                .                        .                                  
+
+QuerySeq        SQPFLMDLEG--------KQGNF-KNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSA
+sp|Q9UL45|BL1S6 ------------------------------------------------------------
+sp|Q9UI40|NCKX2 PQPPLSK-EGESENSTDHAQGDYPKDIFSLEERR---------KGAIILHVIGMIYMFIA
+sp|Q08DU8|BL1S6 ------------------------------------------------------------
+sp|Q925B4|SYT8_ ------------------TKIPWPRWILFI------------------------------
+sp|P48479|NIM1_ ------------------GNGDLGRVIRNLIKNN---------QYA--------------
+sp|Q9LYP4|BAG3_ ------------------------------------------------------------
+sp|Q09094|REC15 ------------------------------------------------------------
+sp|P46502|PRS6B ------------------KLTTLERQLAHL------------------------------
+                                                                            
+
+QuerySeq        LEPLVDLPIGINITRFQTLLALHRSYLTPGDSSSGWT---AGAAA----------YYVGY
+sp|Q9UL45|BL1S6 ------------------------------------------------------------
+sp|Q9UI40|NCKX2 LAIVCDEFFVPSL---TVITE----KLGISDDVAGATFMAAGGSA---------------
+sp|Q08DU8|BL1S6 ------------------------------------------------------------
+sp|Q925B4|SYT8_ ----------------AILAA---------------------------------------
+sp|P48479|NIM1_ -----EESFVWSIF-SQLVTALYRCHYGVDPPEVGKTVLGLGSTARPKPPSGGMTILHRD
+sp|Q9LYP4|BAG3_ --------------------------------------IGGGTSG---------------
+sp|Q09094|REC15 ------------------------------------------------------------
+sp|P46502|PRS6B ----------------QVMED---------------------------------------
+                                                                            
+
+QuerySeq        LQPR-------TFLLKYNEN-------GTITDAVDCALDPL-------SETKCTLKSFTV
+sp|Q9UL45|BL1S6 --PG---------LSDTSPDE---------------------------------------
+sp|Q9UI40|NCKX2 --PELFTSLIGVFIAHSN------VGIGTIVGSAVFNILFVIGMCALFSREILNLTWWPL
+sp|Q08DU8|BL1S6 --PG---------LSDTSPDE---------------------------------------
+sp|Q925B4|SYT8_ ----------GVLLVSC-------------------------------------------
+sp|P48479|NIM1_ LKPE------NVFLGEDNSVKLGDFGLSKVMQSHDFASTYV-GTPFYMSPEICAAEKYTL
+sp|Q9LYP4|BAG3_ -----------------NE-----------------------------------------
+sp|Q09094|REC15 --------------SQSNQIA---------------------------------------
+sp|P46502|PRS6B ----------YIKLETRNLEK---------------------------------------
+                                                                            
+
+QuerySeq        EKGIYQTSNFRVQPTESIVRFPN------------ITNLC-PFGEVFNATRFASVYAWNR
+sp|Q9UL45|BL1S6 ------------------------------------------------------------
+sp|Q9UI40|NCKX2 FRDV---SFYIVDLIMLIIFFLDNVIMWWESLLLLTAYFCYVVFMKFN----VQVEKWVK
+sp|Q08DU8|BL1S6 ------------------------------------------------------------
+sp|Q925B4|SYT8_ -------------------------------LLCVICYCC-----------HRQRHRKQ-
+sp|P48479|NIM1_ KSDI------------------------W-SLGCIIYELC-AREPPFN----AKTHYQLV
+sp|Q9LYP4|BAG3_ ----------------------------W-------------------------------
+sp|Q09094|REC15 ------------------------------------------------------------
+sp|P46502|PRS6B ------------------------------ELL------------------HAQEEVKRI
+                                                                            
+
+QuerySeq        KRIS-NCVADYSVLYNSASFSTFK-CYGVSP---TKLNDLCFTN------------VYAD
+sp|Q9UL45|BL1S6 -----GLIEDLTI----------------------------------------EDKAVE-
+sp|Q9UI40|NCKX2 QMINRNKVVKVTA-----------------PEAQAKPSAA--------------------
+sp|Q08DU8|BL1S6 -----GLIEDLTI----------------------------------------EDKAVE-
+sp|Q925B4|SYT8_ ------------------------------------------------------------
+sp|P48479|NIM1_ QKIKEGKIAPLPSVYSGELFATIKDCLRVNPD--RRPDTATLLNLPIVRLMRKEKEVVEF
+sp|Q9LYP4|BAG3_ ---------------------------------ESRPGGM----------------VVQ-
+sp|Q09094|REC15 -----SCLAEMNT----------------------------------------KQEVVN-
+sp|P46502|PRS6B QSV---------------------------PL------------------------VIGQ
+                                                                            
+
+QuerySeq        SFVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNS--NNLDSKVGGNYN-----Y
+sp|Q9UL45|BL1S6 ------------------------------------------QLAEGLLSHYLP-----D
+sp|Q9UI40|NCKX2 ----RDKDE----PTLPAKPR------------LQRGGSS--ASLHNSLMRN-------S
+sp|Q08DU8|BL1S6 ------------------------------------------QLAEGLLSHYLP-----D
+sp|Q925B4|SYT8_ -----PKDK---------------------------------ETVGLGSARNSTTT---H
+sp|P48479|NIM1_ SRTLRTKEE-----TLNKRIRELDSKL----SALETEKSSIRAEIDASLRREWEVKARLE
+sp|Q9LYP4|BAG3_ ----RRTDQ--------------NSDVP-------------------------------R
+sp|Q09094|REC15 ------------------------------------------QTI-GQLGRSIS-----E
+sp|P46502|PRS6B FLEAVDQNH---------------------------------AIVGSTTGSNYYVR---V
+                                                                            
+
+QuerySeq        LYRLFRKSNLKPFERDISTEIYQAGSTPCNGVEGFNCYFPLQSYG----FQPTNGVGYQP
+sp|Q9UL45|BL1S6 LQR--SKQALQELTQ---------------------------------------------
+sp|Q9UI40|NCKX2 IFQLMIHT-LDPLAE------------------------ELGSYGKLKYYDTMTEEG---
+sp|Q08DU8|BL1S6 LQR--SKQALQELTQ---------------------------------------------
+sp|Q925B4|SYT8_ LVQPDVEC-LEP------------------------CSGGDQPWG---------------
+sp|P48479|NIM1_ IDRLVAQE-IESLQQKFEQEV-QA------RVE-----AELQRHGRGPMFNSHGQQG---
+sp|Q9LYP4|BAG3_ VFRV--------------------------RVK----------YG---------------
+sp|Q09094|REC15 VQQQNSQLVLQSLNQI--------------NMS---------------------------
+sp|P46502|PRS6B LSILDREL-LKPG-----------------------CSVALHKYS---------------
+                :                                                           
+
+QuerySeq        YRVVVLSFELLHAPATVCGPKKSTNLVK---NKC-VNFNFNGLTGTGVLTESNKKFLPFQ
+sp|Q9UL45|BL1S6 -NQVVL-------------------LDTLEQ-----------------------------
+sp|Q9UI40|NCKX2 ------RFR-----------EKASILHKIAKKKCHVDENERQ-NGAA-------------
+sp|Q08DU8|BL1S6 -NQVVL-------------------LDTLEQ-----------------------------
+sp|Q925B4|SYT8_ --QLLLSL------------EYDFGSQEIRV-------------GLR----QAKNLKA--
+sp|P48479|NIM1_ ------SFS-----------STAATLVS--------DYNLSS-VGSG-------------
+sp|Q9LYP4|BAG3_ -----------------------SVYHE-------ININSQSSFGEL------KKML---
+sp|Q09094|REC15 MQQVALGIQ-----------DYASRINKLEQ-----------------------------
+sp|P46502|PRS6B --NALVDVL----P-----PEADSSIQMLRPDEK-PDISYGDIGGLD----MQKQEVR--
+                                                                            
+
+QuerySeq        QFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVA
+sp|Q9UL45|BL1S6 ---------------------------------------EISKFKE--------------
+sp|Q9UI40|NCKX2 -------NHVEKIELPNSTS-TDVE---------MTPSSDASE-----------------
+sp|Q08DU8|BL1S6 ---------------------------------------EISKFKE--------------
+sp|Q925B4|SYT8_ ----------EGTADPYARV-------------------SVSTQAGRRHE----TKVH--
+sp|P48479|NIM1_ -------DG----DFPSTTDITDIS---------IAESTDGSDIT---------KKIP--
+sp|Q9LYP4|BAG3_ -----------------------------------------SDQVG--------------
+sp|Q09094|REC15 ---------------------------------------TMSDMN---------------
+sp|P46502|PRS6B ----------EAVELPLTHG-------------------ELYQQIG--------IDPP--
+                                                                            
+
+QuerySeq        IHADQLTPTWRVYSTGSNVFQTRAGCLIGAEHVNNSYE--CD--IPIGAGICASYQTQTN
+sp|Q9UL45|BL1S6 ----------------------------------------CH------------------
+sp|Q9UI40|NCKX2 ---------------------------------------------PVQNG------NLSH
+sp|Q08DU8|BL1S6 ----------------------------------------CH------------------
+sp|Q925B4|SYT8_ -----------------------RGTLC------PMFEETCCFLVPPA------------
+sp|P48479|NIM1_ -----RTPFHRAQTYSSAPAESVLGTPMDIEMASPS---------PITIA------SLSL
+sp|Q9LYP4|BAG3_ ------------------------------------------------------------
+sp|Q09094|REC15 ------------------------------------------------------------
+sp|P46502|PRS6B -----------------------RGVL--------MYG-------PPGCG----------
+                                                                            
+
+QuerySeq        SPRRARSVASQSIIAYTMSLGAE--NSVAYSNNSIAIPTNFTISVTTEILPVSMTKTSVD
+sp|Q9UL45|BL1S6 -----------SMLDINALFAEA-------------------------------------
+sp|Q9UI40|NCKX2 N-----------------IEGAE--AQTADEEEDQPLSLAW--PSETR------------
+sp|Q08DU8|BL1S6 -----------SMLDINALFTEA-------------------------------------
+sp|Q925B4|SYT8_ --ELPKATLKVQLLDFKRF--SE--HEPLGELQ---------LPLGTVDL----------
+sp|P48479|NIM1_ SPRRM-ALTKAPTTNPRMIFGEE--PTSTDKSN-------WEVPRETEMID---------
+sp|Q9LYP4|BAG3_ ------------------LHHED--MKVLYKDK----------ERDSKMF----------
+sp|Q09094|REC15 -------------LKFEALQKEQ-------------------------------------
+sp|P46502|PRS6B KTMLAKAVAANTAASFIRVVGSEFVQKYLGE--------------GPRMV----------
+                                                                            
+
+QuerySeq        CTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTP--PIK
+sp|Q9UL45|BL1S6 ------------------------------------------------------------
+sp|Q9UI40|NCKX2 ------------------------------------------------KQVTFLIVFPIV
+sp|Q08DU8|BL1S6 ------------------------------------------------------------
+sp|Q925B4|SYT8_ -----------------------------------------QHVLESWYQLG-----PP-
+sp|P48479|NIM1_ -----SGDESEAEALV-----------------------------PSPKRITKSSKNPFS
+sp|Q9LYP4|BAG3_ --LDLCG------------------------------------VKDRSKLVVKED--PIS
+sp|Q09094|REC15 ------------------------------------------------------------
+sp|P46502|PRS6B -----------------------------------------RDVFRLAKENS-----PSI
+                                                                            
+
+QuerySeq        DFGGFNFSQILPDPSKPSKRSFIEDLLF-NKVTLADAGFI-----KQYGDCLGDIAARDL
+sp|Q9UL45|BL1S6 ---------------------------------------------KHYHAKLVNIRKE--
+sp|Q9UI40|NCKX2 ----FPLWITLPDVRKPSSRKFFPITFFGSITWIAVFSYLMVWWAHQVGETI-GISEE-I
+sp|Q08DU8|BL1S6 ---------------------------------------------KHYHAKLVNIRKE--
+sp|Q925B4|SYT8_ -----------------------------------------------------GSTES--
+sp|P48479|NIM1_ ----TVTTRSRPSLNSQQNSNVLPIHGLRSKQTLATRS-----------KTVSGVSS---
+sp|Q9LYP4|BAG3_ Q----------------------------EKRLLAKRKNAAI---EKASKSISDISFE--
+sp|Q09094|REC15 ---------------------------------------------NSNTKTLADCTSQ--
+sp|P46502|PRS6B -------------------------IFIDEIDAIATKRF----------DAQTGADRE--
+                                                                     .      
+
+QuerySeq        ICAQKFNGLTVLPPL----------LTDEMIAQYTSALLAGTITSGWTFGAGAALQIPFA
+sp|Q9UL45|BL1S6 ------------------------------------------------------------
+sp|Q9UI40|NCKX2 MGLTILAAGTSIPDL---------------------------------------------
+sp|Q08DU8|BL1S6 ------------------------------------------------------------
+sp|Q925B4|SYT8_ ----------------------EQ--MGELCF-----------------------SLR--
+sp|P48479|NIM1_ IGQHPLRSAPSAPSLRDRKPSPTRRLS----------------------------RIP--
+sp|Q9LYP4|BAG3_ ----------------------VDRLAG---------------------------QVS--
+sp|Q09094|REC15 ------------------------------------------------------------
+sp|P46502|PRS6B ----------------------VQRILLELLN-----------------------QMD--
+                                                                            
+
+QuerySeq        MQMAYRFNGIGVTQNVLYENQK--LIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQ
+sp|Q9UL45|BL1S6 ------------------------------------------------------------
+sp|Q9UI40|NCKX2 ------------------------------------------------------------
+sp|Q08DU8|BL1S6 ------------------------------------------------------------
+sp|Q925B4|SYT8_ -----YVPSSGRLTVVILEARG-------LNP--GLAEAY--------VKVQLILNQRKW
+sp|P48479|NIM1_ -----SVTGVG---------RR--LSANNINN----------------------------
+sp|Q9LYP4|BAG3_ -----AFETV-------------------INKG-GKVEE------------KSLVN----
+sp|Q09094|REC15 ------------------------------------------------------------
+sp|P46502|PRS6B -----GFDQSTNVKVIMATNRQDTLDPALLRP--GRLDR----------KIEFPLPDRRQ
+                                                                            
+
+QuerySeq        ALNTLVKQLSSNFGA------ISSVLNDILSR---LDKVEAEVQIDRLITGRLQSLQTYV
+sp|Q9UL45|BL1S6 ---------------------MLMLHEK-TSK---LKK-------RALKLQQKR--QK--
+sp|Q9UI40|NCKX2 ------------------------ITSVIVAR----------------------------
+sp|Q08DU8|BL1S6 ---------------------MLMLHEK-TSK---LKK-------RALKLQQKR--QK--
+sp|Q925B4|SYT8_ KKN----KTSSKKGTTNPYFNEAFVFLVPVSQ---LQ-----------------------
+sp|P48479|NIM1_ ---------SSNGGSDA---PSSTVTSNITVRTRGLKRMSSTC--DESSFSQQQNNQP--
+sp|Q9LYP4|BAG3_ ---------------------LIEMLMNQLLR---LDAIIADGDVKLMRKMQVQRVQKY-
+sp|Q09094|REC15 ---------------------MTIITKKLDAE---LKK-------RYMTTKQTRTVQN--
+sp|P46502|PRS6B KR---------------------LVFSTVCSR---MNL----------------------
+                                        :      .                            
+
+QuerySeq        TQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKGYHLMSFPQSAPHGVVFLHVTYV
+sp|Q9UL45|BL1S6 -------------EELEREQQ---------------------------------------
+sp|Q9UI40|NCKX2 ----------KGLGDMAVSSS---------------VGSNIFDI----TVGLPLPWLL--
+sp|Q08DU8|BL1S6 -------------EELEREQQ---------------------------------------
+sp|Q925B4|SYT8_ SMDLVLAVWARGLQLLAEPVG---------KVLL-----------GPRASGQPLQH----
+sp|P48479|NIM1_ QQSLPQAPPLKKIGLMAAKNI---------------RGSSLVELHQARAGGRPISAIISN
+sp|Q9LYP4|BAG3_ ---------VEALDLLKVKNS-------AKKVEV--------------------------
+sp|Q09094|REC15 -------------QTMPRSNT---------------------------------------
+sp|P46502|PRS6B SDDVDLEDW------VARP---------------------------DKISG---------
+                               :                                            
+
+QuerySeq        PAQEKNFTTAPAIC------------HDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIIT
+sp|Q9UL45|BL1S6 ------------------------------------------------REKEFEREKQLT
+sp|Q9UI40|NCKX2 ---------YTVIH--------------------------------------RFQPVAVS
+sp|Q08DU8|BL1S6 ------------------------------------------------REKEFEREKQLT
+sp|Q925B4|SYT8_ ---------WADMLAHA--------------------------------RRPIAQWHHLR
+sp|P48479|NIM1_ EAKLRAFKEHATIAASAVDSSSSSSSSSGQSQLP---------------TRPRSQPQPIT
+sp|Q9LYP4|BAG3_ --------------------------NKSVRHKPQ--------------TQTRFEQRDLL
+sp|Q09094|REC15 ------------------------------------------------TTK---------
+sp|P46502|PRS6B ----------ADI-------------------------------------NSICQEAGMQ
+                                                                            
+
+QuerySeq        TD----------NTFVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDL
+sp|Q9UL45|BL1S6 ARPA--------KRM---------------------------------------------
+sp|Q9UI40|NCKX2 SN----------------------------------------------------------
+sp|Q08DU8|BL1S6 AKPA--------KRT---------------------------------------------
+sp|Q925B4|SYT8_ SPREV-------DRALA-----------------LQPRLP------------LLRPRS--
+sp|P48479|NIM1_ ANFEQQQQQQQSNT-------------------------------------NSISSSNSA
+sp|Q9LYP4|BAG3_ SFVEEEEEEPR-NS-------------------------------------NASSSS---
+sp|Q09094|REC15 ------------KRVLA-------------------------------------------
+sp|P46502|PRS6B AVRE--------NRYVV-----------------LTKDLE-------KAYKNVVKKDTN-
+                                                                            
+
+QuerySeq        GDIS----GINASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPWYIWLG---
+sp|Q9UL45|BL1S6 ------------------------------------------------------------
+sp|Q9UI40|NCKX2 --------GLFCAIVLLFIML-------------LFVILSIA----LCKWRMNKILG---
+sp|Q08DU8|BL1S6 ------------------------------------------------------------
+sp|Q925B4|SYT8_ ------------------------------------------------------------
+sp|P48479|NIM1_ GSGSATGTGTGAGTKSM-------------------------------PWPVAPVWNREV
+sp|Q9LYP4|BAG3_ --------GTPAVVAS--------------------------------KWEM--------
+sp|Q09094|REC15 --------------------ID--------------------------------------
+sp|P46502|PRS6B ------------------------------------------------DFEFYK------
+                                                                            
+
+QuerySeq        --------FIA-GLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLK---G
+sp|Q9UL45|BL1S6 ------------------------------------------------------------
+sp|Q9UI40|NCKX2 --------FIMFGLYFVFLVVSVLL--------------------EDRILTCPVSI----
+sp|Q08DU8|BL1S6 ------------------------------------------------------------
+sp|Q925B4|SYT8_ ------------------------------------------------------------
+sp|P48479|NIM1_ ETEEMPSPFIV------------------------------------KTSKRPASFVRPA
+sp|Q9LYP4|BAG3_ --------FDS-------------------ASTAKA-----------AETVKPVPP----
+sp|Q09094|REC15 --------FLA-----------------------------------DDDY----------
+sp|P46502|PRS6B ------------------------------------------------------------
+                                                                            
+
+QuerySeq        VKLHYT---
+sp|Q9UL45|BL1S6 ---------
+sp|Q9UI40|NCKX2 ---------
+sp|Q08DU8|BL1S6 ---------
+sp|Q925B4|SYT8_ ---------
+sp|P48479|NIM1_ SNLSQS---
+sp|Q9LYP4|BAG3_ -RFKWEFFD
+sp|Q09094|REC15 ---------
+sp|P46502|PRS6B ---------
+                         

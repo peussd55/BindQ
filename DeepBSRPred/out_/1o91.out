@@ -1,0 +1,1396 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: 90_ref
+           142,201 sequences; 70,279,549 total letters
+
+
+
+Query= 1o91
+
+Length=393
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Q00780                                                                286     3e-89
+P14282                                                                281     4e-87
+P27658                                                                279     1e-86
+Q7LZR2                                                                268     2e-82
+P25067                                                                200     4e-57
+P25318                                                                199     8e-57
+Q03692                                                                179     2e-49
+Q05306                                                                177     6e-49
+P08125                                                                175     4e-48
+P23206                                                                173     1e-47
+Q15848                                                                107     2e-26
+Q3Y5Z3                                                                104     5e-25
+Q60994                                                                103     6e-25
+Q4ZJN1                                                                105     1e-24
+Q8R066                                                                103     4e-24
+Q0II24                                                                102     7e-24
+Q4ZJM7                                                                103     2e-23
+Q9BXJ3                                                                101     3e-23
+A6NHN0                                                                102     3e-23
+P0C862                                                                99.4    1e-22
+Q9D8U4                                                                88.2    7e-19
+Q9BXJ5                                                                87.0    2e-18
+Q8BVD7                                                                87.0    2e-18
+Q9ESN4                                                                85.9    2e-18
+Q5VWW1                                                                85.9    2e-18
+Q9BXJ2                                                                86.7    2e-18
+A0A060WQA3                                                            88.6    3e-18
+Q8K479                                                                85.1    4e-18
+Q9BXJ0                                                                82.0    4e-17
+Q5FVH0                                                                80.5    2e-16
+Q2KIX7                                                                79.7    2e-16
+A5PN28                                                                82.8    2e-16
+P02746                                                                79.7    4e-16
+Q7Z5L3                                                                79.7    5e-16
+Q8CFR0                                                                79.7    6e-16
+O75973                                                                79.3    6e-16
+O88992                                                                79.0    6e-16
+Q4ZJM9                                                                76.3    4e-15
+Q86Z23                                                                76.3    4e-15
+Q2KIV9                                                                74.3    2e-14
+P14106                                                                71.2    3e-13
+Q2KIU3                                                                70.5    3e-13
+P31721                                                                69.7    9e-13
+P31722                                                                68.6    2e-12
+Q69DL0                                                                67.8    4e-12
+Q05A80                                                                68.9    1e-11
+Q6IMN6                                                                67.4    3e-11
+Q02105                                                                64.7    4e-11
+P98086                                                                64.3    6e-11
+P31720                                                                63.9    7e-11
+Q2KIT0                                                                61.6    2e-10
+P02745                                                                62.8    2e-10
+Q5RJ80                                                                64.7    2e-10
+Q5E9E3                                                                59.7    2e-09
+Q9JHG0                                                                57.8    5e-09
+P02747                                                                56.6    3e-08
+Q5XIG2                                                                56.6    3e-08
+Q6UW01                                                                55.5    3e-08
+Q9QXP7                                                                56.6    4e-08
+Q17QF9                                                                55.5    4e-08
+Q9ES30                                                                55.8    4e-08
+Q9BXJ4                                                                55.5    5e-08
+P98087                                                                50.1    3e-06
+Q8BGU2                                                                49.7    3e-06
+Q8IUK8                                                                49.3    6e-06
+Q9R171                                                                48.5    7e-06
+P63182                                                                48.5    8e-06
+P23435                                                                48.5    8e-06
+P86437                                                                48.5    8e-06
+P60827                                                                47.0    4e-05
+Q9NTU7                                                                45.8    7e-05
+Q9BXJ1                                                                46.2    7e-05
+Q8BME9                                                                45.1    1e-04
+Q6IR41                                                                45.1    2e-04
+Q3T1I2                                                                43.5    6e-04
+Q9Y6C2                                                                41.2    0.006
+Q99K41                                                                39.3    0.022
+Q8K482                                                                38.9    0.030
+Q13201                                                                38.5    0.037
+Q9BXX0                                                                38.5    0.039
+Q9BXI9                                                                35.4    0.23 
+B2RPV6                                                                35.8    0.28 
+A4IH36                                                                32.7    2.1  
+Q9W332                                                                32.7    2.5  
+
+
+
+Query_1  1     EMPA-----FTAE----LT-V--PF-P-P--VGA-PVKFDKLLYNGRQNYNPQTGIFTCE  43
+118433   614   EMPA-----FTAE----LT-V--PF-P-P--VGA-PVKFDKLLYNGRQNYNPQTGIFTCE  656
+133920   614   EMPA-----FTAE----LT-A--PF-P-P--VGA-PIKFDRLLYNGRQNYNPQTGIFTCE  656
+141910   614   EMPA-----FTAE----LT-A--PF-P-P--VGA-PVKFNKLLYNGRQNYNPQTGIFTCE  656
+2918     614   EMPA-----FTAE----LT-A--PF-P-P--VGA-PIKFDRLLYNGRQNYNPQTGIFTCE  656
+42602    574    TPA-----FTAV----LT-S--PF-P-A--SGM-PVKFDRTLYNGHSGYNPATGIFTCP  615
+118958   570    TPA-----FTAV----LT-S--PF-P-A--SGM-PVRFDRTLYNGHSGYNPATGIFTCP  611
+34108    553      A-----FTVI----LS-K--AY-P-A--IGT-PIPFDKILYNRQQHYDPRTGIFTCQ  592
+106456   553      A-----FTVI----LS-K--AY-P-A--VGA-PIPFDEILYNRQQHYDPRSGIFTCK  592
+43744    547      A-----FTVI----LS-K--AY-P-G--ATV-PIKFDKILYNRQQHYDPRTGIFTCR  586
+104909   547      A-----FTVI----LS-K--AY-P-A--IGT-PIPFDKILYNKQQHYDPRTGIFTCK  586
+53677    129                                      PIRFTKIFYNQQNHYDGSTGKFHCN  153
+28346    113      G-----LERQ----VT-V--P--------NV-PIRFTKIFYNQQNHYDGTTGKFLCN  148
+97826    117      A-----FSVG----LE-T--RV-T-V--PNV-PIRFTKIFYNQQNHYDGSTGKFYCN  156
+42542    203      A-----FTVG----LT-VISKF-P-P--PDA-PIKFDKILYNELNHYNVATGKFTCH  244
+107131   30       A-----FSAA----RT-T--PL-E-G--TSEMAVTFDKVYVNIGGDFDAATGRFRCR  70
+4024     195   EMPALPKSAFTVG----LT-VLSKF-P-P--SDT-PIKFDRILYNEFGHYDVATGKFICH  244
+66430    349      A-----FSAL----LS-K--PF-P-P--PNV-PIKFDKILSNDQGDYSPVTGKFNCS  388
+4033     31       A-----FSAA----RT-T--PL-E-G--TSEMAVTFDKVYVNIGGDFDVATGQFRCR  71
+65726    344      A-----FSAG----LS-K--PF-P-P--PNI-PIKFEKILYNDQGNYSPVTGKFNCS  383
+42990    203      A-----FTVG----LT-VLSKF-P-S--SDM-PIKFDKILYNEFNHYDTAAGKFTCH  244
+3749     160      A-----FSVA----VT-K--SY-P-R--ERL-PIKFDKILMNEGGHYNASSGKFVCS  199
+113141   151      A-----FSVA----VT-K--SY-P-R--ERL-PIKFDKILMNEGGHYNASSGKFVCG  190
+29919    149      A-----FSVG----IT-T--SY-P-E--ERL-PIIFNKVLFNEGEHYNPATGKFICA  188
+121005   143                                       LKFDDVVTNLGNHYDPTTGKFTCS  166
+32234    143                                       LKFDDVVTNLGNHYDPTTGKFTCS  166
+114666   149      A-----FSVG----IT-T--SY-P-E--ERL-PIIFNKVLFNEGEHYNPATGKFICA  188
+65735    389                           F-P-P--PGL-PVKFDKVLYNEEEHWDPMLSKFNCT  419
+113025   108      A-----KRSE----SR-V--P--P-P--ADT-PLPFDRVLLNEQGHYDPTTGKFTCQ  146
+114988   108      A-----KRSE----SR-V--P--P-P--SDA-PLPFDRVLVNEQGHYDAVTGKFTCQ  146
+2396     108      A-----KRSE----SR-V--P--P-P--ADT-PLPFDRVLLNEQGHYDATTGKFTCQ  146
+92553    88       A-----FSVK----LS-G--PF-P-G--PSQ-PIVFQEVLYNHQGHFDPATGVFNCS  127
+65033    368                           F-P-P--PGL-PIRFDKIIYNEEAHWDPNASKFNCT  398
+128      123      A-----FSAT----RT-I--NV-PLR--RDQ-TIRFDHVITNMNNNYEPRSGKFTCK  163
+25379    175                                       LKFDDVVTNLGNHYDPTTGKFSCQ  198
+113547   175                                       LKFDDVVTNLGNHYDPTTGKFSCQ  198
+118778   146                                       LKFDDVVTNLGNNYDAASGKFTCN  169
+25497    146                                       LKFDDVVTNLGNNYDAASGKFTCN  169
+118748   126                                       LRFDDVVTNVGNAYEAASGKFTCP  149
+1056     126                                       LRFDDVVTNVGNAYEAASGKFTCP  149
+72942    117      A-----FSAS----RT-I--NHHQ-R--QGQ-PIRFDHVITNANENYQARSSKFTCK  157
+25384    121      A-----FSAL----RT-INSPL-R-P---NQ-VIRFEKVITNANENYEPRNGKFTCK  161
+99113    88       A-----FAVK----MN-D--PL-P-A--PSQ-PIVFKEALHNDQDHFNLTTGVFTCT  127
+54557    138                                       IRFEKVITNVNDNYEPRSGKFTCK  161
+43343    128                     T-A--QY-P-A--ANG-LVKFNSAITNPQGDYNTNTGKFTCK  161
+89150    115   RRPA-----FSAV----RQ-N--P--P-T--SGN-VVIFDEVITNQEGAYKSQLGQFICD  156
+31914    903      A-----FSAA----RT-S--NL-A-PGTLDQ-PIVFDLLLNNLGETFDLQLGRFNCP  944
+28596    999      A-----FSAA----RT-S--NL-A-PGTLDQ-PIVFDLLLNNLGETFDLQLGRFNCP  1040
+3170     129                     T-T--QY-P-E--ANA-LVRFNSVVTNPQGHYNPSTGKFTCE  162
+30260    115     PA-----FSAI----RQ-N--PM-T----LGN-VVIFDKVLTNQESPYQNHTGRFICA  154
+28945    115     PA-----FSAI----RQ-N--P--P-T--YGN-VVVFDKVLTNQENPYQNRTGHFICA  154
+99107    70       A-----FTVK----LS-G--QL-P-S--PSK-PVPFTEVLYNAQRDLQEDTGVFTCR  109
+32570    115     PA-----FSAI----RR-N--P--P-M--GGN-VVIFDTVITNQEEPYQNHSGRFVCT  154
+33284    786      A-----FSAA----RT-A--NF-A-PGTLDQ-PIAFDLLHTNLGDMFDTGSGRFTCP  827
+106672   131                                       VVFGKVITNQENVYQNNTGRFRCS  154
+114292   90                                          FDQVLVNEGEGFDRTSGCFVAP  111
+32977    138                                       IRFNAVLTNPQGDYDTSTGKFTCK  161
+32302    164                                      PVVFDTEFVNLYNHFNMFTGKFYCY  188
+1490     96                                        IYFDQVLVNEGGGFDRASGSFVAP  119
+118670   164                                      PVVFDTEFVNLYKHFNMFTGKFYCY  188
+113361   98                                          FDQVLVNEGGGFDRTSGSFVAP  119
+1492     119      A-----FMAS----LA-T--HF-S-N--QNS-GIIFSSVETNIGNFFDVMTGRFGAP  158
+114398   119      A-----FMAS----LA-T--HF-S-N--QNS-GIIFSSVETNIGNFFDVMTGRFGAP  158
+4019     117                                         FDQVLVNIGNHFDLASSIFVAP  138
+142053   117                                         FDQVLVNIGNHFDLASSIFVAP  138
+118411   117                                         FDQVLVNIGNHFDLASSIFVAP  138
+114739   86                                          FDQVLVNIGNNFDSERSTFIAP  107
+114989   86                                          FDQVLVNIGNNFDSERSTFIAP  107
+114162   86                                          FDQVLVNIGNNFDSERSTFIAP  107
+2401     86                                          FDQVLVNIGNNFDSERSTFIAP  107
+3213     136                                       VPFDTELVNLDGAFDLAAGRFLCT  159
+3223     95                                          FDQILVN-VGNFFTLESVFVAP  115
+2817     165                                       VIFDTEFVNLYDHFNMFTGKFYCY  188
+118783   92                                          FDQILVN-VGNFFTLESVFVAP  112
+4051     151                                         FDRVFVNTDGHFDMATGSFVAP  172
+113958   150                                         FDRVFVNTDGHFDMATGRFVAP  171
+98764    872      A-----FSAA----LS-L--PR-S-E--PGT--VPFDRVLLNDGGYYDPETGVFTAP  910
+30642    873      A-----FSAA----LS-L--PR-S-E--PGT--VPFDRVLLNDGGYYDPETGVFTAP  911
+105197   928      S-----FSAG----LTQK--PF-P-S--DGG-VVLFNKVLVNDGDVYNPNTGIFTAP  968
+73368    1100   MVA-----FFASHTYGMT-I--P---------G-PILFNNLDVNYGASYTPRTGKFRIP  1140
+88599    907      S-----FSAG----LTQK--PF-P-S--DGG-VVLFNKVLVNDGDVYNPSTGVFTAP  947
+152      165                                         FERVFVNLDGCFDMATGQFAAP  186
+80389    1097                                   G-PILFNDLSVNYGASYNPRTGKFRIP  1122
+91232    213                                                     NLATGRFTAS  222
+
+Query_1  44    VPGVYYFAY----HV---HC--K------G-G---N---V--W-----VALFKN-N----  69
+118433   657   VPGVYYFAY----HV---HC--K------G-G---N---V--W-----VALFKN-N----  682
+133920   657   VPGVYYFAY----HV---HC--K------G-G---N---V--W-----VALFKN-N----  682
+141910   657   VPGVYYFAY----HV---HC--K------G-G---N---V--W-----VALFKN-N----  682
+2918     657   VPGVYYFAY----HV---HC--K------G-G---N---V--W-----VALFKN-N----  682
+42602    616   VGGVYYFAY----HV---HV--K------G-T---N---V--W-----VALYKN-N----  641
+118958   612   VGGVYYFAY----HV---HV--K------G-T---N---V--W-----VALYKN-N----  637
+34108    593   IPGIYYFSY----HV---HV--K------G-T---H---V--W-----VGLYKN-G----  618
+106456   593   IPGIYYFSY----HV---HV--K------G-T---H---V--W-----VGLYKN-G----  618
+43744    587   IPGLYYFSY----HV---HA--K------G-T---N---V--W-----VALYKN-G----  612
+104909   587   IPGIYYFSY----HI---HV--K------G-T---H---A--W-----VGLYKN-G----  612
+53677    154   IPGLYYFAY----HI---TV--Y------M-K---D---V--K-----VSLFKK-D----  179
+28346    149   IPGLYYFSY----HI---TV--Y------L-K---D---V--K-----VSLYKN-D----  174
+97826    157   IPGLYYFSY----HI---TV--Y------M-K---D---V--K-----VSLFKK-D----  182
+42542    245   VAGVYYFTY----HI---TV--F------S-R---N---V--Q-----VSLVKN-G----  270
+107131   71    VPGAYFFSF----TAG--KA--P------H-K---S---L--S-----VMLVRNRD----  98
+4024     245   VAGVYYFTY----HI---TV--F------S-R---N---I--Q-----VSLVKN-G----  270
+66430    389   VPGTYIFSY----HV---TV--R------G-R---P---A--R-----ISLVAR-N----  414
+4033     72    VPGAYFFSF----TAG--KA--P------H-K---S---L--S-----VMLVRNRD----  99
+65726    384   IPGTYVFSY----HI---TV--R------G-R---P---A--R-----ISLVAQ-N----  409
+42990    245   IAGVYYFTY----HI---TV--F------S-R---N---V--Q-----VSLVKN-G----  270
+3749     200   VPGIYYFTY----DI---TL--A------N-K---H---L--A-----IGLVHN-G----  225
+113141   191   VPGIYYFTY----DI---TL--A------N-K---H---L--A-----IGLVHN-G----  216
+29919    189   FPGIYYFSY----DI---TL--A------N-K---H---L--A-----IGLVHN-G----  214
+121005   167   IPGIYFFTY----HV---LM--R------G-G---DGTSM--W-----ADLCKN-N----  195
+32234    167   IPGIYFFTY----HV---LM--R------G-G---DGTSM--W-----ADLCKN-N----  195
+114666   189   FPGIYYFSY----DI---TL--A------N-K---H---L--A-----IGLVHN-G----  214
+65735    420   HPGVYVFSY----HI---TV--R------N-R---P---L--R-----AALVIN-G----  445
+113025   147   VPGVYYFAV----HA---TV--Y------R-A---S---L--Q-----FDLVKN-G----  172
+114988   147   VPGVYYFAV----HA---TV--Y------R-A---S---L--Q-----FDLVKN-G----  172
+2396     147   VPGVYYFAV----HA---TV--Y------R-A---S---L--Q-----FDLVKN-G----  172
+92553    128   VPGVYHFGF----DI---EL--F------Q-S---A---V--K-----VGLMRN-G----  153
+65033    399   HGGVYVFSY----YI---TV--R------N-R---P---L--R-----AALVVN-G----  424
+128      164   VPGLYYFTY----HA---SS--R--------G---N---L--C-----VNLMRG-R----  188
+25379    199   VRGIYFFTY----HI---LM--R------G-G---DGTSM--W-----ADLCKN-G----  227
+113547   199   VRGIYFFTY----HI---LM--R------G-G---DGTSM--W-----ADLCKN-G----  227
+118778   170   IPGTYFFTY----HV---LM--R------G-G---DGTSM--W-----ADLCKN-G----  198
+25497    170   IPGTYFFTY----HV---LM--R------G-G---DGTSM--W-----ADLCKN-G----  198
+118748   150   MPGVYFFAY----HV---LM--R------G-G---DGTSM--W-----ADLMKN-G----  178
+1056     150   MPGVYFFAY----HV---LM--R------G-G---DGTSM--W-----ADLMKN-G----  178
+72942    158   VPGLYFFTY----HA---SS--R--------G---Q---L--C-----VDLMRG-RA---  183
+25384    162   VPGLYYFTY----HA---SS--R--------G---N---L--C-----VNLVRG-R----  186
+99113    128   IPGVYRFGF----DI---EL--F------Q-H---A---V--K-----LGLMKN-D----  153
+54557    162   VPGLYYFTY----HA---SS--R------G-NLCVN---I--V-----RGRDRD-R----  190
+43343    162   VPGLYYFVH----HT----S--Q------T-A---N---L--C-----VQLLLN-N----  186
+89150    157   VPGYYYFTF----QV---VS--K------W-D---L---C--L-----YIMSSR-R----  182
+31914    945   VNGTYVFIF----HM---LK--L------A-V---N---VPLY-----VNLMKN-E----  972
+28596    1041  VNGTYVFIF----HM---LK--L------A-V---N---VPLY-----VNLMKN-E----  1068
+3170     163   VPGLYYFVY----YT---S---H------T-A---N---L--C-----VHL-NL-N----  186
+30260    155   VPGFYYFNF----QV---IS--K-------------------WD----LCLFIK-S----  177
+28945    155   VPGFYYFTF----QV---IS--K-------------------WDLCLSIVSSSR-G----  181
+99107    110   VPGNYHFLF----DVDLHHC--K----------------V--T-----VQLMRD-K----  135
+32570    155   VPGYYYFTF----QV---LS--Q--------W---E---I--C-----LSIVSS-S----  179
+33284    828   ATGAYVFIF----HI---LK--L------A-I---S---VPLY-----INLMRN-E----  855
+106672   155   VPGYYYFTF----QV----V--S------N-W---D---I--C-----LSIRSS-RRDQI  183
+114292   112   VRGVYSFRF----HV---VKVYN------R-Q---T---V--Q-----VSLMLN-T----  139
+32977    162   VPGLYYFVY----HA---SH--T--------A---N---L--C-----VLLYRS-G----  186
+32302    189   VPGIYFFSL----NV---HTW-N------Q-K---E---T--Y-----LHIMKN-E----  215
+1490     120   VRGVYSFRF----HV---VKVYN------R-Q---T---V--Q-----VSLMLN-T----  147
+118670   189   VPGIYFFSL----NV---HTW-N------Q-K---E---T--Y-----LHIMKN-E----  215
+113361   120   VRGVYSFRF----HV---VKVYN------R-Q---T---V--Q-----VSLMLN-T----  147
+1492     159   VSGVYFFTF----SMMK-HE--D------V-E---E---V--Y-----VYLMHN-G----  186
+114398   159   VSGVYFFTF----SMMK-HE--D------V-E---E---V--Y-----VYLMHN-G----  186
+4019     139   RKGIYSFSF----HV---VKVYN------R-Q---T---I--Q-----VSLMQN-G----  166
+142053   139   RKGIYSFSF----HV---VKVYN------R-Q---T---I--Q-----VSLMQN-G----  166
+118411   139   RKGIYSFSF----HV---VKVYN------R-Q---T---I--Q-----VSLMQN-G----  166
+114739   108   RKGIYSFNF----HV---VKVYN------R-Q---T---I--Q-----VSLMLN-G----  135
+114989   108   RKGIYSFNF----HV---VKVYN------R-Q---T---I--Q-----VSLMLN-G----  135
+114162   108   RKGIYSFNF----HV---VKVYN------R-Q---T---I--Q-----VSLMLN-G----  135
+2401     108   RKGIYSFNF----HV---VKVYN------R-Q---T---I--Q-----VSLMLN-G----  135
+3213     160   VPGVYFLSL----NV---HT--W------NYK---E---T--Y-----LHIMLN-R----  186
+3223     116   RKGIYSFSF----HV---IKVYQ------S-Q---T---I--Q-----VNLMLN-G----  143
+2817     189   VPGLYFFSL----NV---HTW-N------Q-K---E---T--Y-----LHIMKN-E----  215
+118783   113   RKGIYSFSF----HV---IKVYQ------S-Q---T---I--Q-----VNLMLN-G----  140
+4051     173   LRGLYFFSL----NV---HS--W------NYK---E---T--Y-----VHIVHN-E----  199
+113958   172   LRGLYFFSL----NV---HS--W------NYK---E---T--Y-----VHIVHN-E----  198
+98764    911   LAGRYLLSAVLTGHR---HE--K----------------V--E-----AVLSRS-N----  937
+30642    912   LAGRYLLSAVLTGHR---HE--KVEAVLSR-S---N---L--G-----VARIDS-GGY--  949
+105197   969   YDGRYLIT                                                      976
+73368    1141  YLGVYVFKY----TI---ES--F------S-A---H---I--S-----GFLVVD-GI---  1167
+88599    948   YDGRYLIT                                                      955
+152      187   LRGIYFFSL----NV---HS--W------NYK---E---T--Y-----VHIMHN-Q----  213
+80389    1123  YLGVYIFKY----TI---ES--F------S-A---H---I--S-----GFFVVD-G----  1148
+91232    223   VPGIYQFSA----HV---HI--D------H-S---E---I                      240
+
+Query_1  70    E----PM--MYTY----D--------EY------KK-GF-L--DQA--SG------SA--  91
+118433   683   E----PM--MYTY----D--------EY------KK-GF-L--DQA--SG------SA--  704
+133920   683   E----PV--MYTY----D--------EY------KK-GF-L--DQA--SG------SA--  704
+141910   683   E----PV--MYTY----D--------EY------KK-GF-L--DQA--SG------SA--  704
+2918     683   E----PV--MYTY----D--------EY------KK-GF-L--DQA--SG------SA--  704
+42602    642   V----PA--TYTY----D--------EY------KK-GY-L--DQA--SG------GA--  663
+118958   638   V----PA--TYTY----D--------EY------KK-GY-L--DQA--SG------GA--  659
+34108    619   T----PV--MYTY----D--------EY------TK-GY-L--DQA--SG------SA--  640
+106456   619   T----PT--MYTY----D--------EY------SK-GY-L--DQA--SG------SA--  640
+43744    613   S----PV--MYTY----D--------EY------QK-GY-L--DQA--SG------SA--  634
+104909   613   T----PV--MYTY----D--------EY------IK-GY-L--DQA--SG------SA--  634
+53677    180   K----AM--LFTY----D--------QY------QE-NN-V--DQA--SG------SV--  201
+28346    175   K----AL--LFTH----D--------QF------QD-KN-V--DQA--SG------SV--  196
+97826    183   K----AV--LFTY----D--------QY------QE-KN-V--DQA--SG------SV--  204
+42542    271   V----KV--LHTK----D--------SY------MS--S-E--DQA--SG------GI--  291
+107131   99    E----VQ--ALAF----D--------EQ------RRPGA-R--RAA--SQ------SA--  121
+4024     271   A----KV--LHTK----D--------GY-------T-GS-E--DQA--SG------GI--  291
+66430    415   R----KQ--FKSR----E--------TL------YG-QQ-V--DQA--SL------LL--  436
+4033     100   E----VQ--ALAF----D--------EQ------RRPGA-R--RAA--SQ------SA--  122
+65726    410   K----KQ--FKSR----E--------TL------YG-QE-I--DQA--SL------LV--  431
+42990    271   V----KI--LHTK----D--------AY------MS--S-E--DQA--SG------GI--  291
+3749     226   Q----YR--IRTF----D--------A-------NT-GN-H--DVA--SG------ST--  246
+113141   217   Q----YR--IRTF----D--------A-------NT-GN-H--DVA--SG------ST--  237
+29919    215   Q----YR--IRTF----D--------A-------NT-GN-H--DVA--SG------ST--  235
+121005   196   Q----VR--ASAI----A--------QD------AD-QN-Y--DYA--SN------SV--  217
+32234    196   Q----VR--ASAI----A--------QD------AD-QN-Y--DYA--SN------SV--  217
+114666   215   Q----YR--IKTF----D--------A-------NT-GN-H--DVA--SG------ST--  235
+65735    446   V----KK--LRTR----D--------SL------YG-QD-I--DQA--SN------LA--  467
+113025   173   Q-----S--IASF----F--------QY------FG-GW-P--KPASLSG------GA--  195
+114988   173   E-----S--IASF----F--------QF------FG-GW-P--KPASLSG------GA--  195
+2396     173   Q-----S--IASF----F--------QF------FG-GW-P--KPASLSG------GA--  195
+92553    154   I----QI--RDKR----A--------EA------GD-SH----EQA--SG------SS--  174
+65033    425   I----RK--LRTR----D--------SL------YG-QD-I--DQA--SN------MA--  446
+128      189   E----RAQKVVTF----C--------DY------AY-NT-F--QVT--TG------GM--  212
+25379    228   Q----VR--ASAI----A--------QD------AD-QN-Y--DYA--SN------SV--  249
+113547   228   Q----VR--ASAI----A--------QD------AD-QN-Y--DYA--SN------SV--  249
+118778   199   Q----VR--ASAI----A--------QD------AD-QN-Y--DYA--SN------SV--  220
+25497    199   Q----VR--ASAI----A--------QD------AD-QN-Y--DYA--SN------SV--  220
+118748   179   Q----VR--ASAI----A--------QD------AD-QN-Y--DYA--SN------SV--  200
+1056     179   Q----VR--ASAI----A--------QD------AD-QN-Y--DYA--SN------SV--  200
+72942    184   E----PQK-VVTF----C--------DY------VQ-NT-F--QVT--TG------SI--  206
+25384    187   DRDSMQK--VVTF----C--------DY------AQ-NT-F--QVT--TG------GV--  212
+99113    154   T----QI--LEKE----S--------KA------KD-NY----RHL--SG------NV--  174
+54557    191   M----QK--VLTF----C--------DY------AQ-NT-F--QVT--TG------GV--  212
+43343    187   A-----K--VTSF----C--------DH------MS-NS-K--QVS--SG------GV--  207
+89150    183   D----QV--QQSLGFC-D--------FN------SK-GL-F--QVV--SG------GT--  207
+31914    973   E----VL--VSAY----A--------ND------GA-PD-H--ETA--SN------HA--  994
+28596    1069  E----VL--VSAY----A--------ND------GA-PD-H--ETA--SN------HA--  1090
+3170     187   L----AR--VASF----C--------DH------MF-NS-K--QVS--SG------GV--  208
+30260    178   S----SG--GQPR----D--------SLSFSNTNNK-GL-F--QVL--AG------GT--  205
+28945    182   Q----PRNSLGFC----D--------TN------SK-GL-F--QVL--AG------GT--  205
+99107    136   S----SV--LEKH----Q--------VS------TK-E--P--RSL--SG------ML--  156
+32570    180   R----GQ--VRRSLGFCD--------TT------NK-GL-F--QVV--SG------GM--  205
+33284    856   E----VM--VSAY----A--------ND------GA-PD-H--ETA--SN------HA--  877
+106672   184   Q----PL--GFC-----D--------FN------SK-GF-F--QVV--SG------GT--  204
+114292   140   W----PV--ISAF----A--------ND------PD-VT-R--EAA--TS------SV--  161
+32977    187   V----KV--V-TF----C--------GH------TS-KT-N--QVN--SG------GV--  207
+32302    216   E----EV--VILY----A--------QV------SD-RS-I--MQ---SQ------SL--  236
+1490     148   W----PV--ISAF----A--------ND------PD-VT-R--EAA--TS------SV--  169
+118670   216   E----EV--VILY----A--------QV------SD-RS-I--MQ---SQ------SL--  236
+113361   148   W----PV--VSAF----A--------ND------PD-VT-R--EAA--TS------SV--  169
+1492     187   N----TV--FSMY----S--------YE------TK-GK-S--DTS--SN------HA--  208
+114398   187   N----TV--FSMY----S--------YE------MK-GK-S--DTS--SN------HA--  208
+4019     167   Y----PV--ISAF----A--------GD------QD-VT-R--EAA--SN------GV--  188
+142053   167   Y----PV--ISAF----A--------GD------QD-VT-R--EAA--SN------GV--  188
+118411   167   Y----PV--ISAF----A--------GD------QD-VT-R--EAA--SN------GV--  188
+114739   136   W----PV--ISAF----A--------GD------QD-VT-R--EAA--SN------GV--  157
+114989   136   W----PV--ISAF----A--------GD------QD-VT-R--EAA--SN------GV--  157
+114162   136   W----PV--ISAF----A--------GD------QD-VT-R--EAA--SN------GV--  157
+2401     136   W----PV--ISAF----A--------GD------QD-VT-R--EAA--SN------GV--  157
+3213     187   R----PA--AVLY----A--------QP------SE-RS-V--MQA--Q-------SL--  207
+3223     144   K----PV--ISAF----A--------GD------KD-VT-R--EAA--TN------GV--  165
+2817     216   E----EV--VILF----A--------QV------GD-RS-I--MQ---SQ------SL--  236
+118783   141   K----PV--ISAF----A--------GD------KD-VT-R--EAA--TN------GV--  162
+4051     200   Q----AV--VILY----A--------QP------SE-RS-I--MQ---SQ------SV--  220
+113958   199   Q----AV--VILY----A--------QP------SE-RS-I--MQ---SQ------SV--  219
+98764    938   Q----GV--ARVD----SGGYEPEGLEN------KP-VA-E--SQP--SPGTLGVFSL--  973
+30642    950   E----PE--GL---------------EN------KP-VA-E--SQP--SP------GALG  970
+73368    1168  D----KL--AFES----E--------NI------NS-EIHC--DRVL-TG------DA--  1191
+152      214   K----EA--VILY----A--------QP------SE-RS-I--MQ---SQ------SV--  234
+80389    1149  V----DK--LRFE----S--------EN------AD-NE-IHCDRVL-TG------DA--  1173
+42334    2760                                                  SC------GG--  2763
+
+Query_1  92    ----VLLLRPGDQVFLQM-P-SE-QAAG--LYA-------G-QY--VH-SS-----FSGY  126
+118433   705   ----VLLLRPGDQVFLQM-P-SE-QAAG--LYA-------G-QY--VH-SS-----FSGY  739
+133920   705   ----VLLLRPGDRVFLQM-P-SE-QAAG--LYA-------G-QY--VH-SS-----FSGY  739
+141910   705   ----VLLLRPGDRVFLQM-P-SE-QAAG--LYA-------G-QY--VH-SS-----FSGY  739
+2918     705   ----VLLLRPGDRVFLQN-P-SE-QAAG--LYA-------G-QY--VH-SS-----FSGY  739
+42602    544                  LHL-P-NG-GVEG--AVL-------G-KG--GK-PQ-----FGLG  567
+42602    664   ----VLQLRPNDQVWVQM-P-SD-QANG--LYS-------T-EY--IH-SS-----FSGF  698
+118958   540                  LHL-P-NG-GVEG--AVL-------G-KG--GK-PQ-----FGLG  563
+118958   660   ----VLQLRPNDQVWVQM-P-SD-QANG--LYS-------T-EY--IH-SS-----FSGF  694
+34108    641   ----IIDLTENDQVWLQL-P-NA-ESNG--LYS-------S-EY--VH-SS-----FSGF  675
+106456   641   ----IMELTENDQVWLQL-P-NA-ESNG--LYS-------S-EY--VH-SS-----FSGF  675
+43744    635   ----VIDLMENDQVWLQL-P-NS-ESNG--LYS-------S-EY--VH-SS-----FSGF  669
+104909   635   ----VIDLTENDQVWLQL-P-NA-GSNG--LYS-------P-EY--VH-SS-----FSGF  669
+53677    202   ----LLHLEVGDQVWLQV-Y-GEGERNG--LYA-------D-ND--ND-ST-----FTGF  237
+28346    197   ----LLYLEKGDQVWLQVYE-GE-NHNG--VYA-------D-NV--ND-ST-----FTGF  232
+97826    205   ----LLHLEVGDQVWLQV-Y-GDGDHNG--LYA-------D-NV--ND-ST-----FTGF  240
+42542    292   ----VQELKLGDEVWMQV-TGGE-RFNG--LFA-------D-ED--DD-TT-----FTGF  327
+107131   122   ----MLQLDYGDTVWLRL------HGAP--QYA-------L-GA--PG-AT-----FSGY  153
+4024     292   ----VLPLKLGDEVWLQV-TGGE-RFNG--LFA-------D-KD--DD-TT-----FTGF  327
+66430    437   ----ILKLSAGDQVWLEV---SK-DWNG--LYV-------G-PE--DD-SI-----FSGF  470
+4033     123   ----MLQLDYGDTVWLRL------HGAP--QYA-------L-GA--PG-AT-----FSGY  154
+65726    432   ----ILKLSAGDQVWLEV---SK-DWNG--VYV-------S-AE--DD-SI-----FTGF  465
+42990    292   ----VLQLKLGDEVWLQV-TGGE-RFNG--LFA-------D-ED--DD-TT-----FTGF  327
+3749     247   ----ILALKEGDEVWLQIFY-SE-QNGL--FYD-------P-YW--TD-SL-----FTGF  282
+113141   238   ----ILALKQGDEVWLQIFY-SE-QNGL--FYD-------P-YW--TD-SL-----FTGF  273
+29919    236   ----VIYLQPEDEVWLEI-F-FN-DQNG--LFS-------DPGW--AD-SL-----FSGF  271
+121005   218   ----VLHLEPGDEVYIKL-D-GG-KAHG--GNN-------N-KY-----ST-----FSGF  250
+32234    218   ----VLHLEPGDEVYIKL-D-GG-KAHG--GNN-------N-KY-----ST-----FSGF  250
+114666   236   ----VIYLQPEDEVWLEI-F-FT-DQNG--LFS-------DPGW--AD-SL-----FSGF  271
+65735    468   ----LLRLASGDQVWLET-L-RD-W-NG--VYS-------S-SE--DD-ST-----FTGF  501
+113025   196   ----MVRLEPEDQVWVQV-G-VG-DYIG--IYA-------S-IK--TD-ST-----FSGF  230
+114988   196   ----MVRLEPEDQVWVQV-G-VG-DYIG--IYA-------S-IK--TD-ST-----FSGF  230
+2396     196   ----MVRLEPEDQVWVQV-G-VG-DYIG--IYA-------S-IK--TD-ST-----FSGF  230
+92553    175   ----VLELEKGDRVWLES-K-LD-REES--EKG----------T--TH-AV-----FYGF  207
+65033    325                    M-P-GM-KGTR--GLK-------G-AR--GI-RG-----FKGF  346
+65033    447   ----VLRLSSGDQVWLET---LR-DWNG--VYS-------S-SE--DD-ST-----FSGF  480
+128      213   ----VLKLEQGENVFLQA-T-DK-NS----LLG-------M-EG--AN-SI-----FSGF  245
+25379    250   ----VLHLDSGDEVYVKL-D-GG-KAHG--GNN-------N-KY-----ST-----FSGF  282
+113547   250   ----VLHLDSGDEVYVKL-D-GG-KAHG--GNN-------N-KY-----ST-----FSGF  282
+118778   221   ----ILHLDAGDEVFIKL-D-GG-KAHG--GNS-------N-KY-----ST-----FSGF  253
+25497    221   ----ILHLDAGDEVFIKL-D-GG-KAHG--GNS-------N-KY-----ST-----FSGF  253
+118748   201   ----ILHLDVGDEVFIKL-D-GG-KVHG--GNT-------N-KY-----ST-----FSGF  233
+1056     201   ----ILHLDVGDEVFIKL-D-GG-KVHG--GNT-------N-KY-----ST-----FSGF  233
+72942    207   ----VLKLEKDETVFLQA-T-EK-NA----LVG-------I-EG--AN-SI-----FSGF  239
+25384    213   ----VLKLEQEEVVHLQA-T-DK-NS----LLG-------I-EG--AN-SI-----FTGF  245
+99113    175   ----VLQLTLGDRVWLE----SK-LDTT--ETE-------K-GP--IQ-SM-----FFGY  207
+54557    213   ----VLKLEQEEVVHLQA-T-DK-NS----LLG-------V-EG--AN-SI-----FTGF  245
+43343    208   ----LLRLQRGDEVWLAV----N-DYNG--MVG-------T-EG--SD-SV-----FSGF  240
+89150    208   ----VLQLQRGDKVWIQR-D-PN-KGR---IYQ-------G-SE--AD-SV-----FSGF  241
+31914    995   ----VLQLLQGDQIWLRL------HRGA--IYG-------S-SW--KY-ST-----FSGY  1026
+28596    1091  ----ILQLFQGDQIWLRL------HRGA--IYG-------S-SW--KY-ST-----FSGY  1122
+3170     209   ----LLRLQRGDEVWLSV----N-DYNG--MVG-------I-EG--SN-SV-----FSGF  241
+30260    206   ----VLQLRRGDEVWIEK-D-PA-KGR---IYQ-------G-TE--AD-SI-----FSGF  239
+28945    206   ----VLQLQRGDEVWIEK-D-PA-KGR---IYQ-------G-TE--AD-SI-----FSGF  239
+99107    157   ----TLPLHVGEKVWLEA-K-VE-TEKP--EQA-------R-VT--IY--------FSGF  189
+32570    206   ----VLQLQQGDQVWVEK-D-PK-KGH---IYQ-------G-SE--AD-SV-----FSGF  239
+33284    878   ----VLQLFQGDQVWLRL------HRGA--IYG-------S-SW--KY-ST-----FSGF  909
+106672   205   ----VLHLQQGDQVWIEK-D-PS-KGR---IYH-------G-SE--AD-SI-----FSGF  238
+114292   162   ----LLPLDPGDRVSLRL-------RRG--NLL-------G-GW--KY-SS-----FSGF  192
+32977    208   ----LLRLQVGEEVWLAV----N-DYYD--MVG-------I-QG--SD-SV-----FSGF  240
+32302    237   ----MLELREQDEVWVRLFK-GE-RENA--IFS-------D-EFD-TY-IT-----FSGY  273
+1490     170   ----LLPLDPGDRVSLRL-------RRG--NLL-------G-GW--KY-SS-----FSGF  200
+118670   237   ----MMELREEDEVWVRLFK-GE-RENA--IFS-------D-EFD-TY-IT-----FSGY  273
+113361   170   ----LLPLDPGDRVSLRL-------RRG--NLL-------G-GW--KY-SS-----FSGF  200
+1492     99                                            G-QH--GP-KG-----EKGY  109
+1492     209   ----VLKLAKGDEVWLRM-G-N----GA--LHG-------D-HQ--RF-ST-----FAGF  240
+114398   99                                            G-QH--GP-KG-----EKGY  109
+114398   209   ----VLKLAKGDEVWLRM-G-N----GA--LHG-------D-HQ--RF-ST-----FAGF  240
+4019     189   ----LLLMEREDKVHLKL-E-R-----G--NLM-------G-GW--KY-ST-----FSGF  219
+142053   189   ----LLLMEREDKVHLKL-E-R-----G--NLM-------G-GW--KY-ST-----FSGF  219
+118411   189   ----LLLMEREDKVHLKL-E-R-----G--NLM-------G-GW--KY-ST-----FSGF  219
+114739   158   ----LIQMEKGDRAYLKL-E-R-----G--NLM-------G-GW--KY-ST-----FSGF  188
+114989   158   ----LIQMEKGDRAYLKL-E-R-----G--NLM-------G-GW--KY-ST-----FSGF  188
+114162   158   ----LIQMEKGDRAYLKL-E-R-----G--NLM-------G-GW--KY-ST-----FSGF  188
+2401     158   ----LIQMEKGDRAYLKL-E-R-----G--NLM-------G-GW--KY-ST-----FSGF  188
+3213     208   ----MLLLAAGDAVWVRM-F-QR-DRDN--AIY-------G-EHGDLY-IT-----FSGH  244
+3223     166   ----LLYLDKEDKVYLKL-E-K-----G--NLV-------G-GW--QY-ST-----FSGF  196
+2817     237   ----MLELREQDQVWVRLYK-GE-RENA--IFS-------E-ELD-TY-IT-----FSGY  273
+118783   163   ----LLYLDKEDKVYLKL-E-K-----G--NLL-------G-GW--QY-ST-----FSGF  193
+4051     221   ----MLPLVPGDRVWVRLFK-RE-RENG--IYS-------D-DVD-TY-IT-----FSGH  257
+113958   220   ----MLPLVPGDYVWVRLFK-RE-RENG--IYS-------D-DMD-TY-IT-----FSGH  256
+98764    974   ----ILPLQAGDTVCVD-------------LVM-------G-QL--AH-SEEPLTIFSGA  1005
+30642    971   VFSLILPLQVGDTVCID-------------LVM-------G-QL--AH-SEEPLTIFSGA  1006
+73368    1073            GDNCTIKL-V-EE-NALAPDFSK-------G-SY--RY-AP-----MVAF  1103
+73368    1192  ----LLELNYGQEVWLRL-------AKG--TIP-------A-KF--PPVTT-----FSGY  1223
+152      235   ----MLDLAYGDRVWVRLFK-RQ-RENA--IYS-------N-DFD-TY-IT-----FSGH  271
+80389    1174  ----LFELNYGQEVWLRL-------VKG--TIP-------I-KY--PPVTT-----FSGY  1205
+42334    2764  ----VIILEPGDNMTVHQ-P-SG-MVSA--AGAIDCAWAIG-PY--TD-AS-----GEDE  2805
+
+Query_1  127   LLY--------------P----ME---------------MP-A-----FTAEL--T-V--  142
+118433   740   LLY--------------P----M                                       744
+118433   614                          E---------------MP-A-----FTAEL--T-V--  624
+133920   740   LLY--------------P----M                                       744
+133920   614                          E---------------MP-A-----FTAEL--T-A--  624
+141910   740   LLY--------------P----M                                       744
+141910   614                          E---------------MP-A-----FTAEL--T-A--  624
+2918     740   LLY--------------P----M                                       744
+2918     614                          E---------------MP-A-----FTAEL--T-A--  624
+42602    568   ELS--------------A----HA---------------TP-A-----FTAVL--T-S--  583
+42602    699   LLC--------------P----T                                       703
+118958   564   ELS--------------A----HA---------------TP-A-----FTAVL--T-S--  579
+118958   695   LLC--------------P----T                                       699
+34108    549                         MP---------------VS-A-----FTVIL--S-K--  560
+34108    676   LVA--------------P----M                                       680
+106456   549                         MP---------------VS-A-----FTVIL--S-K--  560
+106456   676   LVA--------------P----M                                       680
+43744    540    LT--------------G----MP---------------VS-A-----FTVIL--S-K--  554
+43744    670   L                                                             670
+104909   543                         MP---------------VS-A-----FTVIL--S-K--  554
+104909   670   LVA--------------P----M                                       674
+53677    238   LLY                                                           240
+28346    233   LLY                                                           235
+28346    113                                             G-----LERQV--T-V--  120
+97826    241   LLY                                                           243
+97826    117                                             A-----FSVGL--E-T--  124
+42542    328   LLF                                                           330
+42542    203                                             A-----FTVGL--T-VIS  212
+107131   154   LVYADADADAPARGPAAP----EP---------------RS-A-----FSAAR--T-R--  183
+107131   30                                              A-----FSAAR--T-T--  37
+4024     328   LLF                                                           330
+4024     195                          E---------------MP-ALPKSAFTVGL--T-VLS  212
+66430    471   LLY--------------P----EE---------------T                      477
+66430    349                                             A-----FSALL--S-K--  356
+4033     155   LVY--------------A----DADADAPARGPPAPPEPRS-A-----FSAAR--T-R--  185
+4033     31                                              A-----FSAAR--T-T--  38
+65726    466   LLY--------------P----EE---------------TS-G-----IS            476
+65726    344                                             A-----FSAGL--S-K--  351
+42990    328   LLF                                                           330
+42990    203                                             A-----FTVGL--T-VLS  212
+3749     283   LIY                                                           285
+3749     160                                             A-----FSVAV--T-K--  167
+113141   274   LIY                                                           276
+113141   151                                             A-----FSVAV--T-K--  158
+29919    272   LLY                                                           274
+29919    149                                             A-----FSVGI--T-T--  156
+121005   251   IIY                                                           253
+32234    251   IIY                                                           253
+114666   272   LLY                                                           274
+114666   149                                             A-----FSVGI--T-T--  156
+65735    502   LLY                                                           504
+113025   231   LVY                                                           233
+113025   108                                             A-----KRSES--R-V--  115
+114988   231   LVY                                                           233
+114988   108                                             A-----KRSES--R-V--  115
+2396     231   LVY                                                           233
+2396     108                                             A-----KRSES--R-V--  115
+92553    83                     P----LP---------------QS-A-----FSVKL--S-G--  95
+92553    208   LL                                                            209
+65033    347   KGE--------------PAV--QK---------------RS-A-----FSVGLFPS-R--  366
+65033    481   LLY                                                           483
+128      246   LLF--------------P                                            249
+128      123                                             A-----FSATR--T-I--  130
+25379    283   LLY--------------P                                            286
+113547   283   LLY--------------P                                            286
+118778   254   IIY                                                           256
+25497    254   IIY                                                           256
+118748   234   IIY--------------P                                            237
+1056     234   IIY--------------P                                            237
+72942    240   MLF--------------P                                            243
+72942    117                                             A-----FSASR--T-I--  124
+25384    246   LLF--------------P                                            249
+25384    121                                             A-----FSALR--T-INS  130
+99113    208   LLY                                                           210
+99113    88                                              A-----FAVKM--N-D--  95
+54557    246   LLF--------------P                                            249
+43343    241   LLF--------------P                                            244
+43343    128                                                          T-A--  129
+89150    111    IK--------------D----QR---------------RP-A-----FSAVR--Q-N--  125
+89150    242   LIF--------------P                                            245
+31914    1027  LLY                                                           1029
+31914    903                                             A-----FSAAR--T-S--  910
+28596    1123  LLY                                                           1125
+28596    999                                             A-----FSAAR--T-S--  1006
+3170     242   LLF--------------P                                            245
+3170     129                                                          T-T--  130
+30260    240   LIF--------------P                                            243
+30260    115                                           P-A-----FSAIR--Q-N--  123
+28945    240   LIF--------------P                                            243
+28945    115                                           P-A-----FSAIR--Q-N--  123
+99107    190   L                                                             190
+99107    70                                              A-----FTVKL--S-G--  77
+32570    240   LIF--------------P                                            243
+32570    115                                           P-A-----FSAIR--R-N--  123
+33284    910   LLY                                                           912
+33284    786                                             A-----FSAAR--T-A--  793
+106672   239   LIF--------------P                                            242
+114292   193   LIF--------------P----L                                       197
+32977    241   LLF--------------P                                            244
+32302    274   LVK--------------P----AS---------------EP                     281
+1490     201   LIF--------------P----L                                       205
+118670   274   LVK--------------P----AS---------------EP                     281
+113361   201   LIF--------------P----L                                       205
+1492     110   PGV--------------P----PE---------------LQIA-----FMASL--A-T--  126
+1492     241   LLF--------------E----TK                                      246
+114398   110   PGI--------------P----PE---------------LQIA-----FMASL--A-T--  126
+114398   241   LLF--------------E----TK                                      246
+4019     220   LVF--------------P----L                                       224
+142053   220   LVF--------------P----L                                       224
+118411   220   LVF--------------P----L                                       224
+114739   189   LVF--------------P----L                                       193
+114989   189   LVF--------------P----L                                       193
+114162   189   LVF--------------P----L                                       193
+2401     189   LVF--------------P----L                                       193
+3213     245   LVK--------------P                                            248
+3223     197   LVF--------------P----L                                       201
+2817     274   LV                                                            275
+118783   194   LVF--------------P----L                                       198
+4051     258   LI                                                            259
+113958   257   LI                                                            258
+98764    867                    P----VP---------------QV-A-----FSAAL--S-L--  879
+98764    1006  LLY                                                           1008
+30642    868                    P----VP---------------RV-A-----FSAAL--S-L--  880
+30642    1007  LLY                                                           1009
+105197   928                                             S-----FSAGL--TQK--  936
+73368    1104  F---------------------------------------A-S-----HTYGM--T-I--  1113
+73368    1224  LLY                                                           1226
+88599    907                                             S-----FSAGL--TQK--  915
+152      272   LI                                                            273
+80389    1206  LLY                                                           1208
+42334    2806  VLV--------------PQDIQLE---------------VS-V-----YNVNL--P-A--  2825
+
+Query_1  143   PF-------P-P--VGA-P----VKFDKLLYNGRQNYNPQTGIFTCEVPGVYYFAY----  183
+118433   625   PF-------P-P--VGA-P----VKFDKLLYNGRQNYNPQTGIFTCEVPGVYYFAY----  665
+133920   625   PF-------P-P--VGA-P----IKFDRLLYNGRQNYNPQTGIFTCEVPGVYYFAY----  665
+141910   625   PF-------P-P--VGA-P----VKFNKLLYNGRQNYNPQTGIFTCEVPGVYYFAY----  665
+2918     625   PF-------P-P--VGA-P----IKFDRLLYNGRQNYNPQTGIFTCEVPGVYYFAY----  665
+42602    584   PF-------P-A--SGM-P----VKFDRTLYNGHSGYNPATGIFTCPVGGVYYFAY----  624
+118958   580   PF-------P-A--SGM-P----VRFDRTLYNGHSGYNPATGIFTCPVGGVYYFAY----  620
+34108    561   AY-------P-A--IGT-P----IPFDKILYNRQQHYDPRTGIFTCQIPGIYYFSY----  601
+106456   561   AY-------P-A--VGA-P----IPFDEILYNRQQHYDPRSGIFTCKIPGIYYFSY----  601
+43744    555   AY-------P-G--ATV-P----IKFDKILYNRQQHYDPRTGIFTCRIPGLYYFSY----  595
+104909   555   AY-------P-A--IGT-P----IPFDKILYNKQQHYDPRTGIFTCKIPGIYYFSY----  595
+53677    129                     P----IRFTKIFYNQQNHYDGSTGKFHCNIPGLYYFAY----  162
+28346    121   P--------------NV-P----IRFTKIFYNQQNHYDGTTGKFLCNIPGLYYFSY----  157
+97826    125   RV-------T-V--PNV-P----IRFTKIFYNQQNHYDGSTGKFYCNIPGLYYFSY----  165
+42542    213   KF-------P-P--PDA-P----IKFDKILYNELNHYNVATGKFTCHVAGVYYFTY----  253
+107131   184   SLVGSDAAPG-P--RHR-P----LAFDTELVNIGGDFDAAAGVFRCRLPGAYFFSF----  231
+107131   38    PL-------E-G--TSEMA----VTFDKVYVNIGGDFDAATGRFRCRVPGAYFFSF----  79
+4024     213   KF-------P-P--SDT-P----IKFDRILYNEFGHYDVATGKFICHVAGVYYFTY----  253
+66430    357   PF-------P-P--PNV-P----IKFDKILSNDQGDYSPVTGKFNCSVPGTYIFSY----  397
+4033     186   SLVGSDAGPG-P--RHQ-P----LAFDTEFVNIGGDFDAAAGVFRCRLPGAYFFSF----  233
+4033     39    PL-------E-G--TSEMA----VTFDKVYVNIGGDFDVATGQFRCRVPGAYFFSF----  80
+65726    352   PF-------P-P--PNI-P----IKFEKILYNDQGNYSPVTGKFNCSIPGTYVFSY----  392
+42990    213   KF-------P-S--SDM-P----IKFDKILYNEFNHYDTAAGKFTCHIAGVYYFTY----  253
+3749     168   SY-------P-R--ERL-P----IKFDKILMNEGGHYNASSGKFVCSVPGIYYFTY----  208
+113141   159   SY-------P-R--ERL-P----IKFDKILMNEGGHYNASSGKFVCGVPGIYYFTY----  199
+29919    157   SY-------P-E--ERL-P----IIFNKVLFNEGEHYNPATGKFICAFPGIYYFSY----  197
+121005   143                          LKFDDVVTNLGNHYDPTTGKFTCSIPGIYFFTY----  175
+32234    143                          LKFDDVVTNLGNHYDPTTGKFTCSIPGIYFFTY----  175
+114666   157   SY-------P-E--ERL-P----IIFNKVLFNEGEHYNPATGKFICAFPGIYYFSY----  197
+65735    389    F-------P-P--PGL-P----VKFDKVLYNEEEHWDPMLSKFNCTHPGVYVFSY----  428
+113025   116   P--------P-P--ADT-P----LPFDRVLLNEQGHYDPTTGKFTCQVPGVYYFAV----  155
+114988   116   P--------P-P--SDA-P----LPFDRVLVNEQGHYDAVTGKFTCQVPGVYYFAV----  155
+2396     116   P--------P-P--ADT-P----LPFDRVLLNEQGHYDATTGKFTCQVPGVYYFAV----  155
+92553    96    PF-------P-G--PSQ-P----IVFQEVLYNHQGHFDPATGVFNCSVPGVYHFGF----  136
+65033    367   SF-------P-P--PGL-P----IRFDKIIYNEEAHWDPNASKFNCTHGGVYVFSY----  407
+128      131   NV-------PLR--RDQ-T----IRFDHVITNMNNNYEPRSGKFTCKVPGLYYFTY----  172
+25379    175                          LKFDDVVTNLGNHYDPTTGKFSCQVRGIYFFTY----  207
+113547   175                          LKFDDVVTNLGNHYDPTTGKFSCQVRGIYFFTY----  207
+118778   146                          LKFDDVVTNLGNNYDAASGKFTCNIPGTYFFTY----  178
+25497    146                          LKFDDVVTNLGNNYDAASGKFTCNIPGTYFFTY----  178
+118748   126                          LRFDDVVTNVGNAYEAASGKFTCPMPGVYFFAY----  158
+1056     126                          LRFDDVVTNVGNAYEAASGKFTCPMPGVYFFAY----  158
+72942    125   NHH------Q-R--QGQ-P----IRFDHVITNANENYQARSSKFTCKVPGLYFFTY----  166
+25384    131   PL-------R-P---NQ-V----IRFEKVITNANENYEPRNGKFTCKVPGLYYFTY----  170
+99113    96    PL-------P-A--PSQ-P----IVFKEALHNDQDHFNLTTGVFTCTIPGVYRFGF----  136
+54557    138                          IRFEKVITNVNDNYEPRSGKFTCKVPGLYYFTY----  170
+43343    130   QY-------P-A--ANG-L----VKFNSAITNPQGDYNTNTGKFTCKVPGLYYFVH----  170
+89150    126   P--------P-T--SGN-V----VIFDEVITNQEGAYKSQLGQFICDVPGYYYFTF----  165
+31914    911   NL-------A-PGTLDQ-P----IVFDLLLNNLGETFDLQLGRFNCPVNGTYVFIF----  953
+28596    1007  NL-------A-PGTLDQ-P----IVFDLLLNNLGETFDLQLGRFNCPVNGTYVFIF----  1049
+3170     131   QY-------P-E--ANA-L----VRFNSVVTNPQGHYNPSTGKFTCEVPGLYYFVY----  171
+30260    124   PM-------T----LGN-V----VIFDKVLTNQESPYQNHTGRFICAVPGFYYFNF----  163
+28945    124   P--------P-T--YGN-V----VVFDKVLTNQENPYQNRTGHFICAVPGFYYFTF----  163
+99107    78    QL-------P-S--PSK-P----VPFTEVLYNAQRDLQEDTGVFTCRVPGNYHFLF----  118
+32570    124   P--------P-M--GGN-V----VIFDTVITNQEEPYQNHSGRFVCTVPGYYYFTF----  163
+33284    794   NF-------A-PGTLDQ-P----IAFDLLHTNLGDMFDTGSGRFTCPATGAYVFIF----  836
+106672   131                          VVFGKVITNQENVYQNNTGRFRCSVPGYYYFTF----  163
+114292   90                             FDQVLVNEGEGFDRTSGCFVAPVRGVYSFRF----  120
+32977    138                          IRFNAVLTNPQGDYDTSTGKFTCKVPGLYYFVY----  170
+32302    164                     P----VVFDTEFVNLYNHFNMFTGKFYCYVPGIYFFSL----  197
+1490     96                           IYFDQVLVNEGGGFDRASGSFVAPVRGVYSFRF----  128
+118670   164                     P----VVFDTEFVNLYKHFNMFTGKFYCYVPGIYFFSL----  197
+113361   98                             FDQVLVNEGGGFDRTSGSFVAPVRGVYSFRF----  128
+1492     127   HF-------S-N--QNS-G----IIFSSVETNIGNFFDVMTGRFGAPVSGVYFFTF----  167
+114398   127   HF-------S-N--QNS-G----IIFSSVETNIGNFFDVMTGRFGAPVSGVYFFTF----  167
+4019     117                            FDQVLVNIGNHFDLASSIFVAPRKGIYSFSF----  147
+142053   117                            FDQVLVNIGNHFDLASSIFVAPRKGIYSFSF----  147
+118411   117                            FDQVLVNIGNHFDLASSIFVAPRKGIYSFSF----  147
+114739   86                             FDQVLVNIGNNFDSERSTFIAPRKGIYSFNF----  116
+114989   86                             FDQVLVNIGNNFDSERSTFIAPRKGIYSFNF----  116
+114162   86                             FDQVLVNIGNNFDSERSTFIAPRKGIYSFNF----  116
+2401     86                             FDQVLVNIGNNFDSERSTFIAPRKGIYSFNF----  116
+3213     136                          VPFDTELVNLDGAFDLAAGRFLCTVPGVYFLSL----  168
+3223     95                             FDQILVN-VGNFFTLESVFVAPRKGIYSFSF----  124
+2817     165                          VIFDTEFVNLYDHFNMFTGKFYCYVPGLYFFSL----  197
+118783   92                             FDQILVN-VGNFFTLESVFVAPRKGIYSFSF----  121
+4051     151                            FDRVFVNTDGHFDMATGSFVAPLRGLYFFSL----  181
+113958   150                            FDRVFVNTDGHFDMATGRFVAPLRGLYFFSL----  180
+98764    880   PR-------S-E--PGT------VPFDRVLLNDGGYYDPETGVFTAPLAGRYLLSAVLTG  923
+30642    881   PR-------S-E--PGT------VPFDRVLLNDGGYYDPETGVFTAPLAGRYLLSAVLTG  924
+105197   937   PF-------P-S--DGG-V----VLFNKVLVNDGDVYNPNTGIFTAPYDGRYLIT       976
+73368    1114  P---------------G-P----ILFNNLDVNYGASYTPRTGKFRIPYLGVYVFKY----  1149
+88599    916   PF-------P-S--DGG-V----VLFNKVLVNDGDVYNPSTGVFTAPYDGRYLIT       955
+152      165                            FERVFVNLDGCFDMATGQFAAPLRGIYFFSL----  195
+80389    1097                  G-P----ILFNDLSVNYGASYNPRTGKFRIPYLGVYIFKY----  1131
+91232    213                                        NLATGRFTASVPGIYQFSA----  231
+42334    2826  PS-------P-S--AQS-PEAPCLHHYLKVYNGPDQNSPSLGLFCNQATAV           2865
+
+Query_1  184   HV---HC--K------G-G---N---V--W-----VALFKN-N----E----PM--MYTY  207
+118433   666   HV---HC--K------G-G---N---V--W-----VALFKN-N----E----PM--MYTY  689
+133920   666   HV---HC--K------G-G---N---V--W-----VALFKN-N----E----PV--MYTY  689
+141910   666   HV---HC--K------G-G---N---V--W-----VALFKN-N----E----PV--MYTY  689
+2918     666   HV---HC--K------G-G---N---V--W-----VALFKN-N----E----PV--MYTY  689
+42602    625   HV---HV--K------G-T---N---V--W-----VALYKN-N----V----PA--TYTY  648
+118958   621   HV---HV--K------G-T---N---V--W-----VALYKN-N----V----PA--TYTY  644
+34108    602   HV---HV--K------G-T---H---V--W-----VGLYKN-G----T----PV--MYTY  625
+106456   602   HV---HV--K------G-T---H---V--W-----VGLYKN-G----T----PT--MYTY  625
+43744    596   HV---HA--K------G-T---N---V--W-----VALYKN-G----S----PV--MYTY  619
+104909   596   HI---HV--K------G-T---H---A--W-----VGLYKN-G----T----PV--MYTY  619
+53677    163   HI---TV--Y------M-K---D---V--K-----VSLFKK-D----K----AM--LFTY  186
+28346    158   HI---TV--Y------L-K---D---V--K-----VSLYKN-D----K----AL--LFTH  181
+97826    166   HI---TV--Y------M-K---D---V--K-----VSLFKK-D----K----AV--LFTY  189
+42542    254   HI---TV--F------S-R---N---V--Q-----VSLVKN-G----V----KV--LHTK  277
+107131   232   TLG--KL--P------R-K---T---L--S-----VKLMKNRD----E----VQ--AMIY  257
+107131   80    TAG--KA--P------H-K---S---L--S-----VMLVRNRD----E----VQ--ALAF  105
+4024     254   HI---TV--F------S-R---N---I--Q-----VSLVKN-G----A----KV--LHTK  277
+66430    398   HV---TV--R------G-R---P---A--R-----ISLVAR-N----R----KQ--FKSR  421
+4033     234   TLG--KL--P------R-K---T---L--S-----VKLMKNRD----E----VQ--AMIY  259
+4033     81    TAG--KA--P------H-K---S---L--S-----VMLVRNRD----E----VQ--ALAF  106
+65726    393   HI---TV--R------G-R---P---A--R-----ISLVAQ-N----K----KQ--FKSR  416
+42990    254   HI---TV--F------S-R---N---V--Q-----VSLVKN-G----V----KI--LHTK  277
+3749     209   DI---TL--A------N-K---H---L--A-----IGLVHN-G----Q----YR--IRTF  232
+113141   200   DI---TL--A------N-K---H---L--A-----IGLVHN-G----Q----YR--IRTF  223
+29919    198   DI---TL--A------N-K---H---L--A-----IGLVHN-G----Q----YR--IRTF  221
+121005   176   HV---LM--R------G-G---DGTSM--W-----ADLCKN-N----Q----VR--ASAI  202
+32234    176   HV---LM--R------G-G---DGTSM--W-----ADLCKN-N----Q----VR--ASAI  202
+114666   198   DI---TL--A------N-K---H---L--A-----IGLVHN-G----Q----YR--IKTF  221
+65735    429   HI---TV--R------N-R---P---L--R-----AALVIN-G----V----KK--LRTR  452
+113025   156   HA---TV--Y------R-A---S---L--Q-----FDLVKN-G----Q-----S--IASF  178
+114988   156   HA---TV--Y------R-A---S---L--Q-----FDLVKN-G----E-----S--IASF  178
+2396     156   HA---TV--Y------R-A---S---L--Q-----FDLVKN-G----Q-----S--IASF  178
+92553    137   DI---EL--F------Q-S---A---V--K-----VGLMRN-G----I----QI--RDKR  160
+65033    408   YI---TV--R------N-R---P---L--R-----AALVVN-G----I----RK--LRTR  431
+128      173   HA---SS--R--------G---N---L--C-----VNLMRG-R----E----RAQKVVTF  197
+25379    208   HI---LM--R------G-G---DGTSM--W-----ADLCKN-G----Q----VR--ASAI  234
+113547   208   HI---LM--R------G-G---DGTSM--W-----ADLCKN-G----Q----VR--ASAI  234
+118778   179   HV---LM--R------G-G---DGTSM--W-----ADLCKN-G----Q----VR--ASAI  205
+25497    179   HV---LM--R------G-G---DGTSM--W-----ADLCKN-G----Q----VR--ASAI  205
+118748   159   HV---LM--R------G-G---DGTSM--W-----ADLMKN-G----Q----VR--ASAI  185
+1056     159   HV---LM--R------G-G---DGTSM--W-----ADLMKN-G----Q----VR--ASAI  185
+72942    167   HA---SS--R--------G---Q---L--C-----VDLMRG-RA---E----PQK-VVTF  191
+25384    171   HA---SS--R--------G---N---L--C-----VNLVRG-R----DRDSMQK--VVTF  197
+99113    137   DI---EL--F------Q-H---A---V--K-----LGLMKN-D----T----QI--LEKE  160
+54557    171   HA---SS--R------G-NLCVN---I--V-----RGRDRD-R----M----QK--VLTF  197
+43343    171   HT----S--Q------T-A---N---L--C-----VQLLLN-N----A-----K--VTSF  192
+89150    166   QV---VS--K------W-D---L---C--L-----YIMSSR-R----D----QV--QQSL  189
+31914    954   HM---LK--L------A-V---N---VPLY-----VNLMKN-E----E----VL--VSAY  979
+28596    1050  HM---LK--L------A-V---N---VPLY-----VNLMKN-E----E----VL--VSAY  1075
+3170     172   YT---S---H------T-A---N---L--C-----VHL-NL-N----L----AR--VASF  193
+30260    164   QV---IS--K-------------------WD----LCLFIK-S----S----SG--GQPR  184
+28945    164   QV---IS--K-------------------WDLCLSIVSSSR-G----Q----PRNSLGFC  190
+99107    119   DVDLHHC--K----------------V--T-----VQLMRD-K----S----SV--LEKH  142
+32570    164   QV---LS--Q--------W---E---I--C-----LSIVSS-S----R----GQ--VRRS  186
+33284    837   HI---LK--L------A-I---S---VPLY-----INLMRN-E----E----VM--VSAY  862
+106672   164   QV----V--S------N-W---D---I--C-----LSIRSS-RRDQIQ----PL--GFC-  189
+114292   121   HV---VKVYN------R-Q---T---V--Q-----VSLMLN-T----W----PV--ISAF  146
+32977    171   HA---SH--T--------A---N---L--C-----VLLYRS-G----V----KV--V-TF  192
+32302    198   NV---HTW-N------Q-K---E---T--Y-----LHIMKN-E----E----EV--VILY  222
+1490     129   HV---VKVYN------R-Q---T---V--Q-----VSLMLN-T----W----PV--ISAF  154
+118670   198   NV---HTW-N------Q-K---E---T--Y-----LHIMKN-E----E----EV--VILY  222
+113361   129   HV---VKVYN------R-Q---T---V--Q-----VSLMLN-T----W----PV--VSAF  154
+1492     168   SMMK-HE--D------V-E---E---V--Y-----VYLMHN-G----N----TV--FSMY  193
+114398   168   SMMK-HE--D------V-E---E---V--Y-----VYLMHN-G----N----TV--FSMY  193
+4019     148   HV---VKVYN------R-Q---T---I--Q-----VSLMQN-G----Y----PV--ISAF  173
+142053   148   HV---VKVYN------R-Q---T---I--Q-----VSLMQN-G----Y----PV--ISAF  173
+118411   148   HV---VKVYN------R-Q---T---I--Q-----VSLMQN-G----Y----PV--ISAF  173
+114739   117   HV---VKVYN------R-Q---T---I--Q-----VSLMLN-G----W----PV--ISAF  142
+114989   117   HV---VKVYN------R-Q---T---I--Q-----VSLMLN-G----W----PV--ISAF  142
+114162   117   HV---VKVYN------R-Q---T---I--Q-----VSLMLN-G----W----PV--ISAF  142
+2401     117   HV---VKVYN------R-Q---T---I--Q-----VSLMLN-G----W----PV--ISAF  142
+3213     169   NV---HT--W------NYK---E---T--Y-----LHIMLN-R----R----PA--AVLY  193
+3223     125   HV---IKVYQ------S-Q---T---I--Q-----VNLMLN-G----K----PV--ISAF  150
+2817     198   NV---HTW-N------Q-K---E---T--Y-----LHIMKN-E----E----EV--VILF  222
+118783   122   HV---IKVYQ------S-Q---T---I--Q-----VNLMLN-G----K----PV--ISAF  147
+4051     182   NV---HS--W------NYK---E---T--Y-----VHIVHN-E----Q----AV--VILY  206
+113958   181   NV---HS--W------NYK---E---T--Y-----VHIVHN-E----Q----AV--VILY  205
+98764    924   HR---HE--K----------------V--E-----AVLSRS-N----Q----GV--ARVD  944
+30642    925   HR---HE--KVEAVLSR-S---N---L--G-----VARIDS-GGY--E----PE--GL--  954
+73368    1150  TI---ES--F------S-A---H---I--S-----GFLVVD-GI---D----KL--AFES  1174
+152      196   NV---HS--W------NYK---E---T--Y-----VHIMHN-Q----K----EA--VILY  220
+80389    1132  TI---ES--F------S-A---H---I--S-----GFFVVD-G----V----DK--LRFE  1155
+91232    232   HV---HI--D------H-S---E---I                                   240
+
+Query_1  208   ----D--------EY------KK-GF-L--DQA--SG------SA------VLLLRPGDQ  231
+118433   690   ----D--------EY------KK-GF-L--DQA--SG------SA------VLLLRPGDQ  713
+133920   690   ----D--------EY------KK-GF-L--DQA--SG------SA------VLLLRPGDR  713
+141910   690   ----D--------EY------KK-GF-L--DQA--SG------SA------VLLLRPGDR  713
+2918     690   ----D--------EY------KK-GF-L--DQA--SG------SA------VLLLRPGDR  713
+42602    649   ----D--------EY------KK-GY-L--DQA--SG------GA------VLQLRPNDQ  672
+118958   645   ----D--------EY------KK-GY-L--DQA--SG------GA------VLQLRPNDQ  668
+34108    626   ----D--------EY------TK-GY-L--DQA--SG------SA------IIDLTENDQ  649
+106456   626   ----D--------EY------SK-GY-L--DQA--SG------SA------IMELTENDQ  649
+43744    620   ----D--------EY------QK-GY-L--DQA--SG------SA------VIDLMENDQ  643
+104909   620   ----D--------EY------IK-GY-L--DQA--SG------SA------VIDLTENDQ  643
+53677    187   ----D--------QY------QE-NN-V--DQA--SG------SV------LLHLEVGDQ  210
+28346    182   ----D--------QF------QD-KN-V--DQA--SG------SV------LLYLEKGDQ  205
+97826    190   ----D--------QY------QE-KN-V--DQA--SG------SV------LLHLEVGDQ  213
+42542    278   ----D--------SY------MS--S-E--DQA--SG------GI------VQELKLGDE  300
+107131   258   ----D--------DG------AS-RR-R--EMQ--SQ------SV------MLPLRRGDA  281
+107131   106   ----D--------EQ------RRPGA-R--RAA--SQ------SA------MLQLDYGDT  130
+4024     278   ----D--------GY-------T-GS-E--DQA--SG------GI------VLPLKLGDE  300
+66430    422   ----E--------TL------YG-QQ-V--DQA--SL------LL------ILKLSAGDQ  445
+4033     260   ----D--------DG------AS-RR-R--EMQ--SQ------SV------MLALRRGDA  283
+4033     107   ----D--------EQ------RRPGA-R--RAA--SQ------SA------MLQLDYGDT  131
+65726    417   ----E--------TL------YG-QE-I--DQA--SL------LV------ILKLSAGDQ  440
+42990    278   ----D--------AY------MS--S-E--DQA--SG------GI------VLQLKLGDE  300
+3749     233   ----D--------A-------NT-GN-H--DVA--SG------ST------ILALKEGDE  255
+113141   224   ----D--------A-------NT-GN-H--DVA--SG------ST------ILALKQGDE  246
+29919    222   ----D--------A-------NT-GN-H--DVA--SG------ST------VIYLQPEDE  244
+121005   203   ----A--------QD------AD-QN-Y--DYA--SN------SV------VLHLEPGDE  226
+32234    203   ----A--------QD------AD-QN-Y--DYA--SN------SV------VLHLEPGDE  226
+114666   222   ----D--------A-------NT-GN-H--DVA--SG------ST------VIYLQPEDE  244
+65735    453   ----D--------SL------YG-QD-I--DQA--SN------LA------LLRLASGDQ  476
+113025   179   ----F--------QY------FG-GW-P--KPASLSG------GA------MVRLEPEDQ  204
+114988   179   ----F--------QF------FG-GW-P--KPASLSG------GA------MVRLEPEDQ  204
+2396     179   ----F--------QF------FG-GW-P--KPASLSG------GA------MVRLEPEDQ  204
+92553    161   ----A--------EA------GD-SH----EQA--SG------SS------VLELEKGDR  183
+65033    432   ----D--------SL------YG-QD-I--DQA--SN------MA------VLRLSSGDQ  455
+128      198   ----C--------DY------AY-NT-F--QVT--TG------GM------VLKLEQGEN  221
+25379    235   ----A--------QD------AD-QN-Y--DYA--SN------SV------VLHLDSGDE  258
+113547   235   ----A--------QD------AD-QN-Y--DYA--SN------SV------VLHLDSGDE  258
+118778   206   ----A--------QD------AD-QN-Y--DYA--SN------SV------ILHLDAGDE  229
+25497    206   ----A--------QD------AD-QN-Y--DYA--SN------SV------ILHLDAGDE  229
+118748   186   ----A--------QD------AD-QN-Y--DYA--SN------SV------ILHLDVGDE  209
+1056     186   ----A--------QD------AD-QN-Y--DYA--SN------SV------ILHLDVGDE  209
+72942    192   ----C--------DY------VQ-NT-F--QVT--TG------SI------VLKLEKDET  215
+25384    198   ----C--------DY------AQ-NT-F--QVT--TG------GV------VLKLEQEEV  221
+99113    161   ----S--------KA------KD-NY----RHL--SG------NV------VLQLTLGDR  183
+54557    198   ----C--------DY------AQ-NT-F--QVT--TG------GV------VLKLEQEEV  221
+43343    193   ----C--------DH------MS-NS-K--QVS--SG------GV------LLRLQRGDE  216
+89150    190   GFC-D--------FN------SK-GL-F--QVV--SG------GT------VLQLQRGDK  216
+31914    980   ----A--------ND------GA-PD-H--ETA--SN------HA------VLQLLQGDQ  1003
+28596    1076  ----A--------ND------GA-PD-H--ETA--SN------HA------ILQLFQGDQ  1099
+3170     194   ----C--------DH------MF-NS-K--QVS--SG------GV------LLRLQRGDE  217
+30260    185   ----D--------SLSFSNTNNK-GL-F--QVL--AG------GT------VLQLRRGDE  214
+28945    191   ----D--------TN------SK-GL-F--QVL--AG------GT------VLQLQRGDE  214
+99107    143   ----Q--------VS------TK-E--P--RSL--SG------ML------TLPLHVGEK  165
+32570    187   LGFCD--------TT------NK-GL-F--QVV--SG------GM------VLQLQQGDQ  214
+33284    863   ----A--------ND------GA-PD-H--ETA--SN------HA------VLQLFQGDQ  886
+106672   190   ----D--------FN------SK-GF-F--QVV--SG------GT------VLHLQQGDQ  213
+114292   147   ----A--------ND------PD-VT-R--EAA--TS------SV------LLPLDPGDR  170
+32977    193   ----C--------GH------TS-KT-N--QVN--SG------GV------LLRLQVGEE  216
+32302    223   ----A--------QV------SD-RS-I--MQ---SQ------SL------MLELREQDE  245
+1490     155   ----A--------ND------PD-VT-R--EAA--TS------SV------LLPLDPGDR  178
+118670   223   ----A--------QV------SD-RS-I--MQ---SQ------SL------MMELREEDE  245
+113361   155   ----A--------ND------PD-VT-R--EAA--TS------SV------LLPLDPGDR  178
+1492     194   ----S--------YE------TK-GK-S--DTS--SN------HA------VLKLAKGDE  217
+114398   194   ----S--------YE------MK-GK-S--DTS--SN------HA------VLKLAKGDE  217
+4019     174   ----A--------GD------QD-VT-R--EAA--SN------GV------LLLMEREDK  197
+142053   174   ----A--------GD------QD-VT-R--EAA--SN------GV------LLLMEREDK  197
+118411   174   ----A--------GD------QD-VT-R--EAA--SN------GV------LLLMEREDK  197
+114739   143   ----A--------GD------QD-VT-R--EAA--SN------GV------LIQMEKGDR  166
+114989   143   ----A--------GD------QD-VT-R--EAA--SN------GV------LIQMEKGDR  166
+114162   143   ----A--------GD------QD-VT-R--EAA--SN------GV------LIQMEKGDR  166
+2401     143   ----A--------GD------QD-VT-R--EAA--SN------GV------LIQMEKGDR  166
+3213     194   ----A--------QP------SE-RS-V--MQA--Q-------SL------MLLLAAGDA  216
+3223     151   ----A--------GD------KD-VT-R--EAA--TN------GV------LLYLDKEDK  174
+2817     223   ----A--------QV------GD-RS-I--MQ---SQ------SL------MLELREQDQ  245
+118783   148   ----A--------GD------KD-VT-R--EAA--TN------GV------LLYLDKEDK  171
+4051     207   ----A--------QP------SE-RS-I--MQ---SQ------SV------MLPLVPGDR  229
+113958   206   ----A--------QP------SE-RS-I--MQ---SQ------SV------MLPLVPGDY  228
+98764    945   ----SGGYEPEGLEN------KP-VA-E--SQP--SPGTLGVFSL------ILPLQAGDT  982
+30642    955   -------------EN------KP-VA-E--SQP--SP------GALGVFSLILPLQVGDT  983
+73368    1175  ----E--------NI------NS-EIHC--DRVL-TG------DA------LLELNYGQE  1200
+73368    1073                                                           GDN  1075
+152      221   ----A--------QP------SE-RS-I--MQ---SQ------SV------MLDLAYGDR  243
+80389    1156  ----S--------EN------AD-NE-IHCDRVL-TG------DA------LFELNYGQE  1182
+42334    2760                                     SC------GG------VIILEPGDN  2772
+
+Query_1  232   VFLQM-P-SE-QAAG--LYA-------G-QY--VH-SS-----FSGYLLY----------  260
+118433   714   VFLQM-P-SE-QAAG--LYA-------G-QY--VH-SS-----FSGYLLY----------  742
+133920   714   VFLQM-P-SE-QAAG--LYA-------G-QY--VH-SS-----FSGYLLY----------  742
+141910   714   VFLQM-P-SE-QAAG--LYA-------G-QY--VH-SS-----FSGYLLY----------  742
+2918     714   VFLQN-P-SE-QAAG--LYA-------G-QY--VH-SS-----FSGYLLY----------  742
+42602    673   VWVQM-P-SD-QANG--LYS-------T-EY--IH-SS-----FSGFLLC----------  701
+42602    544     LHL-P-NG-GVEG--AVL-------G-KG--GK-PQ-----FGLGELS----------  570
+118958   669   VWVQM-P-SD-QANG--LYS-------T-EY--IH-SS-----FSGFLLC----------  697
+118958   540     LHL-P-NG-GVEG--AVL-------G-KG--GK-PQ-----FGLGELS----------  566
+34108    650   VWLQL-P-NA-ESNG--LYS-------S-EY--VH-SS-----FSGFLVA----------  678
+106456   650   VWLQL-P-NA-ESNG--LYS-------S-EY--VH-SS-----FSGFLVA----------  678
+43744    644   VWLQL-P-NS-ESNG--LYS-------S-EY--VH-SS-----FSGFL              670
+43744    540                                                   LT----------  541
+104909   644   VWLQL-P-NA-GSNG--LYS-------P-EY--VH-SS-----FSGFLVA----------  672
+53677    211   VWLQV-Y-GEGERNG--LYA-------D-ND--ND-ST-----FTGFLLY            240
+28346    206   VWLQVYE-GE-NHNG--VYA-------D-NV--ND-ST-----FTGFLLY            235
+97826    214   VWLQV-Y-GDGDHNG--LYA-------D-NV--ND-ST-----FTGFLLY            243
+42542    301   VWMQV-TGGE-RFNG--LFA-------D-ED--DD-TT-----FTGFLLF            330
+107131   282   VWLLS-H-DH-DGYG--AYS-------N-HG--KY-IT-----FSGFLVY----------  310
+107131   131   VWLRL------HGAP--QYA-------L-GA--PG-AT-----FSGYLVYADADADAPAR  166
+4024     301   VWLQV-TGGE-RFNG--LFA-------D-KD--DD-TT-----FTGFLLF            330
+66430    446   VWLEV---SK-DWNG--LYV-------G-PE--DD-SI-----FSGFLLY----------  473
+4033     284   VWLLS-H-DH-DGYG--AYS-------N-HG--KY-IT-----FSGFLVY----------  312
+4033     132   VWLRL------HGAP--QYA-------L-GA--PG-AT-----FSGYLVY----------  157
+65726    441   VWLEV---SK-DWNG--VYV-------S-AE--DD-SI-----FTGFLLY----------  468
+42990    301   VWLQV-TGGE-RFNG--LFA-------D-ED--DD-TT-----FTGFLLF            330
+3749     256   VWLQIFY-SE-QNGL--FYD-------P-YW--TD-SL-----FTGFLIY            285
+113141   247   VWLQIFY-SE-QNGL--FYD-------P-YW--TD-SL-----FTGFLIY            276
+29919    245   VWLEI-F-FN-DQNG--LFS-------DPGW--AD-SL-----FSGFLLY            274
+121005   227   VYIKL-D-GG-KAHG--GNN-------N-KY-----ST-----FSGFIIY            253
+32234    227   VYIKL-D-GG-KAHG--GNN-------N-KY-----ST-----FSGFIIY            253
+114666   245   VWLEI-F-FT-DQNG--LFS-------DPGW--AD-SL-----FSGFLLY            274
+65735    477   VWLET-L-RD-W-NG--VYS-------S-SE--DD-ST-----FTGFLLY            504
+113025   205   VWVQV-G-VG-DYIG--IYA-------S-IK--TD-ST-----FSGFLVY            233
+114988   205   VWVQV-G-VG-DYIG--IYA-------S-IK--TD-ST-----FSGFLVY            233
+2396     205   VWVQV-G-VG-DYIG--IYA-------S-IK--TD-ST-----FSGFLVY            233
+92553    184   VWLES-K-LD-REES--EKG----------T--TH-AV-----FYGFLL             209
+65033    456   VWLET---LR-DWNG--VYS-------S-SE--DD-ST-----FSGFLLY            483
+65033    325       M-P-GM-KGTR--GLK-------G-AR--GI-RG-----FKGFKGE----------  349
+128      222   VFLQA-T-DK-NS----LLG-------M-EG--AN-SI-----FSGFLLF----------  248
+25379    259   VYVKL-D-GG-KAHG--GNN-------N-KY-----ST-----FSGFLLY----------  285
+113547   259   VYVKL-D-GG-KAHG--GNN-------N-KY-----ST-----FSGFLLY----------  285
+118778   230   VFIKL-D-GG-KAHG--GNS-------N-KY-----ST-----FSGFIIY            256
+25497    230   VFIKL-D-GG-KAHG--GNS-------N-KY-----ST-----FSGFIIY            256
+118748   210   VFIKL-D-GG-KVHG--GNT-------N-KY-----ST-----FSGFIIY----------  236
+1056     210   VFIKL-D-GG-KVHG--GNT-------N-KY-----ST-----FSGFIIY----------  236
+72942    216   VFLQA-T-EK-NA----LVG-------I-EG--AN-SI-----FSGFMLF----------  242
+25384    222   VHLQA-T-DK-NS----LLG-------I-EG--AN-SI-----FTGFLLF----------  248
+99113    184   VWLE----SK-LDTT--ETE-------K-GP--IQ-SM-----FFGYLLY            210
+54557    222   VHLQA-T-DK-NS----LLG-------V-EG--AN-SI-----FTGFLLF----------  248
+43343    217   VWLAV----N-DYNG--MVG-------T-EG--SD-SV-----FSGFLLF----------  243
+89150    217   VWIQR-D-PN-KGR---IYQ-------G-SE--AD-SV-----FSGFLIF----------  244
+89150    111                                                   IK----------  112
+31914    1004  IWLRL------HRGA--IYG-------S-SW--KY-ST-----FSGYLLY            1029
+28596    1100  IWLRL------HRGA--IYG-------S-SW--KY-ST-----FSGYLLY            1125
+3170     218   VWLSV----N-DYNG--MVG-------I-EG--SN-SV-----FSGFLLF----------  244
+30260    215   VWIEK-D-PA-KGR---IYQ-------G-TE--AD-SI-----FSGFLIF----------  242
+28945    215   VWIEK-D-PA-KGR---IYQ-------G-TE--AD-SI-----FSGFLIF----------  242
+99107    166   VWLEA-K-VE-TEKP--EQA-------R-VT--IY--------FSGFL              190
+32570    215   VWVEK-D-PK-KGH---IYQ-------G-SE--AD-SV-----FSGFLIF----------  242
+33284    887   VWLRL------HRGA--IYG-------S-SW--KY-ST-----FSGFLLY            912
+106672   214   VWIEK-D-PS-KGR---IYH-------G-SE--AD-SI-----FSGFLIF----------  241
+114292   171   VSLRL-------RRG--NLL-------G-GW--KY-SS-----FSGFLIF----------  195
+32977    217   VWLAV----N-DYYD--MVG-------I-QG--SD-SV-----FSGFLLF----------  243
+32302    246   VWVRLFK-GE-RENA--IFS-------D-EFD-TY-IT-----FSGYLVK----------  276
+1490     179   VSLRL-------RRG--NLL-------G-GW--KY-SS-----FSGFLIF----------  203
+118670   246   VWVRLFK-GE-RENA--IFS-------D-EFD-TY-IT-----FSGYLVK----------  276
+113361   179   VSLRL-------RRG--NLL-------G-GW--KY-SS-----FSGFLIF----------  203
+1492     218   VWLRM-G-N----GA--LHG-------D-HQ--RF-ST-----FAGFLLF----------  243
+1492     99                               G-QH--GP-KG-----EKGYPGV----------  112
+114398   218   VWLRM-G-N----GA--LHG-------D-HQ--RF-ST-----FAGFLLF----------  243
+114398   99                               G-QH--GP-KG-----EKGYPGI----------  112
+4019     198   VHLKL-E-R-----G--NLM-------G-GW--KY-ST-----FSGFLVF----------  222
+142053   198   VHLKL-E-R-----G--NLM-------G-GW--KY-ST-----FSGFLVF----------  222
+118411   198   VHLKL-E-R-----G--NLM-------G-GW--KY-ST-----FSGFLVF----------  222
+114739   167   AYLKL-E-R-----G--NLM-------G-GW--KY-ST-----FSGFLVF----------  191
+114989   167   AYLKL-E-R-----G--NLM-------G-GW--KY-ST-----FSGFLVF----------  191
+114162   167   AYLKL-E-R-----G--NLM-------G-GW--KY-ST-----FSGFLVF----------  191
+2401     167   AYLKL-E-R-----G--NLM-------G-GW--KY-ST-----FSGFLVF----------  191
+3213     217   VWVRM-F-QR-DRDN--AIY-------G-EHGDLY-IT-----FSGHLVK----------  247
+3223     175   VYLKL-E-K-----G--NLV-------G-GW--QY-ST-----FSGFLVF----------  199
+2817     246   VWVRLYK-GE-RENA--IFS-------E-ELD-TY-IT-----FSGYLV             275
+118783   172   VYLKL-E-K-----G--NLL-------G-GW--QY-ST-----FSGFLVF----------  196
+4051     230   VWVRLFK-RE-RENG--IYS-------D-DVD-TY-IT-----FSGHLI             259
+113958   229   VWVRLFK-RE-RENG--IYS-------D-DMD-TY-IT-----FSGHLI             258
+98764    983   VCVD-------------LVM-------G-QL--AH-SEEPLTIFSGALLY            1008
+30642    984   VCID-------------LVM-------G-QL--AH-SEEPLTIFSGALLY            1009
+73368    1201  VWLRL-------AKG--TIP-------A-KF--PPVTT-----FSGYLLY            1226
+73368    1076  CTIKL-V-EE-NALAPDFSK-------G-SY--RY-AP-----MVAFF------------  1104
+152      244   VWVRLFK-RQ-RENA--IYS-------N-DFD-TY-IT-----FSGHLI             273
+80389    1183  VWLRL-------VKG--TIP-------I-KY--PPVTT-----FSGYLLY            1208
+42334    2773  MTVHQ-P-SG-MVSA--AGAIDCAWAIG-PY--TD-AS-----GEDEVLV----------  2808
+
+Query_1  261   ----P----ME---------------MP-A-----FTAEL--T-V--PF-------P-P-  277
+118433   743   ----P----M                                                    744
+118433   614             E---------------MP-A-----FTAEL--T-V--PF-------P-P-  628
+133920   743   ----P----M                                                    744
+133920   614             E---------------MP-A-----FTAEL--T-A--PF-------P-P-  628
+141910   743   ----P----M                                                    744
+141910   614             E---------------MP-A-----FTAEL--T-A--PF-------P-P-  628
+2918     743   ----P----M                                                    744
+2918     614             E---------------MP-A-----FTAEL--T-A--PF-------P-P-  628
+42602    702   ----P----T                                                    703
+42602    571   ----A----HA---------------TP-A-----FTAVL--T-S--PF-------P-A-  587
+118958   698   ----P----T                                                    699
+118958   567   ----A----HA---------------TP-A-----FTAVL--T-S--PF-------P-A-  583
+34108    679   ----P----M                                                    680
+34108    549            MP---------------VS-A-----FTVIL--S-K--AY-------P-A-  564
+106456   679   ----P----M                                                    680
+106456   549            MP---------------VS-A-----FTVIL--S-K--AY-------P-A-  564
+43744    542   ----G----MP---------------VS-A-----FTVIL--S-K--AY-------P-G-  558
+104909   673   ----P----M                                                    674
+104909   543            MP---------------VS-A-----FTVIL--S-K--AY-------P-A-  558
+28346    113                                G-----LERQV--T-V--P------------  121
+97826    117                                A-----FSVGL--E-T--RV-------T-V-  128
+42542    203                                A-----FTVGL--T-VISKF-------P-P-  216
+107131   311   ----P                                                         311
+107131   167   GPAAP----EP---------------RS-A-----FSAAR--T-R--SLVGSDAAPG-P-  194
+4024     195             E---------------MP-ALPKSAFTVGL--T-VLSKF-------P-P-  216
+66430    474   ----P----EE---------------T                                   477
+66430    349                                A-----FSALL--S-K--PF-------P-P-  360
+4033     313   ----P----DL---------------AP-A                                318
+4033     158   ----A----DADADAPARGPPAPPEPRS-A-----FSAAR--T-R--SLVGSDAGPG-P-  196
+65726    469   ----P----EE---------------TS-G-----IS                         476
+65726    344                                A-----FSAGL--S-K--PF-------P-P-  355
+42990    203                                A-----FTVGL--T-VLSKF-------P-S-  216
+3749     160                                A-----FSVAV--T-K--SY-------P-R-  171
+113141   151                                A-----FSVAV--T-K--SY-------P-R-  162
+29919    149                                A-----FSVGI--T-T--SY-------P-E-  160
+114666   149                                A-----FSVGI--T-T--SY-------P-E-  160
+65735    389                                                   F-------P-P-  391
+113025   108                                A-----KRSES--R-V--P--------P-P-  118
+114988   108                                A-----KRSES--R-V--P--------P-P-  118
+2396     108                                A-----KRSES--R-V--P--------P-P-  118
+92553    83        P----LP---------------QS-A-----FSVKL--S-G--PF-------P-G-  99
+65033    350   ----PAV--QK---------------RS-A-----FSVGLFPS-R--SF-------P-P-  370
+128      249   ----P                                                         249
+128      123                                A-----FSATR--T-I--NV-------PLR-  135
+25379    286   ----P                                                         286
+113547   286   ----P                                                         286
+118748   237   ----P                                                         237
+1056     237   ----P                                                         237
+72942    243   ----P                                                         243
+72942    117                                A-----FSASR--T-I--NHH------Q-R-  129
+25384    249   ----P                                                         249
+25384    121                                A-----FSALR--T-INSPL-------R-P-  134
+99113    88                                 A-----FAVKM--N-D--PL-------P-A-  99
+54557    249   ----P                                                         249
+43343    244   ----P                                                         244
+43343    128                                             T-A--QY-------P-A-  133
+89150    245   ----P                                                         245
+89150    113   ----D----QR---------------RP-A-----FSAVR--Q-N--P--------P-T-  128
+31914    903                                A-----FSAAR--T-S--NL-------A-PG  915
+28596    999                                A-----FSAAR--T-S--NL-------A-PG  1011
+3170     245   ----P                                                         245
+3170     129                                             T-T--QY-------P-E-  134
+30260    243   ----P                                                         243
+30260    115                              P-A-----FSAIR--Q-N--PM-------T---  126
+28945    243   ----P                                                         243
+28945    115                              P-A-----FSAIR--Q-N--P--------P-T-  126
+99107    70                                 A-----FTVKL--S-G--QL-------P-S-  81
+32570    243   ----P                                                         243
+32570    115                              P-A-----FSAIR--R-N--P--------P-M-  126
+33284    786                                A-----FSAAR--T-A--NF-------A-PG  798
+106672   242   ----P                                                         242
+114292   196   ----P----L                                                    197
+32977    244   ----P                                                         244
+32302    277   ----P----AS---------------EP                                  281
+1490     204   ----P----L                                                    205
+118670   277   ----P----AS---------------EP                                  281
+113361   204   ----P----L                                                    205
+1492     244   ----E----TK                                                   246
+1492     113   ----P----PE---------------LQIA-----FMASL--A-T--HF-------S-N-  130
+114398   244   ----E----TK                                                   246
+114398   113   ----P----PE---------------LQIA-----FMASL--A-T--HF-------S-N-  130
+4019     223   ----P----L                                                    224
+142053   223   ----P----L                                                    224
+118411   223   ----P----L                                                    224
+114739   192   ----P----L                                                    193
+114989   192   ----P----L                                                    193
+114162   192   ----P----L                                                    193
+2401     192   ----P----L                                                    193
+3213     248   ----P                                                         248
+3223     200   ----P----L                                                    201
+118783   197   ----P----L                                                    198
+98764    867       P----VP---------------QV-A-----FSAAL--S-L--PR-------S-E-  883
+30642    868       P----VP---------------RV-A-----FSAAL--S-L--PR-------S-E-  884
+105197   928                                S-----FSAGL--TQK--PF-------P-S-  940
+73368    1105  ---------------------------A-S-----HTYGM--T-I--P------------  1114
+88599    907                                S-----FSAGL--TQK--PF-------P-S-  919
+42334    2809  ----PQDIQLE---------------VS-V-----YNVNL--P-A--PS-------P-S-  2829
+
+Query_1  278   -VGAP----VKFDKLLYNGRQNYNPQTGIFTCEVPGVYYFAY----HV---HC--K----  319
+118433   629   -VGAP----VKFDKLLYNGRQNYNPQTGIFTCEVPGVYYFAY----HV---HC--K----  670
+133920   629   -VGAP----IKFDRLLYNGRQNYNPQTGIFTCEVPGVYYFAY----HV---HC--K----  670
+141910   629   -VGAP----VKFNKLLYNGRQNYNPQTGIFTCEVPGVYYFAY----HV---HC--K----  670
+2918     629   -VGAP----IKFDRLLYNGRQNYNPQTGIFTCEVPGVYYFAY----HV---HC--K----  670
+42602    588   -SGMP----VKFDRTLYNGHSGYNPATGIFTCPVGGVYYFAY----HV---HV--K----  629
+118958   584   -SGMP----VRFDRTLYNGHSGYNPATGIFTCPVGGVYYFAY----HV---HV--K----  625
+34108    565   -IGTP----IPFDKILYNRQQHYDPRTGIFTCQIPGIYYFSY----HV---HV--K----  606
+106456   565   -VGAP----IPFDEILYNRQQHYDPRSGIFTCKIPGIYYFSY----HV---HV--K----  606
+43744    559   -ATVP----IKFDKILYNRQQHYDPRTGIFTCRIPGLYYFSY----HV---HA--K----  600
+104909   559   -IGTP----IPFDKILYNKQQHYDPRTGIFTCKIPGIYYFSY----HI---HV--K----  600
+53677    129       P----IRFTKIFYNQQNHYDGSTGKFHCNIPGLYYFAY----HI---TV--Y----  167
+28346    122   --NVP----IRFTKIFYNQQNHYDGTTGKFLCNIPGLYYFSY----HI---TV--Y----  162
+97826    129   -PNVP----IRFTKIFYNQQNHYDGSTGKFYCNIPGLYYFSY----HI---TV--Y----  170
+42542    217   -PDAP----IKFDKILYNELNHYNVATGKFTCHVAGVYYFTY----HI---TV--F----  258
+107131   195   -RHRP----LAFDTELVNIGGDFDAAAGVFRCRLPGAYFFSF----TLG--KL--P----  237
+4024     217   -SDTP----IKFDRILYNEFGHYDVATGKFICHVAGVYYFTY----HI---TV--F----  258
+66430    361   -PNVP----IKFDKILSNDQGDYSPVTGKFNCSVPGTYIFSY----HV---TV--R----  402
+4033     197   -RHQP----LAFDTEFVNIGGDFDAAAGVFRCRLPGAYFFSF----TLG--KL--P----  239
+65726    356   -PNIP----IKFEKILYNDQGNYSPVTGKFNCSIPGTYVFSY----HI---TV--R----  397
+42990    217   -SDMP----IKFDKILYNEFNHYDTAAGKFTCHIAGVYYFTY----HI---TV--F----  258
+3749     172   -ERLP----IKFDKILMNEGGHYNASSGKFVCSVPGIYYFTY----DI---TL--A----  213
+113141   163   -ERLP----IKFDKILMNEGGHYNASSGKFVCGVPGIYYFTY----DI---TL--A----  204
+29919    161   -ERLP----IIFNKVLFNEGEHYNPATGKFICAFPGIYYFSY----DI---TL--A----  202
+121005   143            LKFDDVVTNLGNHYDPTTGKFTCSIPGIYFFTY----HV---LM--R----  180
+32234    143            LKFDDVVTNLGNHYDPTTGKFTCSIPGIYFFTY----HV---LM--R----  180
+114666   161   -ERLP----IIFNKVLFNEGEHYNPATGKFICAFPGIYYFSY----DI---TL--A----  202
+65735    392   -PGLP----VKFDKVLYNEEEHWDPMLSKFNCTHPGVYVFSY----HI---TV--R----  433
+113025   119   -ADTP----LPFDRVLLNEQGHYDPTTGKFTCQVPGVYYFAV----HA---TV--Y----  160
+114988   119   -SDAP----LPFDRVLVNEQGHYDAVTGKFTCQVPGVYYFAV----HA---TV--Y----  160
+2396     119   -ADTP----LPFDRVLLNEQGHYDATTGKFTCQVPGVYYFAV----HA---TV--Y----  160
+92553    100   -PSQP----IVFQEVLYNHQGHFDPATGVFNCSVPGVYHFGF----DI---EL--F----  141
+65033    371   -PGLP----IRFDKIIYNEEAHWDPNASKFNCTHGGVYVFSY----YI---TV--R----  412
+128      136   -RDQT----IRFDHVITNMNNNYEPRSGKFTCKVPGLYYFTY----HA---SS--R----  177
+25379    175            LKFDDVVTNLGNHYDPTTGKFSCQVRGIYFFTY----HI---LM--R----  212
+113547   175            LKFDDVVTNLGNHYDPTTGKFSCQVRGIYFFTY----HI---LM--R----  212
+118778   146            LKFDDVVTNLGNNYDAASGKFTCNIPGTYFFTY----HV---LM--R----  183
+25497    146            LKFDDVVTNLGNNYDAASGKFTCNIPGTYFFTY----HV---LM--R----  183
+118748   126            LRFDDVVTNVGNAYEAASGKFTCPMPGVYFFAY----HV---LM--R----  163
+1056     126            LRFDDVVTNVGNAYEAASGKFTCPMPGVYFFAY----HV---LM--R----  163
+72942    130   -QGQP----IRFDHVITNANENYQARSSKFTCKVPGLYFFTY----HA---SS--R----  171
+25384    135   --NQV----IRFEKVITNANENYEPRNGKFTCKVPGLYYFTY----HA---SS--R----  175
+99113    100   -PSQP----IVFKEALHNDQDHFNLTTGVFTCTIPGVYRFGF----DI---EL--F----  141
+54557    138            IRFEKVITNVNDNYEPRSGKFTCKVPGLYYFTY----HA---SS--R----  175
+43343    134   -ANGL----VKFNSAITNPQGDYNTNTGKFTCKVPGLYYFVH----HT----S--Q----  174
+89150    129   -SGNV----VIFDEVITNQEGAYKSQLGQFICDVPGYYYFTF----QV---VS--K----  170
+31914    916   TLDQP----IVFDLLLNNLGETFDLQLGRFNCPVNGTYVFIF----HM---LK--L----  958
+28596    1012  TLDQP----IVFDLLLNNLGETFDLQLGRFNCPVNGTYVFIF----HM---LK--L----  1054
+3170     135   -ANAL----VRFNSVVTNPQGHYNPSTGKFTCEVPGLYYFVY----YT---S---H----  175
+30260    127   -LGNV----VIFDKVLTNQESPYQNHTGRFICAVPGFYYFNF----QV---IS--K----  168
+28945    127   -YGNV----VVFDKVLTNQENPYQNRTGHFICAVPGFYYFTF----QV---IS--K----  168
+99107    82    -PSKP----VPFTEVLYNAQRDLQEDTGVFTCRVPGNYHFLF----DVDLHHC--K----  126
+32570    127   -GGNV----VIFDTVITNQEEPYQNHSGRFVCTVPGYYYFTF----QV---LS--Q----  168
+33284    799   TLDQP----IAFDLLHTNLGDMFDTGSGRFTCPATGAYVFIF----HI---LK--L----  841
+106672   131            VVFGKVITNQENVYQNNTGRFRCSVPGYYYFTF----QV----V--S----  167
+114292   90               FDQVLVNEGEGFDRTSGCFVAPVRGVYSFRF----HV---VKVYN----  127
+32977    138            IRFNAVLTNPQGDYDTSTGKFTCKVPGLYYFVY----HA---SH--T----  175
+32302    164       P----VVFDTEFVNLYNHFNMFTGKFYCYVPGIYFFSL----NV---HTW-N----  203
+1490     96             IYFDQVLVNEGGGFDRASGSFVAPVRGVYSFRF----HV---VKVYN----  135
+118670   164       P----VVFDTEFVNLYKHFNMFTGKFYCYVPGIYFFSL----NV---HTW-N----  203
+113361   98               FDQVLVNEGGGFDRTSGSFVAPVRGVYSFRF----HV---VKVYN----  135
+1492     131   -QNSG----IIFSSVETNIGNFFDVMTGRFGAPVSGVYFFTF----SMMK-HE--D----  174
+114398   131   -QNSG----IIFSSVETNIGNFFDVMTGRFGAPVSGVYFFTF----SMMK-HE--D----  174
+4019     117              FDQVLVNIGNHFDLASSIFVAPRKGIYSFSF----HV---VKVYN----  154
+142053   117              FDQVLVNIGNHFDLASSIFVAPRKGIYSFSF----HV---VKVYN----  154
+118411   117              FDQVLVNIGNHFDLASSIFVAPRKGIYSFSF----HV---VKVYN----  154
+114739   86               FDQVLVNIGNNFDSERSTFIAPRKGIYSFNF----HV---VKVYN----  123
+114989   86               FDQVLVNIGNNFDSERSTFIAPRKGIYSFNF----HV---VKVYN----  123
+114162   86               FDQVLVNIGNNFDSERSTFIAPRKGIYSFNF----HV---VKVYN----  123
+2401     86               FDQVLVNIGNNFDSERSTFIAPRKGIYSFNF----HV---VKVYN----  123
+3213     136            VPFDTELVNLDGAFDLAAGRFLCTVPGVYFLSL----NV---HT--W----  173
+3223     95               FDQILVN-VGNFFTLESVFVAPRKGIYSFSF----HV---IKVYQ----  131
+2817     165            VIFDTEFVNLYDHFNMFTGKFYCYVPGLYFFSL----NV---HTW-N----  203
+118783   92               FDQILVN-VGNFFTLESVFVAPRKGIYSFSF----HV---IKVYQ----  128
+4051     151              FDRVFVNTDGHFDMATGSFVAPLRGLYFFSL----NV---HS--W----  186
+113958   150              FDRVFVNTDGHFDMATGRFVAPLRGLYFFSL----NV---HS--W----  185
+98764    884   -PGT-----VPFDRVLLNDGGYYDPETGVFTAPLAGRYLLSAVLTGHR---HE--K----  928
+30642    885   -PGT-----VPFDRVLLNDGGYYDPETGVFTAPLAGRYLLSAVLTGHR---HE--KVEAV  933
+105197   941   -DGGV----VLFNKVLVNDGDVYNPNTGIFTAPYDGRYLIT                     976
+73368    1115  ---GP----ILFNNLDVNYGASYTPRTGKFRIPYLGVYVFKY----TI---ES--F----  1154
+88599    920   -DGGV----VLFNKVLVNDGDVYNPSTGVFTAPYDGRYLIT                     955
+152      165              FERVFVNLDGCFDMATGQFAAPLRGIYFFSL----NV---HS--W----  200
+80389    1097     GP----ILFNDLSVNYGASYNPRTGKFRIPYLGVYIFKY----TI---ES--F----  1136
+91232    213                          NLATGRFTASVPGIYQFSA----HV---HI--D----  236
+42334    2830  -AQSPEAPCLHHYLKVYNGPDQNSPSLGLFCNQATAV                         2865
+
+Query_1  320   --G-G---N---V--W-----VALFKN-N----E----PM--MYTY----D--------E  340
+118433   671   --G-G---N---V--W-----VALFKN-N----E----PM--MYTY----D--------E  691
+133920   671   --G-G---N---V--W-----VALFKN-N----E----PV--MYTY----D--------E  691
+141910   671   --G-G---N---V--W-----VALFKN-N----E----PV--MYTY----D--------E  691
+2918     671   --G-G---N---V--W-----VALFKN-N----E----PV--MYTY----D--------E  691
+42602    630   --G-T---N---V--W-----VALYKN-N----V----PA--TYTY----D--------E  650
+118958   626   --G-T---N---V--W-----VALYKN-N----V----PA--TYTY----D--------E  646
+34108    607   --G-T---H---V--W-----VGLYKN-G----T----PV--MYTY----D--------E  627
+106456   607   --G-T---H---V--W-----VGLYKN-G----T----PT--MYTY----D--------E  627
+43744    601   --G-T---N---V--W-----VALYKN-G----S----PV--MYTY----D--------E  621
+104909   601   --G-T---H---A--W-----VGLYKN-G----T----PV--MYTY----D--------E  621
+53677    168   --M-K---D---V--K-----VSLFKK-D----K----AM--LFTY----D--------Q  188
+28346    163   --L-K---D---V--K-----VSLYKN-D----K----AL--LFTH----D--------Q  183
+97826    171   --M-K---D---V--K-----VSLFKK-D----K----AV--LFTY----D--------Q  191
+42542    259   --S-R---N---V--Q-----VSLVKN-G----V----KV--LHTK----D--------S  279
+107131   238   --R-K---T---L--S-----VKLMKNRD----E----VQ--AMIY----D--------D  259
+4024     259   --S-R---N---I--Q-----VSLVKN-G----A----KV--LHTK----D--------G  279
+66430    403   --G-R---P---A--R-----ISLVAR-N----R----KQ--FKSR----E--------T  423
+4033     240   --R-K---T---L--S-----VKLMKNRD----E----VQ--AMIY----D--------D  261
+65726    398   --G-R---P---A--R-----ISLVAQ-N----K----KQ--FKSR----E--------T  418
+42990    259   --S-R---N---V--Q-----VSLVKN-G----V----KI--LHTK----D--------A  279
+3749     214   --N-K---H---L--A-----IGLVHN-G----Q----YR--IRTF----D--------A  234
+113141   205   --N-K---H---L--A-----IGLVHN-G----Q----YR--IRTF----D--------A  225
+29919    203   --N-K---H---L--A-----IGLVHN-G----Q----YR--IRTF----D--------A  223
+121005   181   --G-G---DGTSM--W-----ADLCKN-N----Q----VR--ASAI----A--------Q  204
+32234    181   --G-G---DGTSM--W-----ADLCKN-N----Q----VR--ASAI----A--------Q  204
+114666   203   --N-K---H---L--A-----IGLVHN-G----Q----YR--IKTF----D--------A  223
+65735    434   --N-R---P---L--R-----AALVIN-G----V----KK--LRTR----D--------S  454
+113025   161   --R-A---S---L--Q-----FDLVKN-G----Q-----S--IASF----F--------Q  180
+114988   161   --R-A---S---L--Q-----FDLVKN-G----E-----S--IASF----F--------Q  180
+2396     161   --R-A---S---L--Q-----FDLVKN-G----Q-----S--IASF----F--------Q  180
+92553    142   --Q-S---A---V--K-----VGLMRN-G----I----QI--RDKR----A--------E  162
+65033    413   --N-R---P---L--R-----AALVVN-G----I----RK--LRTR----D--------S  433
+128      178   ----G---N---L--C-----VNLMRG-R----E----RAQKVVTF----C--------D  199
+25379    213   --G-G---DGTSM--W-----ADLCKN-G----Q----VR--ASAI----A--------Q  236
+113547   213   --G-G---DGTSM--W-----ADLCKN-G----Q----VR--ASAI----A--------Q  236
+118778   184   --G-G---DGTSM--W-----ADLCKN-G----Q----VR--ASAI----A--------Q  207
+25497    184   --G-G---DGTSM--W-----ADLCKN-G----Q----VR--ASAI----A--------Q  207
+118748   164   --G-G---DGTSM--W-----ADLMKN-G----Q----VR--ASAI----A--------Q  187
+1056     164   --G-G---DGTSM--W-----ADLMKN-G----Q----VR--ASAI----A--------Q  187
+72942    172   ----G---Q---L--C-----VDLMRG-RA---E----PQK-VVTF----C--------D  193
+25384    176   ----G---N---L--C-----VNLVRG-R----DRDSMQK--VVTF----C--------D  199
+99113    142   --Q-H---A---V--K-----LGLMKN-D----T----QI--LEKE----S--------K  162
+54557    176   --G-NLCVN---I--V-----RGRDRD-R----M----QK--VLTF----C--------D  199
+43343    175   --T-A---N---L--C-----VQLLLN-N----A-----K--VTSF----C--------D  194
+89150    171   --W-D---L---C--L-----YIMSSR-R----D----QV--QQSLGFC-D--------F  194
+31914    959   --A-V---N---VPLY-----VNLMKN-E----E----VL--VSAY----A--------N  981
+28596    1055  --A-V---N---VPLY-----VNLMKN-E----E----VL--VSAY----A--------N  1077
+3170     176   --T-A---N---L--C-----VHL-NL-N----L----AR--VASF----C--------D  195
+30260    169   ---------------WD----LCLFIK-S----S----SG--GQPR----D--------S  186
+28945    169   ---------------WDLCLSIVSSSR-G----Q----PRNSLGFC----D--------T  192
+99107    127   ------------V--T-----VQLMRD-K----S----SV--LEKH----Q--------V  144
+32570    169   ----W---E---I--C-----LSIVSS-S----R----GQ--VRRSLGFCD--------T  192
+33284    842   --A-I---S---VPLY-----INLMRN-E----E----VM--VSAY----A--------N  864
+106672   168   --N-W---D---I--C-----LSIRSS-RRDQIQ----PL--GFC-----D--------F  191
+114292   128   --R-Q---T---V--Q-----VSLMLN-T----W----PV--ISAF----A--------N  148
+32977    176   ----A---N---L--C-----VLLYRS-G----V----KV--V-TF----C--------G  194
+32302    204   --Q-K---E---T--Y-----LHIMKN-E----E----EV--VILY----A--------Q  224
+1490     136   --R-Q---T---V--Q-----VSLMLN-T----W----PV--ISAF----A--------N  156
+118670   204   --Q-K---E---T--Y-----LHIMKN-E----E----EV--VILY----A--------Q  224
+113361   136   --R-Q---T---V--Q-----VSLMLN-T----W----PV--VSAF----A--------N  156
+1492     175   --V-E---E---V--Y-----VYLMHN-G----N----TV--FSMY----S--------Y  195
+114398   175   --V-E---E---V--Y-----VYLMHN-G----N----TV--FSMY----S--------Y  195
+4019     155   --R-Q---T---I--Q-----VSLMQN-G----Y----PV--ISAF----A--------G  175
+142053   155   --R-Q---T---I--Q-----VSLMQN-G----Y----PV--ISAF----A--------G  175
+118411   155   --R-Q---T---I--Q-----VSLMQN-G----Y----PV--ISAF----A--------G  175
+114739   124   --R-Q---T---I--Q-----VSLMLN-G----W----PV--ISAF----A--------G  144
+114989   124   --R-Q---T---I--Q-----VSLMLN-G----W----PV--ISAF----A--------G  144
+114162   124   --R-Q---T---I--Q-----VSLMLN-G----W----PV--ISAF----A--------G  144
+2401     124   --R-Q---T---I--Q-----VSLMLN-G----W----PV--ISAF----A--------G  144
+3213     174   --NYK---E---T--Y-----LHIMLN-R----R----PA--AVLY----A--------Q  195
+3223     132   --S-Q---T---I--Q-----VNLMLN-G----K----PV--ISAF----A--------G  152
+2817     204   --Q-K---E---T--Y-----LHIMKN-E----E----EV--VILF----A--------Q  224
+118783   129   --S-Q---T---I--Q-----VNLMLN-G----K----PV--ISAF----A--------G  149
+4051     187   --NYK---E---T--Y-----VHIVHN-E----Q----AV--VILY----A--------Q  208
+113958   186   --NYK---E---T--Y-----VHIVHN-E----Q----AV--VILY----A--------Q  207
+98764    929   ------------V--E-----AVLSRS-N----Q----GV--ARVD----SGGYEPEGLE  954
+30642    934   LSR-S---N---L--G-----VARIDS-GGY--E----PE--GL---------------E  955
+73368    1155  --S-A---H---I--S-----GFLVVD-GI---D----KL--AFES----E--------N  1176
+152      201   --NYK---E---T--Y-----VHIMHN-Q----K----EA--VILY----A--------Q  222
+80389    1137  --S-A---H---I--S-----GFFVVD-G----V----DK--LRFE----S--------E  1157
+91232    237   --H-S---E---I                                                 240
+
+Query_1  341   Y------KKGF-L--DQA--SG------SA------VLLLRPGDQVFLQM-P-SE-QAAG  374
+118433   692   Y------KKGF-L--DQA--SG------SA------VLLLRPGDQVFLQM-P-SE-QAAG  725
+133920   692   Y------KKGF-L--DQA--SG------SA------VLLLRPGDRVFLQM-P-SE-QAAG  725
+141910   692   Y------KKGF-L--DQA--SG------SA------VLLLRPGDRVFLQM-P-SE-QAAG  725
+2918     692   Y------KKGF-L--DQA--SG------SA------VLLLRPGDRVFLQN-P-SE-QAAG  725
+42602    651   Y------KKGY-L--DQA--SG------GA------VLQLRPNDQVWVQM-P-SD-QANG  684
+118958   647   Y------KKGY-L--DQA--SG------GA------VLQLRPNDQVWVQM-P-SD-QANG  680
+34108    628   Y------TKGY-L--DQA--SG------SA------IIDLTENDQVWLQL-P-NA-ESNG  661
+106456   628   Y------SKGY-L--DQA--SG------SA------IMELTENDQVWLQL-P-NA-ESNG  661
+43744    622   Y------QKGY-L--DQA--SG------SA------VIDLMENDQVWLQL-P-NS-ESNG  655
+104909   622   Y------IKGY-L--DQA--SG------SA------VIDLTENDQVWLQL-P-NA-GSNG  655
+53677    189   Y------QENN-V--DQA--SG------SV------LLHLEVGDQVWLQV-Y-GEGERNG  223
+28346    184   F------QDKN-V--DQA--SG------SV------LLYLEKGDQVWLQVYE-GE-NHNG  218
+97826    192   Y------QEKN-V--DQA--SG------SV------LLHLEVGDQVWLQV-Y-GDGDHNG  226
+42542    280   Y------MS-S-E--DQA--SG------GI------VQELKLGDEVWMQV-TGGE-RFNG  313
+107131   260   G------ASRR-R--EMQ--SQ------SV------MLPLRRGDAVWLLS-H-DH-DGYG  293
+4024     280   Y-------TGS-E--DQA--SG------GI------VLPLKLGDEVWLQV-TGGE-RFNG  313
+66430    424   L------YGQQ-V--DQA--SL------LL------ILKLSAGDQVWLEV---SK-DWNG  456
+4033     262   G------ASRR-R--EMQ--SQ------SV------MLALRRGDAVWLLS-H-DH-DGYG  295
+65726    419   L------YGQE-I--DQA--SL------LV------ILKLSAGDQVWLEV---SK-DWNG  451
+42990    280   Y------MS-S-E--DQA--SG------GI------VLQLKLGDEVWLQV-TGGE-RFNG  313
+3749     235   -------NTGN-H--DVA--SG------ST------ILALKEGDEVWLQIFY-SE-QNGL  268
+113141   226   -------NTGN-H--DVA--SG------ST------ILALKQGDEVWLQIFY-SE-QNGL  259
+29919    224   -------NTGN-H--DVA--SG------ST------VIYLQPEDEVWLEI-F-FN-DQNG  256
+121005   205   D------ADQN-Y--DYA--SN------SV------VLHLEPGDEVYIKL-D-GG-KAHG  238
+32234    205   D------ADQN-Y--DYA--SN------SV------VLHLEPGDEVYIKL-D-GG-KAHG  238
+114666   224   -------NTGN-H--DVA--SG------ST------VIYLQPEDEVWLEI-F-FT-DQNG  256
+65735    455   L------YGQD-I--DQA--SN------LA------LLRLASGDQVWLET-L-RD-W-NG  487
+113025   181   Y------FGGW-P--KPASLSG------GA------MVRLEPEDQVWVQV-G-VG-DYIG  216
+114988   181   F------FGGW-P--KPASLSG------GA------MVRLEPEDQVWVQV-G-VG-DYIG  216
+2396     181   F------FGGW-P--KPASLSG------GA------MVRLEPEDQVWVQV-G-VG-DYIG  216
+92553    163   A------GDSH----EQA--SG------SS------VLELEKGDRVWLES-K-LD-REES  195
+65033    434   L------YGQD-I--DQA--SN------MA------VLRLSSGDQVWLET---LR-DWNG  466
+128      200   Y------AYNT-F--QVT--TG------GM------VLKLEQGENVFLQA-T-DK-NS--  231
+25379    237   D------ADQN-Y--DYA--SN------SV------VLHLDSGDEVYVKL-D-GG-KAHG  270
+113547   237   D------ADQN-Y--DYA--SN------SV------VLHLDSGDEVYVKL-D-GG-KAHG  270
+118778   208   D------ADQN-Y--DYA--SN------SV------ILHLDAGDEVFIKL-D-GG-KAHG  241
+25497    208   D------ADQN-Y--DYA--SN------SV------ILHLDAGDEVFIKL-D-GG-KAHG  241
+118748   188   D------ADQN-Y--DYA--SN------SV------ILHLDVGDEVFIKL-D-GG-KVHG  221
+1056     188   D------ADQN-Y--DYA--SN------SV------ILHLDVGDEVFIKL-D-GG-KVHG  221
+72942    194   Y------VQNT-F--QVT--TG------SI------VLKLEKDETVFLQA-T-EK-NA--  225
+25384    200   Y------AQNT-F--QVT--TG------GV------VLKLEQEEVVHLQA-T-DK-NS--  231
+99113    163   A------KDNY----RHL--SG------NV------VLQLTLGDRVWLE----SK-LDTT  193
+54557    200   Y------AQNT-F--QVT--TG------GV------VLKLEQEEVVHLQA-T-DK-NS--  231
+43343    195   H------MSNS-K--QVS--SG------GV------LLRLQRGDEVWLAV----N-DYNG  226
+89150    195   N------SKGL-F--QVV--SG------GT------VLQLQRGDKVWIQR-D-PN-KGR-  227
+31914    982   D------GAPD-H--ETA--SN------HA------VLQLLQGDQIWLRL------HRGA  1012
+28596    1078  D------GAPD-H--ETA--SN------HA------ILQLFQGDQIWLRL------HRGA  1108
+3170     196   H------MFNS-K--QVS--SG------GV------LLRLQRGDEVWLSV----N-DYNG  227
+30260    187   LSFSNTNNKGL-F--QVL--AG------GT------VLQLRRGDEVWIEK-D-PA-KGR-  225
+28945    193   N------SKGL-F--QVL--AG------GT------VLQLQRGDEVWIEK-D-PA-KGR-  225
+99107    145   S------TKE--P--RSL--SG------ML------TLPLHVGEKVWLEA-K-VE-TEKP  177
+32570    193   T------NKGL-F--QVV--SG------GM------VLQLQQGDQVWVEK-D-PK-KGH-  225
+33284    865   D------GAPD-H--ETA--SN------HA------VLQLFQGDQVWLRL------HRGA  895
+106672   192   N------SKGF-F--QVV--SG------GT------VLHLQQGDQVWIEK-D-PS-KGR-  224
+114292   149   D------PDVT-R--EAA--TS------SV------LLPLDPGDRVSLRL-------RRG  178
+32977    195   H------TSKT-N--QVN--SG------GV------LLRLQVGEEVWLAV----N-DYYD  226
+32302    225   V------SDRS-I--MQ---SQ------SL------MLELREQDEVWVRLFK-GE-RENA  258
+1490     157   D------PDVT-R--EAA--TS------SV------LLPLDPGDRVSLRL-------RRG  186
+118670   225   V------SDRS-I--MQ---SQ------SL------MMELREEDEVWVRLFK-GE-RENA  258
+113361   157   D------PDVT-R--EAA--TS------SV------LLPLDPGDRVSLRL-------RRG  186
+1492     196   E------TKGK-S--DTS--SN------HA------VLKLAKGDEVWLRM-G-N----GA  226
+114398   196   E------MKGK-S--DTS--SN------HA------VLKLAKGDEVWLRM-G-N----GA  226
+4019     176   D------QDVT-R--EAA--SN------GV------LLLMEREDKVHLKL-E-R-----G  205
+142053   176   D------QDVT-R--EAA--SN------GV------LLLMEREDKVHLKL-E-R-----G  205
+118411   176   D------QDVT-R--EAA--SN------GV------LLLMEREDKVHLKL-E-R-----G  205
+114739   145   D------QDVT-R--EAA--SN------GV------LIQMEKGDRAYLKL-E-R-----G  174
+114989   145   D------QDVT-R--EAA--SN------GV------LIQMEKGDRAYLKL-E-R-----G  174
+114162   145   D------QDVT-R--EAA--SN------GV------LIQMEKGDRAYLKL-E-R-----G  174
+2401     145   D------QDVT-R--EAA--SN------GV------LIQMEKGDRAYLKL-E-R-----G  174
+3213     196   P------SERS-V--MQA--Q-------SL------MLLLAAGDAVWVRM-F-QR-DRDN  228
+3223     153   D------KDVT-R--EAA--TN------GV------LLYLDKEDKVYLKL-E-K-----G  182
+2817     225   V------GDRS-I--MQ---SQ------SL------MLELREQDQVWVRLYK-GE-RENA  258
+118783   150   D------KDVT-R--EAA--TN------GV------LLYLDKEDKVYLKL-E-K-----G  179
+4051     209   P------SERS-I--MQ---SQ------SV------MLPLVPGDRVWVRLFK-RE-RENG  242
+113958   208   P------SERS-I--MQ---SQ------SV------MLPLVPGDYVWVRLFK-RE-RENG  241
+98764    955   N------KPVA-E--SQP--SPGTLGVFSL------ILPLQAGDTVCVD-----------  986
+30642    956   N------KPVA-E--SQP--SP------GALGVFSLILPLQVGDTVCID-----------  987
+73368    1177  I------NSEIHC--DRVL-TG------DA------LLELNYGQEVWLRL-------AKG  1208
+152      223   P------SERS-I--MQ---SQ------SV------MLDLAYGDRVWVRLFK-RQ-RENA  256
+80389    1158  N------ADNE-IHCDRVL-TG------DA------LFELNYGQEVWLRL-------VKG  1190
+
+Query_1  375   LYAG-QY--VH-SS-----FSGYLLYPM  393
+118433   726   LYAG-QY--VH-SS-----FSGYLLYPM  744
+133920   726   LYAG-QY--VH-SS-----FSGYLLYPM  744
+141910   726   LYAG-QY--VH-SS-----FSGYLLYPM  744
+2918     726   LYAG-QY--VH-SS-----FSGYLLYPM  744
+42602    685   LYST-EY--IH-SS-----FSGFLLCPT  703
+118958   681   LYST-EY--IH-SS-----FSGFLLCPT  699
+34108    662   LYSS-EY--VH-SS-----FSGFLVAPM  680
+106456   662   LYSS-EY--VH-SS-----FSGFLVAPM  680
+43744    656   LYSS-EY--VH-SS-----FSGFL      670
+104909   656   LYSP-EY--VH-SS-----FSGFLVAPM  674
+53677    224   LYAD-ND--ND-ST-----FTGFLLY    240
+28346    219   VYAD-NV--ND-ST-----FTGFLLY    235
+97826    227   LYAD-NV--ND-ST-----FTGFLLY    243
+42542    314   LFAD-ED--DD-TT-----FTGFLLF    330
+107131   294   AYSN-HG--KY-IT-----FSGFLVYP   311
+4024     314   LFAD-KD--DD-TT-----FTGFLLF    330
+66430    457   LYVG-PE--DD-SI-----FSGFLLYP   474
+4033     296   AYSN-HG--KY-IT-----FSGFLVYP   313
+65726    452   VYVS-AE--DD-SI-----FTGFLLYP   469
+42990    314   LFAD-ED--DD-TT-----FTGFLLF    330
+3749     269   FYDP-YW--TD-SL-----FTGFLIY    285
+113141   260   FYDP-YW--TD-SL-----FTGFLIY    276
+29919    257   LFSDPGW--AD-SL-----FSGFLLY    274
+121005   239   GNNN-KY-----ST-----FSGFIIY    253
+32234    239   GNNN-KY-----ST-----FSGFIIY    253
+114666   257   LFSDPGW--AD-SL-----FSGFLLY    274
+65735    488   VYSS-SE--DD-ST-----FTGFLLY    504
+113025   217   IYAS-IK--TD-ST-----FSGFLVY    233
+114988   217   IYAS-IK--TD-ST-----FSGFLVY    233
+2396     217   IYAS-IK--TD-ST-----FSGFLVY    233
+92553    196   EKG---T--TH-AV-----FYGFLL     209
+65033    467   VYSS-SE--DD-ST-----FSGFLLY    483
+128      232   LLGM-EG--AN-SI-----FSGFLLFP   249
+25379    271   GNNN-KY-----ST-----FSGFLLYP   286
+113547   271   GNNN-KY-----ST-----FSGFLLYP   286
+118778   242   GNSN-KY-----ST-----FSGFIIY    256
+25497    242   GNSN-KY-----ST-----FSGFIIY    256
+118748   222   GNTN-KY-----ST-----FSGFIIYP   237
+1056     222   GNTN-KY-----ST-----FSGFIIYP   237
+72942    226   LVGI-EG--AN-SI-----FSGFMLFP   243
+25384    232   LLGI-EG--AN-SI-----FTGFLLFP   249
+99113    194   ETEK-GP--IQ-SM-----FFGYLLY    210
+54557    232   LLGV-EG--AN-SI-----FTGFLLFP   249
+43343    227   MVGT-EG--SD-SV-----FSGFLLFP   244
+89150    228   IYQG-SE--AD-SV-----FSGFLIFP   245
+31914    1013  IYGS-SW--KY-ST-----FSGYLLY    1029
+28596    1109  IYGS-SW--KY-ST-----FSGYLLY    1125
+3170     228   MVGI-EG--SN-SV-----FSGFLLFP   245
+30260    226   IYQG-TE--AD-SI-----FSGFLIFP   243
+28945    226   IYQG-TE--AD-SI-----FSGFLIFP   243
+99107    178   EQAR-VT--IY--------FSGFL      190
+32570    226   IYQG-SE--AD-SV-----FSGFLIFP   243
+33284    896   IYGS-SW--KY-ST-----FSGFLLY    912
+106672   225   IYHG-SE--AD-SI-----FSGFLIFP   242
+114292   179   NLLG-GW--KY-SS-----FSGFLIFPL  197
+32977    227   MVGI-QG--SD-SV-----FSGFLLFP   244
+32302    259   IFSD-EFD-TY-IT-----FSGYLVKP   277
+1490     187   NLLG-GW--KY-SS-----FSGFLIFPL  205
+118670   259   IFSD-EFD-TY-IT-----FSGYLVKP   277
+113361   187   NLLG-GW--KY-SS-----FSGFLIFPL  205
+1492     227   LHGD-HQ--RF-ST-----FAGFLLF    243
+114398   227   LHGD-HQ--RF-ST-----FAGFLLF    243
+4019     206   NLMG-GW--KY-ST-----FSGFLVFPL  224
+142053   206   NLMG-GW--KY-ST-----FSGFLVFPL  224
+118411   206   NLMG-GW--KY-ST-----FSGFLVFPL  224
+114739   175   NLMG-GW--KY-ST-----FSGFLVFPL  193
+114989   175   NLMG-GW--KY-ST-----FSGFLVFPL  193
+114162   175   NLMG-GW--KY-ST-----FSGFLVFPL  193
+2401     175   NLMG-GW--KY-ST-----FSGFLVFPL  193
+3213     229   AIYG-EHGDLY-IT-----FSGHLVKP   248
+3223     183   NLVG-GW--QY-ST-----FSGFLVFPL  201
+2817     259   IFSE-ELD-TY-IT-----FSGYLV     275
+118783   180   NLLG-GW--QY-ST-----FSGFLVFPL  198
+4051     243   IYSD-DVD-TY-IT-----FSGHLI     259
+113958   242   IYSD-DMD-TY-IT-----FSGHLI     258
+98764    987   LVMG-QL--AH-SEEPLTIFSGALLY    1008
+30642    988   LVMG-QL--AH-SEEPLTIFSGALLY    1009
+73368    1209  TIPA-KF--PPVTT-----FSGYLLY    1226
+152      257   IYSN-DFD-TY-IT-----FSGHLI     273
+80389    1191  TIPI-KY--PPVTT-----FSGYLLY    1208
+
+
+Lambda      K        H        a         alpha
+   0.322    0.140    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15085149165
+
+
+  Database: 90_ref
+    Posted date:  Nov 11, 2022  10:32 AM
+  Number of letters in database: 70,279,549
+  Number of sequences in database:  142,201
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

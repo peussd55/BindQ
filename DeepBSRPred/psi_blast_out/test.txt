@@ -1,0 +1,338 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot.fasta
+           1,982 sequences; 1,154,352 total letters
+
+Results from round 1
+
+
+Query= P02185
+
+Length=154
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+sp|P69905|HBA_HUMAN Hemoglobin subunit alpha OS=Homo sapiens OX=9...  44.3       3e-07
+tr|Q9VB22|Q9VB22_DROME LD33695p OS=Drosophila melanogaster OX=722...  29.3       0.088
+sp|Q96QB1|RHG07_HUMAN Rho GTPase-activating protein 7 OS=Homo sap...  26.9       0.66 
+sp|Q9UHB7|AFF4_HUMAN AF4/FMR2 family member 4 OS=Homo sapiens OX=...  26.2       0.94 
+sp|Q13459|MYO9B_HUMAN Unconventional myosin-IXb OS=Homo sapiens O...  26.2       1.0  
+sp|Q01970|PLCB3_HUMAN 1-phosphatidylinositol 4,5-bisphosphate pho...  24.3       4.3  
+tr|G4MTS7|G4MTS7_MAGO7 Cytoplasmic dynein 1 intermediate chain 2 ...  23.9       6.1  
+sp|Q12974|TP4A2_HUMAN Protein tyrosine phosphatase type IVA 2 OS=...  23.5       6.2  
+
+
+>sp|P69905|HBA_HUMAN Hemoglobin subunit alpha OS=Homo sapiens 
+OX=9606 GN=HBA1 PE=1 SV=2
+Length=142
+
+ Score = 44.3 bits (103),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 38/148 (26%), Positives = 60/148 (41%), Gaps = 6/148 (4%)
+
+Query  1    MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASE  60
+            MVLS  +   V   W KV A    +G + L R+F S P T   F  F      A++K   
+Sbjct  1    MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKG--  58
+
+Query  61   DLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRH  120
+                HG  V  AL   +         L  L+  HA K ++     + +S  ++  L +  
+Sbjct  59   ----HGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHL  114
+
+Query  121  PGDFGADAQGAMNKALELFRKDIAAKYK  148
+            P +F      +++K L      + +KY+
+Sbjct  115  PAEFTPAVHASLDKFLASVSTVLTSKYR  142
+
+
+>tr|Q9VB22|Q9VB22_DROME LD33695p OS=Drosophila melanogaster OX=7227 
+GN=pins PE=1 SV=1
+Length=658
+
+ Score = 29.3 bits (64),  Expect = 0.088, Method: Composition-based stats.
+ Identities = 13/39 (33%), Positives = 26/39 (67%), Gaps = 1/39 (3%)
+
+Query  116  LHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGYQG  154
+            L  R+PG FG D + A+ +A+E +++++    ++LG +G
+Sbjct  178  LGQRNPGKFGDDVKEALTRAVEFYQENLKL-MRDLGDRG  215
+
+
+>sp|Q96QB1|RHG07_HUMAN Rho GTPase-activating protein 7 OS=Homo 
+sapiens OX=9606 GN=DLC1 PE=1 SV=4
+Length=1528
+
+ Score = 26.9 bits (58),  Expect = 0.66, Method: Composition-based stats.
+ Identities = 22/71 (31%), Positives = 32/71 (45%), Gaps = 6/71 (8%)
+
+Query  45   DRFKHLKTEAEMKA-SEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIK  103
+            D F  L +  E+ + S  +K H  T  +   ++LK+      E   L  SH +KHK P K
+Sbjct  635  DSFGSLPSPKELSSFSFSMKGHEKTAKSKTRSLLKR-----MESLKLKSSHHSKHKAPSK  689
+
+Query  104  YLEFISEAIIH  114
+                IS  I+ 
+Sbjct  690  LGLIISGPILQ  700
+
+
+>sp|Q9UHB7|AFF4_HUMAN AF4/FMR2 family member 4 OS=Homo sapiens 
+OX=9606 GN=AFF4 PE=1 SV=1
+Length=1163
+
+ Score = 26.2 bits (56),  Expect = 0.94, Method: Composition-based stats.
+ Identities = 12/29 (41%), Positives = 19/29 (66%), Gaps = 0/29 (0%)
+
+Query  78   KKKGHHEAELKPLAQSHATKHKIPIKYLE  106
+            +  G+   ELKP +++H TK KIP + L+
+Sbjct  278  QSHGNSMTELKPSSKAHLTKLKIPSQPLD  306
+
+
+>sp|Q13459|MYO9B_HUMAN Unconventional myosin-IXb OS=Homo sapiens 
+OX=9606 GN=MYO9B PE=1 SV=3
+Length=2157
+
+ Score = 26.2 bits (56),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 18/64 (28%), Positives = 33/64 (52%), Gaps = 2/64 (3%)
+
+Query  76   ILKKKGHHEAELKP--LAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMN  133
+            ILK KG  + ++ P  L  S + K  I +   +  +++++H+   + P    A  Q ++N
+Sbjct  777  ILKSKGIKQKQIIPKNLLDSKSLKLIISMTLHDRTTKSLLHLHKKKKPPSISAQFQTSLN  836
+
+Query  134  KALE  137
+            K LE
+Sbjct  837  KLLE  840
+
+
+>sp|Q01970|PLCB3_HUMAN 1-phosphatidylinositol 4,5-bisphosphate 
+phosphodiesterase beta-3 OS=Homo sapiens OX=9606 GN=PLCB3 PE=1 
+SV=2
+Length=1234
+
+ Score = 24.3 bits (51),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 18/66 (27%), Positives = 32/66 (48%), Gaps = 6/66 (9%)
+
+Query  43    KFDRFKHL--KTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKI  100
+             +F R K +  + + E++   D K+H     +   A ++ K   EAEL  + + H T+   
+Sbjct  1079  QFKRLKEMNEREKKELQKILDRKRHN----SISEAKMRDKHKKEAELTEINRRHITESVN  1134
+
+Query  101   PIKYLE  106
+              I+ LE
+Sbjct  1135  SIRRLE  1140
+
+
+>tr|G4MTS7|G4MTS7_MAGO7 Cytoplasmic dynein 1 intermediate chain 
+2 OS=Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 
+8958) OX=242507 GN=MGG_04771 PE=1 SV=1
+Length=695
+
+ Score = 23.9 bits (50),  Expect = 6.1, Method: Composition-based stats.
+ Identities = 14/43 (33%), Positives = 21/43 (49%), Gaps = 0/43 (0%)
+
+Query  51   KTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQS  93
+            + E E+KA+++L   GV   TAL      +     ELK +  S
+Sbjct  197  EIEEELKAAQELSTDGVLKPTALTTNFPARTLTNEELKAVTAS  239
+
+
+>sp|Q12974|TP4A2_HUMAN Protein tyrosine phosphatase type IVA 2 
+OS=Homo sapiens OX=9606 GN=PTP4A2 PE=1 SV=1
+Length=167
+
+ Score = 23.5 bits (49),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 15/39 (38%), Positives = 20/39 (51%), Gaps = 1/39 (3%)
+
+Query  49  HLKTEAEM-KASEDLKKHGVTVLTALGAILKKKGHHEAE  86
+           H  T A + K +E+LKK+GVT L  +      K   E E
+Sbjct  20  HNPTNATLNKFTEELKKYGVTTLVRVCDATYDKAPVEKE  58
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 78290160
+Results from round 2
+
+
+Query= P02185
+
+Length=154
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+sp|P69905|HBA_HUMAN Hemoglobin subunit alpha OS=Homo sapiens OX=9...  192        4e-65
+
+Sequences not found previously or not previously below threshold:
+
+sp|Q13459|MYO9B_HUMAN Unconventional myosin-IXb OS=Homo sapiens O...  27.4       0.51 
+tr|Q00LS8|Q00LS8_CUCME mRNA cap-binding protein OS=Cucumis melo O...  26.6       0.59 
+tr|Q9VB22|Q9VB22_DROME LD33695p OS=Drosophila melanogaster OX=722...  25.9       1.5  
+sp|Q03023|APRA_PSEAE Serralysin OS=Pseudomonas aeruginosa (strain...  23.5       6.9  
+sp|Q92922|SMRC1_HUMAN SWI/SNF complex subunit SMARCC1 OS=Homo sap...  23.5       7.7  
+sp|Q9UHB7|AFF4_HUMAN AF4/FMR2 family member 4 OS=Homo sapiens OX=...  23.5       8.1  
+sp|Q08436|PMA3_NICPL Plasma membrane ATPase 3 OS=Nicotiana plumba...  23.2       9.5  
+
+
+>sp|P69905|HBA_HUMAN Hemoglobin subunit alpha OS=Homo sapiens 
+OX=9606 GN=HBA1 PE=1 SV=2
+Length=142
+
+ Score = 192 bits (488),  Expect = 4e-65, Method: Composition-based stats.
+ Identities = 38/148 (26%), Positives = 60/148 (41%), Gaps = 6/148 (4%)
+
+Query  1    MVLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASE  60
+            MVLS  +   V   W KV A    +G + L R+F S P T   F  F      A++K   
+Sbjct  1    MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKG--  58
+
+Query  61   DLKKHGVTVLTALGAILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRH  120
+                HG  V  AL   +         L  L+  HA K ++     + +S  ++  L +  
+Sbjct  59   ----HGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHL  114
+
+Query  121  PGDFGADAQGAMNKALELFRKDIAAKYK  148
+            P +F      +++K L      + +KY+
+Sbjct  115  PAEFTPAVHASLDKFLASVSTVLTSKYR  142
+
+
+>sp|Q13459|MYO9B_HUMAN Unconventional myosin-IXb OS=Homo sapiens 
+OX=9606 GN=MYO9B PE=1 SV=3
+Length=2157
+
+ Score = 27.4 bits (59),  Expect = 0.51, Method: Composition-based stats.
+ Identities = 35/148 (24%), Positives = 61/148 (41%), Gaps = 17/148 (11%)
+
+Query  11   VLHVWAKVEADVAGHGQDILIRLFKSHPETL--------EKFDRFKHLKTEAEMKASEDL  62
+            VL    ++ A+ A     +     +SHPE L        EK  R  H +    +K     
+Sbjct  697  VLREAGRLRAERAEKAAGMSSPGAQSHPEELPRGASTPSEKLYRDLHNQMIKSIKGLPWQ  756
+
+Query  63   KKHGVTVLTALGA-------ILKKKGHHEAELKP--LAQSHATKHKIPIKYLEFISEAII  113
+             +   ++L +L         ILK KG  + ++ P  L  S + K  I +   +  +++++
+Sbjct  757  GEDPRSLLQSLSRLQKPRAFILKSKGIKQKQIIPKNLLDSKSLKLIISMTLHDRTTKSLL  816
+
+Query  114  HVLHSRHPGDFGADAQGAMNKALELFRK  141
+            H+   + P    A  Q ++NK LE   K
+Sbjct  817  HLHKKKKPPSISAQFQTSLNKLLEALGK  844
+
+
+>tr|Q00LS8|Q00LS8_CUCME mRNA cap-binding protein OS=Cucumis melo 
+OX=3656 GN=EIF4E PE=1 SV=1
+Length=235
+
+ Score = 26.6 bits (57),  Expect = 0.59, Method: Composition-based stats.
+ Identities = 9/23 (39%), Positives = 13/23 (57%), Gaps = 0/23 (0%)
+
+Query  82   HHEAELKPLAQSHATKHKIPIKY  104
+            HH ++L   A  +  KHKI  K+
+Sbjct  106  HHPSKLAMRADLYCFKHKIEPKW  128
+
+
+>tr|Q9VB22|Q9VB22_DROME LD33695p OS=Drosophila melanogaster OX=7227 
+GN=pins PE=1 SV=1
+Length=658
+
+ Score = 25.9 bits (55),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 13/39 (33%), Positives = 26/39 (67%), Gaps = 1/39 (3%)
+
+Query  116  LHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGYQG  154
+            L  R+PG FG D + A+ +A+E +++++    ++LG +G
+Sbjct  178  LGQRNPGKFGDDVKEALTRAVEFYQENLKL-MRDLGDRG  215
+
+
+>sp|Q03023|APRA_PSEAE Serralysin OS=Pseudomonas aeruginosa (strain 
+ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 
+/ 1C / PRS 101 / PAO1) OX=208964 GN=aprA PE=1 SV=1
+Length=479
+
+ Score = 23.5 bits (49),  Expect = 6.9, Method: Composition-based stats.
+ Identities = 12/60 (20%), Positives = 20/60 (33%), Gaps = 7/60 (12%)
+
+Query  74   GAILKKKGHHEAELKPLAQ---SHATKHKIPIKYLEF----ISEAIIHVLHSRHPGDFGA  126
+            GA           LK  +    + +    +      +    ++  I H L   HPGD+ A
+Sbjct  142  GAAFAFLPDVPDALKGQSWYLINSSYSANVNPANGNYGRQTLTHEIGHTLGLSHPGDYNA  201
+
+
+>sp|Q92922|SMRC1_HUMAN SWI/SNF complex subunit SMARCC1 OS=Homo 
+sapiens OX=9606 GN=SMARCC1 PE=1 SV=3
+Length=1105
+
+ Score = 23.5 bits (49),  Expect = 7.7, Method: Composition-based stats.
+ Identities = 9/38 (24%), Positives = 10/38 (26%), Gaps = 0/38 (0%)
+
+Query  15   WAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKT  52
+            W KV   V    QD  I  F   P      +       
+Sbjct  642  WNKVSEHVGSRTQDECILHFLRLPIEDPYLENSDASLG  679
+
+
+>sp|Q9UHB7|AFF4_HUMAN AF4/FMR2 family member 4 OS=Homo sapiens 
+OX=9606 GN=AFF4 PE=1 SV=1
+Length=1163
+
+ Score = 23.5 bits (49),  Expect = 8.1, Method: Composition-based stats.
+ Identities = 15/67 (22%), Positives = 27/67 (40%), Gaps = 1/67 (1%)
+
+Query  35   KSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQSH  94
+            +S P +L         K  A ++  +  +     + +   +          ELKP +++H
+Sbjct  236  QSFPPSLMSKSNSMLQKPTAYVRPMDGQESMEPKLSSEHYSSQSHGNSM-TELKPSSKAH  294
+
+Query  95   ATKHKIP  101
+             TK KIP
+Sbjct  295  LTKLKIP  301
+
+
+>sp|Q08436|PMA3_NICPL Plasma membrane ATPase 3 OS=Nicotiana plumbaginifolia 
+OX=4092 GN=PMA3 PE=1 SV=1
+Length=956
+
+ Score = 23.2 bits (48),  Expect = 9.5, Method: Composition-based stats.
+ Identities = 9/41 (22%), Positives = 19/41 (46%), Gaps = 2/41 (5%)
+
+Query  110  EAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKEL  150
+            E I+H+  + +  D        ++K  E   + +A  Y+E+
+Sbjct  431  EQILHL--AHNKSDIERRVHAVIDKFAERGLRSLAVAYQEV  469
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.128    0.331    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0390    0.140     1.90     42.6     43.6 
+
+Effective search space used: 78290160
+
+Search has CONVERGED!
+
+
+  Database: uniprot.fasta
+    Posted date:  Sep 6, 2021  12:15 PM
+  Number of letters in database: 1,154,352
+  Number of sequences in database:  1,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

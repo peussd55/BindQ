@@ -1,0 +1,90 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: 90_ref
+           142,201 sequences; 70,279,549 total letters
+
+
+
+Query= 1BRS
+
+Length=588
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+O43390                                                                33.5    2.5  
+Q00175                                                                32.0    6.5  
+P00371                                                                31.6    6.6  
+Q5M731                                                                32.0    7.4  
+Q6BQ23                                                                32.0    7.5  
+Q4WED9                                                                31.6    9.4  
+
+
+
+Query_1  211  YQTFTKIRVINTFDGVADYLQTYHKLPDNYITKSEAQALGWVASKGNLADVAPGKSIGGD  270
+83277    632  FKKFNKVRVMRTLDGVA--------LPQSVGLPNESQALG                      663
+
+Query_1  271  IFSNREGKLPGKSGRTWREADINYTSGFRNSDRILYSSDWLIYKTTDHYQTFTKIRKKAV  330
+
+Query_1  331  INGEQIRSI-SDLHQTLKKELALPEYYGENLDALWDALTGWVEYPLVLEWRQFEQSKQLT  389
+4439     89      EQLKSVLSDFEFDVVKTGMLPST--EIVEVLLQNLSDFPVRALVVDPVMVSTSGHVL  143
+6048     572                                                  EWNFYERS--FS  581
+24628    91                                               PVTVSTPQSSDNPLVE  106
+
+Query_1  390  GAESVLQVFR-EAKAEGADI---TIILSKAV--INGEQIRSI-SDLHQTLKKELALPEYY  442
+4439     89                                       EQLKSVLSDFEFDVVKTGMLPST-  111
+4439     144  AGSSILSIFR-ERLLPIADIITPNVKEASAL--LDGFRIETV-AEMRSAAK           190
+6048     582  AYEMGLKIFK-DSKIKFEIW---NIYLSKII--KHELNIERI-RDLFEQCLNESSIEGYN  634
+24628    107  SKEAVPVTFKDEGKGTKADP---SHLLTEALETTNGEENSPI-SEDEATAIAVLKVIERY  162
+
+Query_1  443  GENLDAL---WDALTGWVEYPLVLEWRQFEQSKQ-LTGAESVLQVFREAKAEGADITI--  496
+4439     112  -EIVEVL---LQNLSDFPVRALVVDPVMVSTSGH-VLAGSSILSIFRERLLPIADIITPN  166
+6048     635  G------------CPANLCKPVYLLYSQYEQSKGWFTKSVKILQ                  666
+24628    163  GVNFEKTGESWQGLTSFI--PTVV-----EQVKK-REAVRMILPAF                200
+
+Query_1  497  ILSKKAVINGEQIRSISDLHQTLKKELALPEYYGENLDALWDALTGWVEYPLVLEWRQFE  556
+96274    35                            EAGLPQKVAERLDEIFQ--TGLVAY-VDLDERAID  66
+34128    122                                      LDMFPDYRYGWFNTSLILEGRKYL  145
+4439     167  VKEASALLDGFRIETVAEMRSAAK                                      190
+
+Query_1  557  Q--SKQLTENGAESVL---QVFREAKAEGADITI  585
+96274    67   A--LREFNEEGALSVL---QQFKES           86
+34128    146  QWLTERLTERGVKFFLRKVESFEEVARGGADVII  179
+
+
+Lambda      K        H        a         alpha
+   0.315    0.133    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 25265397072
+
+
+  Database: 90_ref
+    Posted date:  Nov 11, 2022  10:32 AM
+  Number of letters in database: 70,279,549
+  Number of sequences in database:  142,201
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

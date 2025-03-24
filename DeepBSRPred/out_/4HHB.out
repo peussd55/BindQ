@@ -1,0 +1,1576 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: 90_ref
+           142,201 sequences; 70,279,549 total letters
+
+
+
+Query= 4HHB
+
+Length=574
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+P68872                                                                301     5e-100
+P68871                                                                301     5e-100
+P68873                                                                301     5e-100
+P02024                                                                300     1e-99 
+P68225                                                                289     2e-95 
+P68223                                                                289     2e-95 
+Q6WN28                                                                288     6e-95 
+P02026                                                                288     8e-95 
+P02031                                                                287     1e-94 
+Q9TSP1                                                                286     3e-94 
+P61773                                                                285     6e-94 
+P61772                                                                285     6e-94 
+P02042                                                                284     1e-93 
+P69905                                                                283     6e-93 
+P69906                                                                283     6e-93 
+P69907                                                                283     6e-93 
+P01923                                                                281     3e-92 
+P68046                                                                280     8e-92 
+P15166                                                                278     6e-91 
+P21201                                                                277     7e-91 
+P02057                                                                276     3e-90 
+P68044                                                                276     3e-90 
+P18983                                                                275     8e-90 
+P63108                                                                274     1e-89 
+P13557                                                                274     1e-89 
+P60524                                                                274     2e-89 
+P68011                                                                273     3e-89 
+P21767                                                                273     3e-89 
+Q5XLE5                                                                273     3e-89 
+P19002                                                                270     3e-88 
+P01935                                                                264     1e-85 
+P01934                                                                264     1e-85 
+P01933                                                                260     4e-84 
+P63111                                                                258     2e-83 
+P02067                                                                258     4e-83 
+P07412                                                                255     4e-82 
+P02059                                                                253     3e-81 
+P20243                                                                252     4e-81 
+P13558                                                                252     5e-81 
+P02091                                                                251     1e-80 
+P01945                                                                250     2e-80 
+P02088                                                                250     3e-80 
+P07405                                                                249     4e-80 
+P01958                                                                249     7e-80 
+Q45XH8                                                                249     9e-80 
+P01942                                                                248     1e-79 
+P02101                                                                249     1e-79 
+P04246                                                                248     1e-79 
+P02089                                                                248     2e-79 
+P18978                                                                248     2e-79 
+P01966                                                                248     2e-79 
+P18970                                                                247     5e-79 
+P10778                                                                246     5e-79 
+P18435                                                                247     6e-79 
+P02102                                                                246     9e-79 
+P11517                                                                246     2e-78 
+P09904                                                                245     3e-78 
+P01948                                                                244     3e-78 
+P68240                                                                244     6e-78 
+P0CH25                                                                244     6e-78 
+P15163                                                                243     1e-77 
+P68235                                                                243     1e-77 
+P68026                                                                243     2e-77 
+Q28507                                                                242     3e-77 
+P0CH26                                                                242     4e-77 
+Q45XJ0                                                                242     5e-77 
+P02085                                                                242     5e-77 
+P60529                                                                241     6e-77 
+P18990                                                                241     7e-77 
+P09905                                                                241     9e-77 
+P02103                                                                241     1e-76 
+P68029                                                                241     1e-76 
+P21200                                                                239     4e-76 
+Q6LDH1                                                                239     4e-76 
+P02100                                                                239     4e-76 
+Q6LDH0                                                                239     4e-76 
+Q28775                                                                239     4e-76 
+P01965                                                                239     5e-76 
+P68077                                                                237     3e-75 
+P02094                                                                237     4e-75 
+P01955                                                                236     4e-75 
+P02111                                                                236     7e-75 
+P62742                                                                236     9e-75 
+P69892                                                                236     9e-75 
+P61921                                                                236     9e-75 
+P02070                                                                235     2e-74 
+Q28779                                                                235     2e-74 
+P02078                                                                235     2e-74 
+P02097                                                                235     2e-74 
+P69891                                                                234     7e-74 
+P61920                                                                234     7e-74 
+P62741                                                                232     2e-73 
+P02062                                                                232     3e-73 
+P02104                                                                232     3e-73 
+P02095                                                                232     3e-73 
+P06643                                                                231     1e-72 
+P02099                                                                230     1e-72 
+P02105                                                                228     9e-72 
+Q9GJS7                                                                228     2e-71 
+P02075                                                                226     5e-71 
+
+
+
+Query_1  1    VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLS-----  49
+131000   4     LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFG-----DLSTPDAV  55
+128274   4     LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFG-----DLSTPDAV  55
+53564    4     LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFG-----DLSTPDAV  55
+134601   4     LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFG-----DLSTPDAV  55
+137790   4     LTPEEKNAVTTLWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFG-----DLS-----  50
+134194   4     LTPEEKNAVTTLWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFG-----DLS-----  50
+127207   4     LTGEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFG-----DLS-----  50
+127208   3     LTPEEKNAVTTLWGKV--NVDEVGGEALGRLLLVYPWTQRFFESFG-----DLS-----  49
+129526   3     LTPEEKVAVTTLWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFG-----DLS-----  49
+136952   4     LTPEEKNAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFDSFG-----DLS-----  50
+136764   4     LTPEEKTAVNALWGKVNVDA--VGGEALGRLLVVYPWTQRFFESFG-----DLS-----  50
+126855   4     LTPEEKTAVNALWGKVNVDA--VGGEALGRLLVVYPWTQRFFESFG-----DLS-----  50
+137174   4     LTPEEKTAVNALWGKVNVDA--VGGEALGRLLVVYPWTQRFFESFG-----DLS-----  50
+139468   2    VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLS-----  50
+135108   2    VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLS-----  50
+129272   2    VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLS-----  50
+135867   1    VLSPADKTNVKAAWGKVGAHAGDYGAEALERMFLSFPTTKTYFPHF------DLS-----  49
+134919   3     LTADEKAAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFDSFG-----DLS-----  49
+136955   3     LTAEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFDSFG-----DLS-----  49
+134921   3     LTAEEKSLVTGLWGKV--NVDEVGGEALGRLLIVYPWTQRFFDSFG-----DLSTPDAV  54
+139471   4     LSSEEKSAVTALWGKVNVE--EVGGEALGRLLVVYPWTQRFFESFG-----DLS-----  50
+126604   3     LTGEEKAAVTALWGKV--NVDEVGGETLGRLLVVYPWTQRFFDSFG-----DLS-----  49
+129275   4     LTGEEKAAVTGLWSKV--NVDEVGGEALGRLLVVYPWTQRFFDSFG-----DLS-----  50
+71566    2    VLSPADKSNVKAAWGKVGGHAGEYGAEALERMFLSFPTTKTYFPHF------DLS-----  50
+135421   4     LTAEEKAAVTALWGKVDVE--DVGGEALGRLLVVYPWTQRFFDSFG-----DLSTPAAV  55
+140223   3     LTAEEKSLVSGLWGKV--NVDEVGGEALGRLLIVYPWTQRFFDSFG-----DLSTPDAV  54
+129271   3     LTGEEKSLVTGLWGKV--NVDEVGGEALGRLLVVYPWTQRFFDSFG-----DLS-----  49
+131154   1    VLSPADKTNVKAAWGKVGGHAGEYGAEALERMFLSFPTTKTYFPHF------DLS-----  49
+72255    4     LTGEEKAAVTGLWSKV--NVDEVGGEALGRLLVVYPWTQRFFDSFG-----DLS-----  50
+137981   1    VLSPADKTNVKAAWGKVGGHAGEYGAEALERMFLSFPTTKTYFPHF------DLS-----  49
+140219   1    VLSPADKTNVKAAWGKVGAHAGZYGAEALERMFLSFPTTKTYFPHF------DLS-----  49
+101318   1    VLSPADKTNVKAAWGKVGAHAGDYGAEALERMFLSFPTTKTYFPHF------DLS-----  49
+122232   1    VLSPDDKKHVKAAWGKVGEHAGEYGAEALERMFLSFPTTKTYFPHF------NLS-----  49
+137988   2    VLSPDDKKHVKAAWGKVGEHAGEYGAEALERMFLSFPTTKTYFPHF------DLS-----  50
+100879   4     LSAEEKEAVLGLWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFG-----DLS-----  50
+71580    3     LTAEEKGLVNGLWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFG-----DLS-----  49
+58316    3     LTAEEKALVTGLWGKVKVE--EFGGEALGRLLVVYPWTQRFFDSFG-----DLS-----  49
+130997   1    VLSPADKTNVKSTWDKIGGHAGEYGGEALERTFASFPTTKTYFPHF------DLS-----  49
+70608    4     LTADEKAAVTALWSKVNVE--DVGGEALGRLLVVYPWTQRFFDSFG-----DLSTPAAV  55
+131158   4     LTDAEKAAVNGLWGKV--NPDDVGGEALGRLLVVYPWTQRYFDSFG-----DLS-----  50
+74688    1    VLSAKDKTNISEAWGKIGGHAGEYGAEALERMFFVYPTTKTYFPHF------DVS-----  49
+138660   4     LTDAEKAAVSCLWGKV--NSDEVGGEALGRLLVVYPWTQRYFDSFG-----DLS-----  50
+95169    1    VLSAADKSNVKACWGKIGSHAGEYGAEALERTFCSFPTTKTYFPHF------DLS-----  49
+97667    2    VLSAADKTNVKAAWSKVGGHAGEYGAEALERMFLGFPTTKTYFPHF------DLS-----  50
+94746    4     FTAEEKAAIASLWGQVNVE--ETGGEALGRLLVVYPWTQRFFDTFG-----NLS-----  50
+91973    2    VLSGEDKSNIKAAWGKIGGHGAEYGAEALERMFASFPTTKTYFPHF------DVS-----  50
+91499    4     FTAEEKSVITGLWGKVNVE--ETGGQAVGRLLVVYPWTQRFFDSFG-----NMS-----  50
+134193   3     FTAEEKSVITGLWGKVNVE--ETGGEAVGRLLVVYPWTQRFFDSFG-----NMS-----  49
+94743    4     LTDAEKSAVSCLWAKV--NPDEVGGEALGRLLVVYPWTQRYFDSFG-----DLS-----  50
+92518    1    VLSPADKTNVKGTWSKIGNHSAEYGAEALERMFINFPSTKTYFSHF------DLG-----  49
+140214   2    VLSAADKGNVKAAWGKVGGHAAEYGAEALERMFLSFPTTKTYFPHF------DLS-----  50
+129983   2    VLSPADKTNVKATWDKIGGHAGEYGGEALERTFASFPTTKTYFPHF------DLS-----  50
+136949   1    VLSPADKTNVKTTWDKLGGHAGEYGGEALERTFMSFPTTKTYFPHF------DLS-----  49
+72251    4     LTAEEKSSVTSLWGKM--NVDEAGGEALGRLLVVYPWTQRFFDNFG-----NLS-----  50
+77401    4     FTAEEKAAITGLWGKVNVE--EAGGEALGRLLVVYPWTQRFFDSFG-----NLS-----  50
+50774    4     LTDAEKATVSGLWGKV--NADNVGAEALGRLLVVYPWTQRYFSKFG-----DLS-----  50
+72247    1    VLSPADKTNVKAAWAKVGNHAADFGAEALERMFMSFPSTKTYFSHF------DLG-----  49
+71577    2    VLSPADKTNIKTAWEKIGSHGGEYGAEAVERMFLGFPTTKTYFPHF------DFT-----  50
+129269   2    VLSAADKSNVKAAWGKVGGNAGAYGAEALERMFLSFPTTKTYFPHF------DLS-----  50
+71575    2    VLSAADKSNVKAAWGKVGGNAGAYGAEALERMFLSFPTTKTYFPHF------DLS-----  50
+128982   1    VLSPADKTNVKTTWDKIGGHAGEYGGEALERTFMAFPTTKTYFPHF------DLS-----  49
+50127    2    VLSPADKSNVKATWDKIGSHAGEYGGEALERTFASFPTTKTYFPHF------DLS-----  50
+50776    4     FTAEEKAAITSLWGKMNVE--EAGGEALGRLLVVYPWTQRFFDNFG-----NLS-----  50
+131162   4     FTAEEKAAVTSLWSKMNVE--ETGGEALGRLLVVYPWTQRFFDSFG-----NLS-----  50
+128987   2    VLSAADKSNVKAAWGKVGSNAGAYGAEALERMFLSFPTTKTYFPHF------DLS-----  50
+79293    4     LTAAEKTQVTNLWGKV--NVKELGGEALSRLLVVYPWTRRFFEHFG-----DLS-----  50
+128986   3     LTAAEKTQVTNLWGKV--NVKELGGEALSRLLVVYPWTRRFFEHFG-----DLS-----  49
+126602   1    VLSPADKTNIKSTWDKIGGHAGDYGGEALDRTFQSFPTTKTYFPHF------DLS-----  49
+71584    3     LTGEEKSAVTALWGKVNVE--EVGGEALGRLLVVYPWTQRFFESFG-----DLS-----  49
+131001   3     LTGEEKSGLTALWAKVNVE--EIGGEALGRLLVVYPWTQRFFEHFG-----DLS-----  49
+95181    4     FTPEEKCIISKQWGQV--NIDETGGEALGRLLVVYPWTQRFFDNFG-----NLS-----  50
+128271   4     FTAEEKAAITSLWSKMNVE--EAGGEALGRLLVVYPWTQRFFDNFG-----NLS-----  50
+126853   1    VLSPADKTNIKSTWDKIGGHAGDYGGEALDRTFQSFPTTKTYFPHF------DLS-----  49
+134918   8         EKAAVTSLWSKMNVE--EAGGEALGRLLVVYPWTQRFFDSFG-----NLS-----  50
+128775   8         EKAAVTSLWSKMNVE--EAGGEALGRLLVVYPWTQRFFDSFG-----NLS-----  50
+126603   8         EKAAVTSLWSKMNVE--EAGGEALGRLLVVYPWTQRFFDSFG-----NLS-----  50
+137792   8         EKAAVTSLWSKMNVE--EAGGEALGRLLIVYPWTQRFFDSFG-----NLS-----  50
+72252    1    VLSAADKANVKAAWGKVGGQAGAHGAEALERMFLGFPTTKTYFPHF------NLS-----  49
+128985   4     FTEEDKATITSLWGKVNVE--DAGGETLGRLLVVYPWTQRFFDSFG-----NLS-----  50
+100874   4     LTDAEKALVTGLWGKVNADA--VGAEALGRLLVVYPWTQRFFEHFG-----DLS-----  50
+72232    1    VLSDNDKTNVKATWSKVGDHASDYVAEALERMFFSFPTTKTYFPHF------DLG-----  49
+90876    3     LSGGEKSAVTNLWGKVNIN--ELGGEALGRLLVVYPWTQRFFEAFG-----DLS-----  49
+136762   4     FTEEDKATITSLWGKVNVE--DAGGETLGRLLVVYPWTQRFFDSFG-----NLS-----  50
+135874   4     FTEEDKATITSLWGKVNVE--DAGGETLGRLLVVYPWTQRFFDSFG-----NLS-----  50
+135427   4     FTEEDKATITSLWGKVNVE--DAGGETLGRLLVVYPWTQRFFDSFG-----NLS-----  50
+135869   1    MLTAEEKAAVTAFWGKV--KVDEVGGEALGRLLVVYPWTQRFFESFG-----DLS-----  48
+129274   4     FTEEDKATITSLWGKVNVE--DAGGETLGRLLVVYPWTQRFFDSFG-----NLS-----  50
+137989   3         NKALITGFWSKV--KVDEVGAEALGRLLVVYPWTQRFFEHFG-----DLS-----  45
+136954   3     FTEEDKATITSLWGKVNVE--DAGGETLGRLLVVYPWTQRFFDSFG-----NLS-----  49
+134195   4     FTEEDKATITSLWGKVNVE--DAGGETLGRLLVVYPWTQRFFDSFG-----NLS-----  50
+76708    4     FTEEDKATITSLWGKVNVE--DAGGETLGRLLVVYPWTQRFFDSFG-----NLS-----  50
+137791   4     FTEEDKATITSLWGKVNVE--DAGGETLGRLLVVYPWTQRFFDSFG-----NLS-----  50
+98085    3     LSGEEKAAVLALWDKVNEE--EVGGEALGRLLVVYPWTQRFFDSFG-----DLS-----  49
+70611    4     FTAEEKTLINGLWSKVNVE--EVGGEALGRLLVVYPWTQRFFDSFG-----NLS-----  50
+69854    3     LTAAEKSAILDLWGKV--NVGEIGAEALGRLLVVYPWTQRFFEKFG-----DLS-----  49
+137987   4     FTTEEKAAVASLWAKVNVEV--VGGESLARLLIVYPWTQRFFDSF------GNL-----  49
+96642    4     FTAEEKAAITSTWKLVDVE--DAGAEALGRLLVVYPWTQRFFDSFG-----NLS-----  50
+82556    4     FTTEEKAAVASLWAKVNVEV--VGGESLARLLIVYPWTQRFFDSFGNLCSESAI-----  55
+72259    8         DKAAITSLWAKVNVE--DAGGETLGRLLVVYPWTQRFFDSFG-----SLS-----  50
+139834   1    MLTAEEKAAVTGFWGKV--KVDEVGAEALGRLLVVYPWTQRFFEHFG-----DLS-----  48
+
+Query_1  50   H------G-----SA-----QVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRV  93
+131000   56   M------G-----NP-----KVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHV  99
+128274   56   M------G-----NP-----KVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHV  99
+53564    56   M------G-----NP-----KVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHV  99
+134601   56   M------G-----NP-----KVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHV  99
+137790   51   SPDAVM-G-----NP-----KVKAHGKKVLGAFSDGLNHLDNLKGTFAQLSELHCDKLHV  99
+134194   51   SPDAVM-G-----NP-----KVKAHGKKVLGAFSDGLNHLDNLKGTFAQLSELHCDKLHV  99
+127207   51   T------P-----DAVMNNPKVKAHGKKVLGAFSDGLTHLDNLKGTFAHLSELHCDKLHV  99
+127208   50   SPDAVM-G-----NP-----KVKAHGKKVLGAFSDGLNHLDNLKGTFAQLSELHCDKLHV  98
+129526   50   NPDAVM-G-----NP-----KVKAHGKKVLGAFSDGLNHLDNLKGTFAQLSELHCDKLHV  98
+136952   51   SPAAVM-G-----NP-----KVKAHGKKVLGAFSDGLNHLDNLKGTFAQLSELHCDKLHV  99
+136764   51   SPDAVM-G-----NP-----KVKAHGKKVLGAFSDGLAHLDNLKGTFSQLSELHCDKLHV  99
+126855   51   SPDAVM-G-----NP-----KVKAHGKKVLGAFSDGLAHLDNLKGTFSQLSELHCDKLHV  99
+137174   51   SPDAVM-G-----NP-----KVKAHGKKVLGAFSDGLAHLDNLKGTFSQLSELHCDKLHV  99
+139468   51   H------G-----SA-----QVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRV  94
+135108   51   H------G-----SA-----QVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRV  94
+129272   51   H------G-----SA-----QVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRV  94
+135867   50   H------G-----SA-----QVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRV  93
+134919   50   SPDAVM-G-----NP-----KVKAHGKKVLNSFSDGLKNLDNLKGTFAKLSELHCDKLHV  98
+136955   50   S------P-----NAIMSNPKVKAHGKKVLNSFSDGLKNLDNLKGTFAKLSELHCDQLHV  98
+134921   55   M------G-----NA-----KVKAHGKKVLNSFSDGLKNLDNLKGTFAKLSELHCDKLHV  98
+139471   51   S------A-----NAVMNNPKVKAHGKKVLAAFSEGLSHLDNLKGTFAKLSELHCDKLHV  99
+126604   50   S------P-----DAVMSNPKVKAHGKKVLNSFSEGLKNLDNLKGTFAKLSELHCDKLHV  98
+129275   51   T------P-----DAVMNNPKVKAHGKKVLNSFSEGLKNLDNLKGTFAKLSELHCDKLHV  99
+71566    51   H------G-----SA-----QVKGHGKKVADALTLAVGHVDDMPNALSALSDLHAHKLRV  94
+135421   56   M------S-----NA-----KVKAHGKKVLNAFSDGMAHLDNLKGTFAKLSELHCDKLHV  99
+140223   55   M------S-----NA-----KVKAHGKKVLNSFSDGLKNLDNLKGTFAKLSELHCDKLHV  98
+129271   50   S------A-----DAIMNNPKVKAHGKKVLNSFSDGLKNLDNLKGTFAKLSELHCDKLHV  98
+131154   50   H------G-----SA-----QVKGHGKKVADALTLAVGHVDDMPQALSALSDLHAHKLRV  93
+72255    51   T------P-----DAVMNNPKVKAHGKKVLNSFSEGLKNLDNLKGTFVKLSELHCDKLHV  99
+137981   50   H------G-----SA-----QVKGHGKKVADALTLAVDHVDDMPQALSALSDLHAHKLRV  93
+140219   50   H------G-----SA-----ZVKGHGKKVAKALSBAVZHLDDMPNALSALSBLHAHKLRV  93
+101318   50   H------G-----SA-----ZVKGHGKKVAKALTBAVZHLDDMPNALSALSBLHAHKLRV  93
+122232   50   H------G-----SD-----QVKGHGKKVADALTLAVGHVDDMPHALSKLSDLHAHKLRV  93
+137988   51   H------G-----SD-----QVNKHGKKVADALTLAVGHVDDMPQALSKLSDLHAHKLRV  94
+100879   51   NADAVM-G-----NP-----KVKAHGKKVLQSFSDGLKHLDNLKGTFAKLSELHCDQLHV  99
+71580    50   S------ADAIMSNA-----KVKAHGKKVLNSFSDGLKNIDDLKGAFAKLSELHCDKLHV  98
+58316    50   SADAVM-G-----NP-----KVKAHGAKVLQSMGDGIKNLDNLKGTFSKLSELHCDKLHV  98
+130997   50   H------G-----SA-----QVKAHGKKVADALTNAVAHVDDLPGALSALSDLHAYKLRV  93
+70608    56   M------S-----NA-----KVKAHGKKVLNAFSDGMAHLDNLKGTFAKLSELHCDKLHV  99
+131158   51   S------A-----SAIMGNPKVKAHGKKVINAFNDGLKHLDNLKGTFAHLSELHCDKLHV  99
+74688    50   H------G-----SA-----QVKGHGKKVADALTNAVGHLDDLPGALSALSDLHAHKLRV  93
+138660   51   SASAIM-G-----NA-----KVKAHGKKVITAFNDGLNHLDSLKGTFASLSELHCDKLHV  99
+95169    50   H------G-----SA-----QVKAHGQKVADALTQAVAHMDDLPTAMSALSDLHAYKLRV  93
+97667    51   H------G-----SA-----QVKAHGKKVGDALTLAVGHLDDLPGALSNLSDLHAHKLRV  94
+94746    51   S------A-----SAIMGNPRVKAHGKKVLTSFGDAVKNLDNLKGTFAKLSELHCDKLHV  99
+91973    51   H------G-----SA-----QVKGHGKKVADALASAAGHLDDLPGALSALSDLHAHKLRV  94
+91499    51   SPSAIM-G-----NP-----KVKAHGKKVLTAFGDAVKNMDNLKGTFAKLSELHCDKLHV  99
+134193   50   SPSAIM-G-----NP-----KVKAHGKKVLTSFGDAVKNMDNLKGTFAKLSELHCDKLHV  98
+94743    51   S------A-----SAIMGNPKVKAHGKKVITAFNEGLKNLDNLKGTFASLSELHCDKLHV  99
+92518    50   H------G-----SA-----QIKGHGKKVADALTKAVGHIDNLPDALSELSDLHAHKLRV  93
+140214   51   H------G-----SA-----QVKGHGAKVAAALTKAVEHLDDLPGALSELSDLHAHKLRV  94
+129983   51   P------G-----SA-----QVKAHGKKVADALTTAVGHLDDLPGALSALSDLHAHKLRV  94
+136949   50   P------G-----SA-----QVKAHGKKVADALTTAVAHIDDLPGALSALSDLHAYKLRV  93
+72251    51   S------S-----SAIMGNPKVKAHGKKVLTSFGDAIKNMDNLKGAFAKLSELHCDKLHV  99
+77401    51   S------A-----SAIMGNPKVKAHGKKVLTSFGEAIKNLDNLKGAFAKLSELHCDKLHV  99
+50774    51   S------A-----SAIMGNPQVKAHGKKVINAFNDGLKHLDNLKGTFAHLSELHCDKLHV  99
+72247    50   H------N-----ST-----QVKGHGKKVADALTKAVGHLDTLPDALSDLSDLHAHKLRV  93
+71577    51   H------G-----SE-----QIKAHGKKVSEALTKAVGHLDDLPGALSTLSDLHAHKLRV  94
+129269   51   H------G-----SA-----QVKGHGEKVAAALTKAVGHLDDLPGTLSDLSDLHAHKLRV  94
+71575    51   H------G-----SA-----QVKGHGEKVAAALTKAVGHLDDLPGTLSDLSDLHAHKLRV  94
+128982   50   P------G-----SA-----QVKTHGKKVADALTTAVSHIDDLPGALSALSDLHAYKLRV  93
+50127    51   P------G-----SA-----QVKAHGKKVADALTTAAGHLDDLPGALSALSDLHAHKLRV  94
+50776    51   SPSAIL-G-----NP-----KVKAHGKKVLTSFGDAIKNMDNLKTTFAKLSELHCDKLHV  99
+131162   51   SPSAIL-G-----NP-----KVKAHGKKVLTSFGDAIKNMDNLKITFAKLSELHCDKLHV  99
+128987   51   H------G-----SA-----QVKGHGEKVAAALTKAVGHLDDLPGTLSDLSDLHAHKLRV  94
+79293    51   T------AEAVLHNA-----KVLAHGEKVLTSFGEGLKHLDNLKGTFADLSELHCDKLHV  99
+128986   50   T------AEAVLHNA-----KVLAHGEKVLTSFGEGLKHLDNLKGTFADLSELHCDKLHV  98
+126602   50   P------G-----SA-----QVKAHGKKVADALTTAVAHLDDLPGALSALSDLHAYKLRV  93
+71584    50   T------A-----DAVMKNPNVKKHGQKVLASFGEGLKHLDDLKGTFAALSELHCDKLHV  98
+131001   50   T------A-----DAVMKNPKVKKHGQKVLASFGEGLKHLDNLKGTFATLSELHCDKLHV  98
+95181    51   S------S-----SAIMGNPKVKAHGKKVLTSFGDAIKNMDNLKGAFAKLSELHCDKLHV  99
+128271   51   SPSAIL-G-----NP-----KVKAHGKKVLTSFGDAIKNMDNLKTTFAKLSELHCDKLHV  99
+126853   50   P------G-----SA-----QVKAHGKKVADALTTAVAHLDDLPGALSALSDLHAYKLRV  93
+134918   51   SPSAIL-G-----NP-----KVKAHGKKVLTSFGDAIKNMDNLKPAFAKLSELHCDKLHV  99
+128775   51   SPSAIL-G-----NP-----KVKAHGKKVLTSFGDAIKNMDNLKPAFAKLSELHCDKLHV  99
+126603   51   SPSAIL-G-----NP-----KVKAHGKKVLTSFGDAIKNMDNLKPAFAKLSELHCDKLHV  99
+137792   51   SPSAIL-G-----NP-----KVKAHGKKVLTSFGDAIKNMDNLKPAFAKLSELHCDKLHV  99
+72252    50   H------G-----SD-----QVKAHGQKVADALTKAVGHLDDLPGALSALSDLHAHKLRV  93
+128985   51   S------A-----SAIMGNPKVKAHGKKVLTSLGDAIKNLDDLKGTFAQLSELHCDKLHV  99
+100874   51   S------A-----SAVMNNPQVKAHGKKVIHSFADGLKHLDNLKGAFSSLSELHCDKLHV  99
+72232    50   H------G-----SG-----QVKAHGKKVGEALTQAVGHLDDLPSALSALSDLHAHKLRV  93
+90876    50   SAGAVM-G-----NP-----KVKAHGAKVLTSFGDALKNLDDLKGTFAKLSELHCDKLHV  98
+136762   51   S------A-----SAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHV  99
+135874   51   S------A-----SAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHV  99
+135427   51   S------A-----SAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHV  99
+135869   49   T------A-----DAVMNNPKVKAHGKKVLDSFSNGMKHLDDLKGTFAALSELHCDKLHV  97
+129274   51   S------A-----SAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHV  99
+137989   46   SADAVL-G-----NA-----KVKAHGKKVLDSFSNGVQHLDDLKGTFAELSELHCDKLHV  94
+136954   50   S------A-----SAIMGNPKVKAHGKKVLTSLGDAIKNLDDLKGTFAQLSELHCDKLHV  98
+134195   51   S------A-----SAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHV  99
+76708    51   S------A-----SAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHV  99
+137791   51   S------A-----SAIMGNPKVKAHGKKVLTSLGGAIKHLDDLKGTFAQLSELHCDKLHV  99
+98085    50   NPGAVM-G-----NP-----KVKAHGKKVLHSFGEGVHHLDNLKGTFAALSELHCDKLHV  98
+70611    51   S------A-----SAIMGNPRVKAHGKKVLTAFGESIKNLDNLKSALAKLSELHCDKLHV  99
+69854    50   S------A-----SAIMSNAHVKSHGAKVLASFSEGLKHLQDLKGTFAKLSELHCDKLHV  98
+137987   50   YSESAIMG-----NP-----KVKAHGRKVLNSFGNAIEHMDDLKGTFADLSELHCDKLHV  99
+96642    51   S------S-----SAIMGNPKVKAHGKKVLTAFGDAVKNVDDLKNTFAHLSELHCDRLHV  99
+82556    56   M------G-----NP-----KVKAHGRKVLNSFGNAIKHMDDLKGTFADLSELHCDKLHV  99
+72259    51   SPSAIM-G-----NP-----KVKAHGVKVLTSLGEAIKNLDDLKGTFGQLSELHCDKLHV  99
+139834   49   N------A-----DAVMNNPKVKAHGKKVLDSFSNGMKHLDDLKGTFAQLSELHCDKLHV  97
+
+Query_1  94   DPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYRVHLTPEEKSAVT  153
+131000   2                                                    VHLTPEEKSAVT  13
+131000   100  DPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY               146
+128274   2                                                    VHLTPEEKSAVT  13
+128274   100  DPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY               146
+53564    2                                                    VHLTPEEKSAVT  13
+53564    100  DPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY               146
+134601   2                                                    VHLTPEEKSAVT  13
+134601   100  DPENFKLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY               146
+137790   2                                                    VHLTPEEKNAVT  13
+137790   100  DPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKY               146
+134194   2                                                    VHLTPEEKNAVT  13
+134194   100  DPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKY               146
+127207   2                                                    VHLTGEEKSAVT  13
+127207   100  DPENFRLLGNVLVCVLAHHFGKEFTPVVQAAYQKVVAGVANALAHKY               146
+127208   1                                                    VHLTPEEKNAVT  12
+127208   99   DPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKY               145
+129526   1                                                    VHLTPEEKVAVT  12
+129526   99   DPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKY               145
+136952   2                                                    VHLTPEEKNAVT  13
+136952   100  DPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKY               146
+136764   2                                                    VHLTPEEKTAVN  13
+136764   100  DPENFRLLGNVLVCVLARNFGKEFTPQVQAAYQKVVAGVANALAHKY               146
+126855   2                                                    VHLTPEEKTAVN  13
+126855   100  DPENFRLLGNVLVCVLARNFGKEFTPQVQAAYQKVVAGVANALAHKY               146
+137174   2                                                    VHLTPEEKTAVN  13
+137174   100  DPENFRLLGNVLVCVLARNFGKEFTPQMQAAYQKVVAGVANALAHKY               146
+139468   95   DPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR              142
+139468   3                                                      LSPADKTNVK  12
+135108   95   DPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR              142
+135108   3                                                      LSPADKTNVK  12
+129272   95   DPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR              142
+129272   3                                                      LSPADKTNVK  12
+135867   94   DPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR              141
+135867   2                                                      LSPADKTNVK  11
+134919   1                                                    VHLTADEKAAVT  12
+134919   99   DPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKY               145
+136955   1                                                    VHLTAEEKSAVT  12
+136955   99   DPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKY               145
+134921   1                                                    VHLTAEEKSLVT  12
+134921   99   DPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKY               145
+139471   2                                                    VHLSSEEKSAVT  13
+139471   100  DPENFRLLGNVLVIVLSHHFGKEFTPQVQAAYQKVVAGVANALAHKY               146
+126604   1                                                    VHLTGEEKAAVT  12
+126604   99   DPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKY               145
+129275   2                                                    VHLTGEEKAAVT  13
+129275   100  DPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKY               146
+71566    95   DPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR              142
+71566    3                                                      LSPADKSNVK  12
+135421   2                                                    VHLTAEEKAAVT  13
+135421   100  DPENFRLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVATALAHKY               146
+140223   1                                                    VHLTAEEKSLVS  12
+140223   99   DPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKY               145
+129271   1                                                    VHLTGEEKSLVT  12
+129271   99   DPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKY               145
+131154   94   DPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR              141
+131154   2                                                      LSPADKTNVK  11
+72255    2                                                    VHLTGEEKAAVT  13
+72255    100  DPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKY               146
+137981   94   DPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVGTVLTSKYR              141
+137981   2                                                      LSPADKTNVK  11
+140219   94   BPVBFKLLNHCLLVTLAABFPSZFTPAVHASVDKFLASVSTVLTSKYR              141
+140219   2                                                      LSPADKTNVK  11
+101318   94   BPVBFKLLNHCLLVTLAABFPSZFTPAVHASVDKFLASVSTVLTSKYR              141
+101318   2                                                      LSPADKTNVK  11
+122232   94   DPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR              141
+122232   2                                                      LSPDDKKHVK  11
+137988   95   DPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR              142
+137988   3                                                      LSPDDKKHVK  12
+100879   2                                                    VHLSAEEKEAVL  13
+100879   100  DPENFRLLGNVIVVVLARRLGHDFNPNVQAAFQKVVAGVANALAHKY               146
+71580    3                                                      LTAEEKGLVN  12
+71580    99   DPENFRLLGNVLVCVLAHHFGHDFNPQVQAAFQKVVAGVANALAHKY               145
+58316    1                                                    VHLTAEEKALVT  12
+58316    99   DPENFRLLGNVLVCVLARHFGKDFTPAAQAAFQKVVAGVANALAAKY               145
+130997   94   DPVNFKLLSHCLLVTLACHHPAEFTPAVHASLDKFFSAVSTVLTSKYR              141
+130997   2                                                      LSPADKTNVK  11
+70608    2                                                    VHLTADEKAAVT  13
+70608    100  DPENFRLLGNVLVCVLAHHFGKQFTPQLQAAYQKVVAGVAAALAHKY               146
+131158   2                                                    VHLTDAEKAAVN  13
+131158   100  DPENFRLLGNMIVIVLGHHLGKEFTPCAQAAFQKVVAGVASALAHKY               146
+74688    94   DPVNFKLLSHCLLVTLANHHPADFTPAVHASLDKFFASVSTVLTSKYR              141
+74688    2                                                      LSAKDKTNIS  11
+138660   2                                                    VHLTDAEKAAVS  13
+138660   100  DPENFRLLGNMIVIVLGHHLGKDFTPAAQAAFQKVVAGVATALAHKY               146
+95169    94   DPVNFKFLSHCLLVTLACHHPAEFTPAVHASLDKFFSAVSTVLTSKYR              141
+95169    2                                                      LSAADKSNVK  11
+97667    95   DPVNFKLLSHCLLSTLAVHLPNDFTPAVHASLDKFLSSVSTVLTSKYR              142
+97667    3                                                      LSAADKTNVK  12
+94746    2                                                    VHFTAEEKAAIA  13
+94746    100  DPENFRLLGNVLVIVLANHFGKEFTPQVQAAWQKMVTGVANALAYKY               146
+91973    95   DPVNFKLLSHCLLVTLASHHPADFTPAVHASLDKFLASVSTVLTSKYR              142
+91973    3                                                      LSGEDKSNIK  12
+91499    2                                                    VHFTAEEKSVIT  13
+91499    100  DPENFRLLGNMIVIILASHFGGEFTPEVQAAWQKLVAGVATALAHKY               146
+134193   1                                                    VHFTAEEKSVIT  12
+134193   99   DPENFRLLGNMIVIILASHFGGEFTPEVQAAWQKLVAGVATALAHKY               145
+94743    2                                                    VHLTDAEKSAVS  13
+94743    100  DPENFRLLGNAIVIVLGHHLGKDFTPAAQAAFQKVVAGVATALAHKY               146
+92518    94   DPVNFKLLSHCLLVTLALHLPADFTPSVHASLDKFLASVSTVLTSKYR              141
+92518    2                                                      LSPADKTNVK  11
+140214   95   DPVNFKLLSHSLLVTLASHLPSDFTPAVHASLDKFLANVSTVLTSKYR              142
+140214   3                                                      LSAADKGNVK  12
+129983   95   DPVNFKLLSHCLLVTLASHHPAEFTPAVHASLDKFFSAVSTVLTSKYR              142
+129983   3                                                      LSPADKTNVK  12
+136949   94   DPVNFKLLSHCLLVTLACHHPAEFTPAVHASLDKFFSTVSTVLTSKYR              141
+136949   2                                                      LSPADKTNVK  11
+72251    2                                                    VHLTAEEKSSVT  13
+72251    100  DPENFRLLGNVLVIILVTHFGKDFTPEVQVAWQKLVSGVATALAHKY               146
+77401    2                                                    VHFTAEEKAAIT  13
+77401    100  DPENFRLLGNVIVIILATHFGREFTPDVQAAWQKLVSGVATALAHKY               146
+50774    2                                                    VHLTDAEKATVS  13
+50774    100  DPENFRLLGNMIVIVLGHHLGKEFTPCAQAAFQKVVAGVASALAHKY               146
+72247    94   DPVNFKLLSHCLLVTLAAHLPGDFTPSVHASLDKFLASVSTVLTSKYR              141
+72247    2                                                      LSPADKTNVK  11
+71577    95   DPVNFKLLSHCLLVTLANHHPSEFTPAVHASLDKFLANVSTVLTSKYR              142
+71577    3                                                      LSPADKTNIK  12
+129269   95   DPVNFKLLSHSLLVTLACHLPNDFTPAVHASLDKFLANVSTVLTSKYR              142
+129269   3                                                      LSAADKSNVK  12
+71575    95   DPVNFKLLSHSLLVTLACHLPNDFTPAVHASLDKFLANVSTVLTSKYR              142
+71575    3                                                      LSAADKSNVK  12
+128982   94   DPVNFKLLSHCLLVTLACHHPADFTPAVHASLDKFFSAVSTVLTSKYR              141
+128982   2                                                      LSPADKTNVK  11
+50127    95   DPVNFKFLSHCLLVTLASHHPAEFTPAVHASLDKFFSAVSTVLTSKYR              142
+50127    3                                                      LSPADKSNVK  12
+50776    2                                                    VHFTAEEKAAIT  13
+50776    100  DPENFRLLGNVLVIILATHFGKEFTPEVQAAWQKLVSAVAIALGHKY               146
+131162   2                                                    VHFTAEEKAAVT  13
+131162   100  DPENFKLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALAHKY               146
+128987   95   DPVNFKLLSHSLLVTLACHHPSDFTPAVHASLDKFLANVSTVLTSKYR              142
+128987   3                                                      LSAADKSNVK  12
+79293    2                                                    VNLTAAEKTQVT  13
+79293    100  DPENFRLLGNVLVIVLARHFGKEFTPDVQAAYEKVVAGVANALAHKY               146
+128986   1                                                    VNLTAAEKTQVT  12
+128986   99   DPENFRLLGNVLVIVLARHFGKEFTPDVQAAYEKVVAGVANALAHKY               145
+126602   94   DPVNFKLLSHCLLVTLACHHPTEFTPAVHASLDKFFAAVSTVLTSKYR              141
+126602   2                                                      LSPADKTNIK  11
+71584    1                                                    VHLTGEEKSAVT  12
+71584    99   DPENFRLLGNVLVVVLARHFGKEFTPELQSAYQKVVAGVATALAHKY               145
+131001   1                                                    VHLTGEEKSGLT  12
+131001   99   DPENFRLLGNVLVVVLARHFGKEFTPELQTAYQKVVAGVANALAHKY               145
+95181    2                                                    VHFTPEEKCIIS  13
+95181    100  DPENFKLLGNVLLIVLATHFGKEFTPEVQAAWQKLVSGVAIALAHKY               146
+128271   2                                                    VHFTAEEKAAIT  13
+128271   100  DPENFRLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALGHKY               146
+126853   94   DPVNFKLLSHCLLVTLACHHPNEFTPAVHASLDKFFTAVSTVLTSKYR              141
+126853   2                                                      LSPADKTNIK  11
+134918   2                                                    VHFTAEEKAAVT  13
+134918   100  DPENFKLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALAHKY               146
+128775   2                                                    VHFTAEEKAAVT  13
+128775   100  DPENFKLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALAHKY               146
+126603   2                                                    VHFTAEEKAAVT  13
+126603   100  DPENFKLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALAHKY               146
+137792   2                                                    VHFTAEEKAAVT  13
+137792   100  DPENFKLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALAHKY               146
+72252    94   DPVNFKLLSHCLLVTLAAHHPDDFNPSVHASLDKFLANVSTVLTSKYR              141
+72252    2                                                      LSAADKANVK  11
+128985   3                                                     HFTEEDKATIT  13
+128985   100  DPENFRLLGNVLVTVLAIHFGKEFTPEVQASWQKMVAGVASALSSRY               146
+100874   2                                                    VHLTDAEKALVT  13
+100874   100  DPENFKLLGNMIIIVLSHDLGKDFTPSAQSAFHKVVAGVANALAHKY               146
+72232    94   DPVNFKLLSHCLLVTLSSHQPTEFTPEVHASLDKFLSNVSTVLTSKYR              141
+72232    2                                                      LSDNDKTNVK  11
+90876    1                                                    VHLSGGEKSAVT  12
+90876    99   DPENFNRLGNVLIVVLARHFSKDFSPEVQAAWQKLVSGVAHALGHKY               145
+136762   3                                                     HFTEEDKATIT  13
+136762   100  DPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTGVASALSSRY               146
+135874   3                                                     HFTEEDKATIT  13
+135874   100  DPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTGVASALSSRY               146
+135427   3                                                     HFTEEDKATIT  13
+135427   100  DPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTGVASALSSRY               146
+135869   2                                                      LTAEEKAAVT  11
+135869   98   DPENFKLLGNVLVVVLARNFGKEFTPVLQADFQKVVAGVANALAHRY               144
+129274   3                                                     HFTEEDKATIT  13
+129274   100  DPENFRLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTAVASALSSRY               146
+137989   4                                                           KALIT  8
+137989   95   DPENFRLLGNVLVIVLARHFGKEFTPELQAEFQKVVAGVASALAHRY               141
+136954   2                                                     HFTEEDKATIT  12
+136954   99   DPENFRLLGNVLVTVLAIRFGKEFTPEVQASWQKMVAGVASALSSRY               145
+134195   3                                                     HFTEEDKATIT  13
+134195   100  DPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTAVASALSSRY               146
+76708    3                                                     HFTEEDKATIT  13
+76708    100  DPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTAVASALSSRY               146
+137791   3                                                     HFTEEDKATIT  13
+137791   100  DPENFRLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTAVASALSSRY               146
+98085    1                                                    VQLSGEEKAAVL  12
+98085    99   DPENFRLLGNVLVVVLARHFGKDFTPELQASYQKVVAGVANALAHKY               145
+70611    2                                                    VNFTAEEKTLIN  13
+70611    100  DPENFKLLGNVLVIVLASHFGNEFTAEMQAAWQKLVAGVATALSHKY               146
+69854    1                                                    VHLTAAEKSAIL  12
+69854    99   DPENFRLLGNMIVIALAHHHPSEFTPCTQAAFQKVTAGVANALAHKY               145
+137987   2                                                    VHFTTEEKAAVA  13
+137987   100  DPENFRLLGNMILIVLATHFSKEFTPQMQASWQKLTNAVANALAHKY               146
+96642    2                                                    VHFTAEEKAAIT  13
+96642    100  DPENFKLLGNVLVIVLAKYFGKEFTPQVQSAWQKLVAGVATALAHKY               146
+82556    2                                                    VHFTTEEKAAVA  13
+82556    100  DPPNFRLLGNMILIVLATHFSKEFTPQMQAAWQKLTNAVANALAHKY               146
+72259    3                                                     NFTAEDKAAIT  13
+72259    100  DPENFRLLGNVLVTVLAILYGKEFTPEVQASWQKMVAGVASALASRY               146
+139834   2                                                      LTAEEKAAVT  11
+139834   98   DPENFRLLGNVLVVVLARHHGNEFTPVLQADFQKVVAGVANALAHKY               144
+
+Query_1  154  ALWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKK  207
+131000   14   ALWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKK  67
+128274   14   ALWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKK  67
+53564    14   ALWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKK  67
+134601   14   ALWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKK  67
+137790   14   TLWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMGNPKVKAHGKK  67
+134194   14   TLWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMGNPKVKAHGKK  67
+127207   14   ALWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMNNPKVKAHGKK  67
+127208   13   TLWGKV--NV--D--EVGGEALGRLLLVYPWTQRFFESFGDLSSPDAVMGNPKVKAHGKK  66
+129526   13   TLWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFGDLSNPDAVMGNPKVKAHGKK  66
+136952   14   ALWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFDSFGDLSSPAAVMGNPKVKAHGKK  67
+136764   14   ALWGKV--NV--D--AVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMGNPKVKAHGKK  67
+126855   14   ALWGKV--NV--D--AVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMGNPKVKAHGKK  67
+137174   14   ALWGKV--NV--D--AVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMGNPKVKAHGKK  67
+139468   13   AAWGKVGAHA--G--EYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGKK  62
+135108   13   AAWGKVGAHA--G--EYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGKK  62
+129272   13   AAWGKVGAHA--G--EYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGKK  62
+135867   12   AAWGKVGAHA--G--DYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGKK  61
+134919   13   ALWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFDSFGDLSSPDAVMGNPKVKAHGKK  66
+136955   13   ALWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFDSFGDLSSPNAIMSNPKVKAHGKK  66
+134921   13   GLWGKV--NV--D--EVGGEALGRLLIVYPWTQRFFDSFGDLSTPDAVMGNAKVKAHGKK  66
+139471   14   ALWGKV--NV--E--EVGGEALGRLLVVYPWTQRFFESFGDLSSANAVMNNPKVKAHGKK  67
+126604   13   ALWGKV--NV--D--EVGGETLGRLLVVYPWTQRFFDSFGDLSSPDAVMSNPKVKAHGKK  66
+129275   14   GLWSKV--NV--D--EVGGEALGRLLVVYPWTQRFFDSFGDLSTPDAVMNNPKVKAHGKK  67
+71566    13   AAWGKVGGHA--G--EYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGKK  62
+135421   14   ALWGKV--DV--E--DVGGEALGRLLVVYPWTQRFFDSFGDLSTPAAVMSNAKVKAHGKK  67
+140223   13   GLWGKV--NV--D--EVGGEALGRLLIVYPWTQRFFDSFGDLSTPDAVMSNAKVKAHGKK  66
+129271   13   GLWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFDSFGDLSSADAIMNNPKVKAHGKK  66
+131154   12   AAWGKVGGHA--G--EYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGKK  61
+72255    14   GLWSKV--NV--D--EVGGEALGRLLVVYPWTQRFFDSFGDLSTPDAVMNNPKVKAHGKK  67
+137981   12   AAWGKVGGHA--G--EYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGKK  61
+140219   12   AAWGKVGAHA--G--ZYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAZVKGHGKK  61
+101318   12   AAWGKVGAHA--G--DYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAZVKGHGKK  61
+122232   12   AAWGKVGEHA--G--EYGAEALERMFLSFPTTKTYFPHF-NLS-----HGSDQVKGHGKK  61
+137988   13   AAWGKVGEHA--G--EYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSDQVNKHGKK  62
+100879   14   GLWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFGDLSNADAVMGNPKVKAHGKK  67
+71580    13   GLWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFGDLSSADAIMSNAKVKAHGKK  66
+58316    13   GLWGKV--KV--E--EFGGEALGRLLVVYPWTQRFFDSFGDLSSADAVMGNPKVKAHGAK  66
+130997   12   STWDKIGGHA--G--EYGGEALERTFASFPTTKTYFPHF-DLS-----HGSAQVKAHGKK  61
+70608    14   ALWSKV--NV--E--DVGGEALGRLLVVYPWTQRFFDSFGDLSTPAAVMSNAKVKAHGKK  67
+131158   14   GLWGKV--NP--D--DVGGEALGRLLVVYPWTQRYFDSFGDLSSASAIMGNPKVKAHGKK  67
+74688    12   EAWGKIGGHA--G--EYGAEALERMFFVYPTTKTYFPHF------DVSHGSAQVKGHGKK  61
+138660   14   CLWGKV--NS--D--EVGGEALGRLLVVYPWTQRYFDSFGDLSSASAIMGNAKVKAHGKK  67
+95169    12   ACWGKIGSHA--G--EYGAEALERTFCSFPTTKTYFPHF-DLS-----HGSAQVKAHGQK  61
+97667    13   AAWSKVGGHA--G--EYGAEALERMFLGFPTTKTYFPHF-DLS-----HGSAQVKAHGKK  62
+94746    14   SLWGQV--NV--E--ETGGEALGRLLVVYPWTQRFFDTFGNLSSASAIMGNPRVKAHGKK  67
+91973    13   AAWGKI--GG--HGAEYGAEALERMFASFPTTKTYFPHF------DVSHGSAQVKGHGKK  62
+91499    14   GLWGKV--NV--E--ETGGQAVGRLLVVYPWTQRFFDSFGNMSSPSAIMGNPKVKAHGKK  67
+134193   13   GLWGKV--NV--E--ETGGEAVGRLLVVYPWTQRFFDSFGNMSSPSAIMGNPKVKAHGKK  66
+94743    14   CLWAKV--NP--D--EVGGEALGRLLVVYPWTQRYFDSFGDLSSASAIMGNPKVKAHGKK  67
+92518    12   GTWSKIGNHS--A--EYGAEALERMFINFPSTKTYFSHF------DLGHGSAQIKGHGKK  61
+140214   13   AAWGKVGGHA--A--EYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGAK  62
+129983   13   ATWDKIGGHA--G--EYGGEALERTFASFPTTKTYFPHF-DLSP-----GSAQVKAHGKK  62
+136949   12   TTWDKLGGHA--G--EYGGEALERTFMSFPTTKTYFPHF-DLSP-----GSAQVKAHGKK  61
+72251    14   SLWGKM--NV--D--EAGGEALGRLLVVYPWTQRFFDNFGNLSSSSAIMGNPKVKAHGKK  67
+77401    14   GLWGKV--NV--E--EAGGEALGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKK  67
+50774    14   GLWGKV--NA--D--NVGAEALGRLLVVYPWTQRYFSKFGDLSSASAIMGNPQVKAHGKK  67
+72247    12   AAWAKVGNHA--A--DFGAEALERMFMSFPSTKTYFSHF------DLGHNSTQVKGHGKK  61
+71577    13   TAWEKI--GSHGG--EYGAEAVERMFLGFPTTKTYFPHF------DFTHGSEQIKAHGKK  62
+129269   13   AAWGKVGGNA--G--AYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGEK  62
+71575    13   AAWGKVGGNA--G--AYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGEK  62
+128982   12   TTWDKIGGHA--G--EYGGEALERTFMAFPTTKTYFPHF-DLSP-----GSAQVKTHGKK  61
+50127    13   ATWDKIGSHA--G--EYGGEALERTFASFPTTKTYFPHF-DLSP-----GSAQVKAHGKK  62
+50776    14   SLWGKM--NV--E--EAGGEALGRLLVVYPWTQRFFDNFGNLSSPSAILGNPKVKAHGKK  67
+131162   14   SLWSKM--NV--E--ETGGEALGRLLVVYPWTQRFFDSFGNLSSPSAILGNPKVKAHGKK  67
+128987   13   AAWGKVGSNA--G--AYGAEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGEK  62
+79293    14   NLWGKV--NV--K--ELGGEALSRLLVVYPWTRRFFEHFGDLSTAEAVLHNAKVLAHGEK  67
+128986   13   NLWGKV--NV--K--ELGGEALSRLLVVYPWTRRFFEHFGDLSTAEAVLHNAKVLAHGEK  66
+126602   12   STWDKIGGHA--G--DYGGEALDRTFQSFPTTKTYFPHF-DLSP-----GSAQVKAHGKK  61
+71584    13   ALWGKV--NV--E--EVGGEALGRLLVVYPWTQRFFESFGDLSTADAVMKNPNVKKHGQK  66
+131001   13   ALWAKV--NV--E--EIGGEALGRLLVVYPWTQRFFEHFGDLSTADAVMKNPKVKKHGQK  66
+95181    14   KQWGQV--NI--D--ETGGEALGRLLVVYPWTQRFFDNFGNLSSSSAIMGNPKVKAHGKK  67
+128271   14   SLWSKM--NV--E--EAGGEALGRLLVVYPWTQRFFDNFGNLSSPSAILGNPKVKAHGKK  67
+126853   12   STWDKIGGHA--G--DYGGEALDRTFQSFPTTKTYFPHF-DLSP-----GSAQVKAHGKK  61
+134918   14   SLWSKM--NV--E--EAGGEALGRLLVVYPWTQRFFDSFGNLSSPSAILGNPKVKAHGKK  67
+128775   14   SLWSKM--NV--E--EAGGEALGRLLVVYPWTQRFFDSFGNLSSPSAILGNPKVKAHGKK  67
+126603   14   SLWSKM--NV--E--EAGGEALGRLLVVYPWTQRFFDSFGNLSSPSAILGNPKVKAHGKK  67
+137792   14   SLWSKM--NV--E--EAGGEALGRLLIVYPWTQRFFDSFGNLSSPSAILGNPKVKAHGKK  67
+72252    12   AAWGKVGGQA--G--AHGAEALERMFLGFPTTKTYFPHF-NLS-----HGSDQVKAHGQK  61
+128985   14   SLWGKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKK  67
+100874   14   GLWGKV--NA--D--AVGAEALGRLLVVYPWTQRFFEHFGDLSSASAVMNNPQVKAHGKK  67
+72232    12   ATWSKVGDHA--S--DYVAEALERMFFSFPTTKTYFPHF------DLGHGSGQVKAHGKK  61
+90876    13   NLWGKV--NI--N--ELGGEALGRLLVVYPWTQRFFEAFGDLSSAGAVMGNPKVKAHGAK  66
+136762   14   SLWGKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKK  67
+135874   14   SLWGKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKK  67
+135427   14   SLWGKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKK  67
+135869   12   AFWGKV--KV--D--EVGGEALGRLLVVYPWTQRFFESFGDLSTADAVMNNPKVKAHGKK  65
+129274   14   SLWGKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKK  67
+137989   9    GFWSKV--KV--D--EVGAEALGRLLVVYPWTQRFFEHFGDLSSADAVLGNAKVKAHGKK  62
+136954   13   SLWGKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKK  66
+134195   14   SLWGKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKK  67
+76708    14   SLWGKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKK  67
+137791   14   SLWGKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKK  67
+98085    13   ALWDKV--NE--E--EVGGEALGRLLVVYPWTQRFFDSFGDLSNPGAVMGNPKVKAHGKK  66
+70611    14   GLWSKV--NV--E--EVGGEALGRLLVVYPWTQRFFDSFGNLSSASAIMGNPRVKAHGKK  67
+69854    13   DLWGKV--NV--G--EIGAEALGRLLVVYPWTQRFFEKFGDLSSASAIMSNAHVKSHGAK  66
+137987   14   SLWAKV--NV--E--VVGGESLARLLIVYPWTQRFFDSFGNLYSESAIMGNPKVKAHGRK  67
+96642    14   STWKLV--DV--E--DAGAEALGRLLVVYPWTQRFFDSFGNLSSSSAIMGNPKVKAHGKK  67
+82556    14   SLWAKV--NV--E--VVGGESLARLLIVYPWTQRFFDSFGNLCSESAIMGNPKVKAHGRK  67
+72259    14   SLWAKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFGSLSSPSAIMGNPKVKAHGVK  67
+139834   12   GFWGKV--KV--D--EVGAEALGRLLVVYPWTQRFFEHFGDLSNADAVMNNPKVKAHGKK  65
+
+Query_1  208  VLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPV  267
+131000   68   VLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPV  127
+128274   68   VLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPV  127
+53564    68   VLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPV  127
+134601   68   VLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPPV  127
+137790   68   VLGAFSDGLNHLDNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQV  127
+134194   68   VLGAFSDGLNHLDNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQV  127
+127207   68   VLGAFSDGLTHLDNLKGTFAHLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPVV  127
+127208   67   VLGAFSDGLNHLDNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQV  126
+129526   67   VLGAFSDGLNHLDNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQV  126
+136952   68   VLGAFSDGLNHLDNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQV  127
+136764   68   VLGAFSDGLAHLDNLKGTFSQLSELHCDKLHVDPENFRLLGNVLVCVLARNFGKEFTPQV  127
+126855   68   VLGAFSDGLAHLDNLKGTFSQLSELHCDKLHVDPENFRLLGNVLVCVLARNFGKEFTPQV  127
+137174   68   VLGAFSDGLAHLDNLKGTFSQLSELHCDKLHVDPENFRLLGNVLVCVLARNFGKEFTPQM  127
+139468   63   VADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAV  122
+135108   63   VADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAV  122
+129272   63   VADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAV  122
+135867   62   VADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAV  121
+134919   67   VLNSFSDGLKNLDNLKGTFAKLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQV  126
+136955   67   VLNSFSDGLKNLDNLKGTFAKLSELHCDQLHVDPENFKLLGNVLVCVLAHHFGKEFTPQV  126
+134921   67   VLNSFSDGLKNLDNLKGTFAKLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQV  126
+139471   68   VLAAFSEGLSHLDNLKGTFAKLSELHCDKLHVDPENFRLLGNVLVIVLSHHFGKEFTPQV  127
+126604   67   VLNSFSEGLKNLDNLKGTFAKLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQV  126
+129275   68   VLNSFSEGLKNLDNLKGTFAKLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQV  127
+71566    63   VADALTLAVGHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAV  122
+135421   68   VLNAFSDGMAHLDNLKGTFAKLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPQV  127
+140223   67   VLNSFSDGLKNLDNLKGTFAKLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQV  126
+129271   67   VLNSFSDGLKNLDNLKGTFAKLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQV  126
+131154   62   VADALTLAVGHVDDMPQALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAV  121
+72255    68   VLNSFSEGLKNLDNLKGTFVKLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQV  127
+137981   62   VADALTLAVDHVDDMPQALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAV  121
+140219   62   VAKALSBAVZHLDDMPNALSALSBLHAHKLRVBPVBFKLLNHCLLVTLAABFPSZFTPAV  121
+101318   62   VAKALTBAVZHLDDMPNALSALSBLHAHKLRVBPVBFKLLNHCLLVTLAABFPSZFTPAV  121
+122232   62   VADALTLAVGHVDDMPHALSKLSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAV  121
+137988   63   VADALTLAVGHVDDMPQALSKLSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAV  122
+100879   68   VLQSFSDGLKHLDNLKGTFAKLSELHCDQLHVDPENFRLLGNVIVVVLARRLGHDFNPNV  127
+71580    67   VLNSFSDGLKNIDDLKGAFAKLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGHDFNPQV  126
+58316    67   VLQSMGDGIKNLDNLKGTFSKLSELHCDKLHVDPENFRLLGNVLVCVLARHFGKDFTPAA  126
+130997   62   VADALTNAVAHVDDLPGALSALSDLHAYKLRVDPVNFKLLSHCLLVTLACHHPAEFTPAV  121
+70608    68   VLNAFSDGMAHLDNLKGTFAKLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKQFTPQL  127
+131158   68   VINAFNDGLKHLDNLKGTFAHLSELHCDKLHVDPENFRLLGNMIVIVLGHHLGKEFTPCA  127
+74688    62   VADALTNAVGHLDDLPGALSALSDLHAHKLRVDPVNFKLLSHCLLVTLANHHPADFTPAV  121
+138660   68   VITAFNDGLNHLDSLKGTFASLSELHCDKLHVDPENFRLLGNMIVIVLGHHLGKDFTPAA  127
+95169    62   VADALTQAVAHMDDLPTAMSALSDLHAYKLRVDPVNFKFLSHCLLVTLACHHPAEFTPAV  121
+97667    63   VGDALTLAVGHLDDLPGALSNLSDLHAHKLRVDPVNFKLLSHCLLSTLAVHLPNDFTPAV  122
+94746    68   VLTSFGDAVKNLDNLKGTFAKLSELHCDKLHVDPENFRLLGNVLVIVLANHFGKEFTPQV  127
+91973    63   VADALASAAGHLDDLPGALSALSDLHAHKLRVDPVNFKLLSHCLLVTLASHHPADFTPAV  122
+91499    68   VLTAFGDAVKNMDNLKGTFAKLSELHCDKLHVDPENFRLLGNMIVIILASHFGGEFTPEV  127
+134193   67   VLTSFGDAVKNMDNLKGTFAKLSELHCDKLHVDPENFRLLGNMIVIILASHFGGEFTPEV  126
+94743    68   VITAFNEGLKNLDNLKGTFASLSELHCDKLHVDPENFRLLGNAIVIVLGHHLGKDFTPAA  127
+92518    62   VADALTKAVGHIDNLPDALSELSDLHAHKLRVDPVNFKLLSHCLLVTLALHLPADFTPSV  121
+140214   63   VAAALTKAVEHLDDLPGALSELSDLHAHKLRVDPVNFKLLSHSLLVTLASHLPSDFTPAV  122
+129983   63   VADALTTAVGHLDDLPGALSALSDLHAHKLRVDPVNFKLLSHCLLVTLASHHPAEFTPAV  122
+136949   62   VADALTTAVAHIDDLPGALSALSDLHAYKLRVDPVNFKLLSHCLLVTLACHHPAEFTPAV  121
+72251    68   VLTSFGDAIKNMDNLKGAFAKLSELHCDKLHVDPENFRLLGNVLVIILVTHFGKDFTPEV  127
+77401    68   VLTSFGEAIKNLDNLKGAFAKLSELHCDKLHVDPENFRLLGNVIVIILATHFGREFTPDV  127
+50774    68   VINAFNDGLKHLDNLKGTFAHLSELHCDKLHVDPENFRLLGNMIVIVLGHHLGKEFTPCA  127
+72247    62   VADALTKAVGHLDTLPDALSDLSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPGDFTPSV  121
+71577    63   VSEALTKAVGHLDDLPGALSTLSDLHAHKLRVDPVNFKLLSHCLLVTLANHHPSEFTPAV  122
+129269   63   VAAALTKAVGHLDDLPGTLSDLSDLHAHKLRVDPVNFKLLSHSLLVTLACHLPNDFTPAV  122
+71575    63   VAAALTKAVGHLDDLPGTLSDLSDLHAHKLRVDPVNFKLLSHSLLVTLACHLPNDFTPAV  122
+128982   62   VADALTTAVSHIDDLPGALSALSDLHAYKLRVDPVNFKLLSHCLLVTLACHHPADFTPAV  121
+50127    63   VADALTTAAGHLDDLPGALSALSDLHAHKLRVDPVNFKFLSHCLLVTLASHHPAEFTPAV  122
+50776    68   VLTSFGDAIKNMDNLKTTFAKLSELHCDKLHVDPENFRLLGNVLVIILATHFGKEFTPEV  127
+131162   68   VLTSFGDAIKNMDNLKITFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPEV  127
+128987   63   VAAALTKAVGHLDDLPGTLSDLSDLHAHKLRVDPVNFKLLSHSLLVTLACHHPSDFTPAV  122
+79293    68   VLTSFGEGLKHLDNLKGTFADLSELHCDKLHVDPENFRLLGNVLVIVLARHFGKEFTPDV  127
+128986   67   VLTSFGEGLKHLDNLKGTFADLSELHCDKLHVDPENFRLLGNVLVIVLARHFGKEFTPDV  126
+126602   62   VADALTTAVAHLDDLPGALSALSDLHAYKLRVDPVNFKLLSHCLLVTLACHHPTEFTPAV  121
+71584    67   VLASFGEGLKHLDDLKGTFAALSELHCDKLHVDPENFRLLGNVLVVVLARHFGKEFTPEL  126
+131001   67   VLASFGEGLKHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVVVLARHFGKEFTPEL  126
+95181    68   VLTSFGDAIKNMDNLKGAFAKLSELHCDKLHVDPENFKLLGNVLLIVLATHFGKEFTPEV  127
+128271   68   VLTSFGDAIKNMDNLKTTFAKLSELHCDKLHVDPENFRLLGNVMVIILATHFGKEFTPEV  127
+126853   62   VADALTTAVAHLDDLPGALSALSDLHAYKLRVDPVNFKLLSHCLLVTLACHHPNEFTPAV  121
+134918   68   VLTSFGDAIKNMDNLKPAFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPEV  127
+128775   68   VLTSFGDAIKNMDNLKPAFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPEV  127
+126603   68   VLTSFGDAIKNMDNLKPAFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPEV  127
+137792   68   VLTSFGDAIKNMDNLKPAFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPEV  127
+72252    62   VADALTKAVGHLDDLPGALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHHPDDFNPSV  121
+128985   68   VLTSLGDAIKNLDDLKGTFAQLSELHCDKLHVDPENFRLLGNVLVTVLAIHFGKEFTPEV  127
+100874   68   VIHSFADGLKHLDNLKGAFSSLSELHCDKLHVDPENFKLLGNMIIIVLSHDLGKDFTPSA  127
+72232    62   VGEALTQAVGHLDDLPSALSALSDLHAHKLRVDPVNFKLLSHCLLVTLSSHQPTEFTPEV  121
+90876    67   VLTSFGDALKNLDDLKGTFAKLSELHCDKLHVDPENFNRLGNVLIVVLARHFSKDFSPEV  126
+136762   68   VLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEV  127
+135874   68   VLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEV  127
+135427   68   VLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEV  127
+135869   66   VLDSFSNGMKHLDDLKGTFAALSELHCDKLHVDPENFKLLGNVLVVVLARNFGKEFTPVL  125
+129274   68   VLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFRLLGNVLVTVLAIHFGKEFTPEV  127
+137989   63   VLDSFSNGVQHLDDLKGTFAELSELHCDKLHVDPENFRLLGNVLVIVLARHFGKEFTPEL  122
+136954   67   VLTSLGDAIKNLDDLKGTFAQLSELHCDKLHVDPENFRLLGNVLVTVLAIRFGKEFTPEV  126
+134195   68   VLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEV  127
+76708    68   VLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEV  127
+137791   68   VLTSLGGAIKHLDDLKGTFAQLSELHCDKLHVDPENFRLLGNVLVTVLAIHFGKEFTPEV  127
+98085    67   VLHSFGEGVHHLDNLKGTFAALSELHCDKLHVDPENFRLLGNVLVVVLARHFGKDFTPEL  126
+70611    68   VLTAFGESIKNLDNLKSALAKLSELHCDKLHVDPENFKLLGNVLVIVLASHFGNEFTAEM  127
+69854    67   VLASFSEGLKHLQDLKGTFAKLSELHCDKLHVDPENFRLLGNMIVIALAHHHPSEFTPCT  126
+137987   68   VLNSFGNAIEHMDDLKGTFADLSELHCDKLHVDPENFRLLGNMILIVLATHFSKEFTPQM  127
+96642    68   VLTAFGDAVKNVDDLKNTFAHLSELHCDRLHVDPENFKLLGNVLVIVLAKYFGKEFTPQV  127
+82556    68   VLNSFGNAIKHMDDLKGTFADLSELHCDKLHVDPPNFRLLGNMILIVLATHFSKEFTPQM  127
+72259    68   VLTSLGEAIKNLDDLKGTFGQLSELHCDKLHVDPENFRLLGNVLVTVLAILYGKEFTPEV  127
+139834   66   VLDSFSNGMKHLDDLKGTFAQLSELHCDKLHVDPENFRLLGNVLVVVLARHHGNEFTPVL  125
+
+Query_1  268  QAAYQKVVAGVANALAHKYHVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTK  327
+131000   128  QAAYQKVVAGVANALAHKYH                                          147
+131000   4                         LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQ  40
+128274   128  QAAYQKVVAGVANALAHKYH                                          147
+128274   4                         LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQ  40
+53564    128  QAAYQKVVAGVANALAHKYH                                          147
+53564    4                         LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQ  40
+134601   128  QAAYQKVVAGVANALAHKYH                                          147
+134601   4                         LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQ  40
+137790   128  QAAYQKVVAGVANALAHKYH                                          147
+137790   4                         LTPEEKNAVTTLWGKV--NVDEVGGEALGRLLVVYPWTQ  40
+134194   128  QAAYQKVVAGVANALAHKYH                                          147
+134194   4                         LTPEEKNAVTTLWGKV--NVDEVGGEALGRLLVVYPWTQ  40
+127207   128  QAAYQKVVAGVANALAHKYH                                          147
+127207   4                         LTGEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQ  40
+127208   127  QAAYQKVVAGVANALAHKYH                                          146
+127208   3                         LTPEEKNAVTTLWGKV--NVDEVGGEALGRLLLVYPWTQ  39
+129526   127  QAAYQKVVAGVANALAHKYH                                          146
+129526   3                         LTPEEKVAVTTLWGKV--NVDEVGGEALGRLLVVYPWTQ  39
+136952   128  QAAYQKVVAGVANALAHKYH                                          147
+136952   4                         LTPEEKNAVTALWGKV--NVDEVGGEALGRLLVVYPWTQ  40
+136764   128  QAAYQKVVAGVANALAHKYH                                          147
+136764   4                         LTPEEKTAVNALWGKVNVDA--VGGEALGRLLVVYPWTQ  40
+126855   128  QAAYQKVVAGVANALAHKYH                                          147
+126855   4                         LTPEEKTAVNALWGKVNVDA--VGGEALGRLLVVYPWTQ  40
+137174   128  QAAYQKVVAGVANALAHKYH                                          147
+137174   4                         LTPEEKTAVNALWGKVNVDA--VGGEALGRLLVVYPWTQ  40
+139468   2                        VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTK  41
+139468   123  HASLDKFLASVSTVLTSKY                                           141
+135108   2                        VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTK  41
+135108   123  HASLDKFLASVSTVLTSKY                                           141
+129272   2                        VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTK  41
+129272   123  HASLDKFLASVSTVLTSKY                                           141
+135867   1                        VLSPADKTNVKAAWGKVGAHAGDYGAEALERMFLSFPTTK  40
+135867   122  HASLDKFLASVSTVLTSKY                                           140
+134919   127  QAAYQKVVAGVANALAHKYH                                          146
+134919   3                         LTADEKAAVTALWGKV--NVDEVGGEALGRLLVVYPWTQ  39
+136955   127  QAAYQKVVAGVANALAHKYH                                          146
+136955   3                         LTAEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQ  39
+134921   127  QAAYQKVVAGVANALAHKYH                                          146
+134921   3                         LTAEEKSLVTGLWGKV--NVDEVGGEALGRLLIVYPWTQ  39
+139471   128  QAAYQKVVAGVANALAHKYH                                          147
+139471   4                         LSSEEKSAVTALWGKVNVE--EVGGEALGRLLVVYPWTQ  40
+126604   127  QAAYQKVVAGVANALAHKYH                                          146
+126604   3                         LTGEEKAAVTALWGKV--NVDEVGGETLGRLLVVYPWTQ  39
+129275   128  QAAYQKVVAGVANALAHKYH                                          147
+129275   4                         LTGEEKAAVTGLWSKV--NVDEVGGEALGRLLVVYPWTQ  40
+71566    2                        VLSPADKSNVKAAWGKVGGHAGEYGAEALERMFLSFPTTK  41
+71566    123  HASLDKFLASVSTVLTSKY                                           141
+135421   128  QAAYQKVVAGVATALAHKYH                                          147
+135421   4                         LTAEEKAAVTALWGKVDVE--DVGGEALGRLLVVYPWTQ  40
+140223   127  QAAYQKVVAGVANALAHKYH                                          146
+140223   3                         LTAEEKSLVSGLWGKV--NVDEVGGEALGRLLIVYPWTQ  39
+129271   127  QAAYQKVVAGVANALAHKYH                                          146
+129271   3                         LTGEEKSLVTGLWGKV--NVDEVGGEALGRLLVVYPWTQ  39
+131154   1                        VLSPADKTNVKAAWGKVGGHAGEYGAEALERMFLSFPTTK  40
+131154   122  HASLDKFLASVSTVLTSKY                                           140
+72255    128  QAAYQKVVAGVANALAHKYH                                          147
+72255    4                         LTGEEKAAVTGLWSKV--NVDEVGGEALGRLLVVYPWTQ  40
+137981   1                        VLSPADKTNVKAAWGKVGGHAGEYGAEALERMFLSFPTTK  40
+137981   122  HASLDKFLASVGTVLTSKY                                           140
+140219   1                        VLSPADKTNVKAAWGKVGAHAGZYGAEALERMFLSFPTTK  40
+140219   122  HASVDKFLASVSTVLTSKY                                           140
+101318   1                        VLSPADKTNVKAAWGKVGAHAGDYGAEALERMFLSFPTTK  40
+101318   122  HASVDKFLASVSTVLTSKY                                           140
+122232   1                        VLSPDDKKHVKAAWGKVGEHAGEYGAEALERMFLSFPTTK  40
+122232   122  HASLDKFLASVSTVLTSKY                                           140
+137988   2                        VLSPDDKKHVKAAWGKVGEHAGEYGAEALERMFLSFPTTK  41
+137988   123  HASLDKFLASVSTVLTSKY                                           141
+100879   128  QAAFQKVVAGVANALAHKYH                                          147
+100879   4                         LSAEEKEAVLGLWGKV--NVDEVGGEALGRLLVVYPWTQ  40
+71580    127  QAAFQKVVAGVANALAHKYH                                          146
+71580    3                         LTAEEKGLVNGLWGKV--NVDEVGGEALGRLLVVYPWTQ  39
+58316    127  QAAFQKVVAGVANALAAKYH                                          146
+58316    3                         LTAEEKALVTGLWGKVKVE--EFGGEALGRLLVVYPWTQ  39
+130997   1                        VLSPADKTNVKSTWDKIGGHAGEYGGEALERTFASFPTTK  40
+130997   122  HASLDKFFSAVSTVLTSKY                                           140
+70608    128  QAAYQKVVAGVAAALAHKYH                                          147
+70608    4                         LTADEKAAVTALWSKVNVE--DVGGEALGRLLVVYPWTQ  40
+131158   128  QAAFQKVVAGVASALAHKYH                                          147
+131158   4                         LTDAEKAAVNGLWGKV--NPDDVGGEALGRLLVVYPWTQ  40
+74688    1                        VLSAKDKTNISEAWGKIGGHAGEYGAEALERMFFVYPTTK  40
+74688    122  HASLDKFFASVSTVLTSKY                                           140
+138660   128  QAAFQKVVAGVATALAHKYH                                          147
+138660   4                         LTDAEKAAVSCLWGKV--NSDEVGGEALGRLLVVYPWTQ  40
+95169    1                        VLSAADKSNVKACWGKIGSHAGEYGAEALERTFCSFPTTK  40
+95169    122  HASLDKFFSAVSTVLTSKY                                           140
+97667    2                        VLSAADKTNVKAAWSKVGGHAGEYGAEALERMFLGFPTTK  41
+97667    123  HASLDKFLSSVSTVLTSKY                                           141
+94746    128  QAAWQKMVTGVANALAYKYH                                          147
+94746    4                         FTAEEKAAIASLWGQVNVE--ETGGEALGRLLVVYPWTQ  40
+91973    2                        VLSGEDKSNIKAAWGKIGGHGAEYGAEALERMFASFPTTK  41
+91973    123  HASLDKFLASVSTVLTSKY                                           141
+91499    128  QAAWQKLVAGVATALAHKYH                                          147
+91499    4                         FTAEEKSVITGLWGKVNVE--ETGGQAVGRLLVVYPWTQ  40
+134193   127  QAAWQKLVAGVATALAHKYH                                          146
+134193   3                         FTAEEKSVITGLWGKVNVE--ETGGEAVGRLLVVYPWTQ  39
+94743    128  QAAFQKVVAGVATALAHKYH                                          147
+94743    4                         LTDAEKSAVSCLWAKV--NPDEVGGEALGRLLVVYPWTQ  40
+92518    1                        VLSPADKTNVKGTWSKIGNHSAEYGAEALERMFINFPSTK  40
+92518    122  HASLDKFLASVSTVLTSKY                                           140
+140214   2                        VLSAADKGNVKAAWGKVGGHAAEYGAEALERMFLSFPTTK  41
+140214   123  HASLDKFLANVSTVLTSKY                                           141
+129983   2                        VLSPADKTNVKATWDKIGGHAGEYGGEALERTFASFPTTK  41
+129983   123  HASLDKFFSAVSTVLTSKY                                           141
+136949   1                        VLSPADKTNVKTTWDKLGGHAGEYGGEALERTFMSFPTTK  40
+136949   122  HASLDKFFSTVSTVLTSKY                                           140
+72251    128  QVAWQKLVSGVATALAHKYH                                          147
+72251    4                         LTAEEKSSVTSLWGKM--NVDEAGGEALGRLLVVYPWTQ  40
+77401    128  QAAWQKLVSGVATALAHKYH                                          147
+77401    4                         FTAEEKAAITGLWGKVNVE--EAGGEALGRLLVVYPWTQ  40
+50774    128  QAAFQKVVAGVASALAHKYH                                          147
+50774    4                         LTDAEKATVSGLWGKV--NADNVGAEALGRLLVVYPWTQ  40
+72247    1                        VLSPADKTNVKAAWAKVGNHAADFGAEALERMFMSFPSTK  40
+72247    122  HASLDKFLASVSTVLTSKY                                           140
+71577    2                        VLSPADKTNIKTAWEKIGSHGGEYGAEAVERMFLGFPTTK  41
+71577    123  HASLDKFLANVSTVLTSKY                                           141
+129269   2                        VLSAADKSNVKAAWGKVGGNAGAYGAEALERMFLSFPTTK  41
+129269   123  HASLDKFLANVSTVLTSKY                                           141
+71575    2                        VLSAADKSNVKAAWGKVGGNAGAYGAEALERMFLSFPTTK  41
+71575    123  HASLDKFLANVSTVLTSKY                                           141
+128982   1                        VLSPADKTNVKTTWDKIGGHAGEYGGEALERTFMAFPTTK  40
+128982   122  HASLDKFFSAVSTVLTSKY                                           140
+50127    2                        VLSPADKSNVKATWDKIGSHAGEYGGEALERTFASFPTTK  41
+50127    123  HASLDKFFSAVSTVLTSKY                                           141
+50776    128  QAAWQKLVSAVAIALGHKYH                                          147
+50776    4                         FTAEEKAAITSLWGKMNVE--EAGGEALGRLLVVYPWTQ  40
+131162   128  QAAWQKLVSAVAIALAHKYH                                          147
+131162   4                         FTAEEKAAVTSLWSKMNVE--ETGGEALGRLLVVYPWTQ  40
+128987   2                        VLSAADKSNVKAAWGKVGSNAGAYGAEALERMFLSFPTTK  41
+128987   123  HASLDKFLANVSTVLTSKY                                           141
+79293    128  QAAYEKVVAGVANALAHKYH                                          147
+79293    4                         LTAAEKTQVTNLWGKV--NVKELGGEALSRLLVVYPWTR  40
+128986   127  QAAYEKVVAGVANALAHKYH                                          146
+128986   3                         LTAAEKTQVTNLWGKV--NVKELGGEALSRLLVVYPWTR  39
+126602   1                        VLSPADKTNIKSTWDKIGGHAGDYGGEALDRTFQSFPTTK  40
+126602   122  HASLDKFFAAVSTVLTSKY                                           140
+71584    127  QSAYQKVVAGVATALAHKYH                                          146
+71584    3                         LTGEEKSAVTALWGKVNVE--EVGGEALGRLLVVYPWTQ  39
+131001   127  QTAYQKVVAGVANALAHKYH                                          146
+131001   3                         LTGEEKSGLTALWAKVNVE--EIGGEALGRLLVVYPWTQ  39
+95181    128  QAAWQKLVSGVAIALAHKYH                                          147
+95181    4                         FTPEEKCIISKQWGQV--NIDETGGEALGRLLVVYPWTQ  40
+128271   128  QAAWQKLVSAVAIALGHKYH                                          147
+128271   4                         FTAEEKAAITSLWSKMNVE--EAGGEALGRLLVVYPWTQ  40
+126853   1                        VLSPADKTNIKSTWDKIGGHAGDYGGEALDRTFQSFPTTK  40
+126853   122  HASLDKFFTAVSTVLTSKY                                           140
+134918   128  QAAWQKLVSAVAIALAHKYH                                          147
+134918   8                             EKAAVTSLWSKMNVE--EAGGEALGRLLVVYPWTQ  40
+128775   128  QAAWQKLVSAVAIALAHKYH                                          147
+128775   8                             EKAAVTSLWSKMNVE--EAGGEALGRLLVVYPWTQ  40
+126603   128  QAAWQKLVSAVAIALAHKYH                                          147
+126603   8                             EKAAVTSLWSKMNVE--EAGGEALGRLLVVYPWTQ  40
+137792   128  QAAWQKLVSAVAIALAHKYH                                          147
+137792   8                             EKAAVTSLWSKMNVE--EAGGEALGRLLIVYPWTQ  40
+72252    1                        VLSAADKANVKAAWGKVGGQAGAHGAEALERMFLGFPTTK  40
+72252    122  HASLDKFLANVSTVLTSKY                                           140
+128985   128  QASWQKMVAGVASALSSRYH                                          147
+128985   4                         FTEEDKATITSLWGKVNVE--DAGGETLGRLLVVYPWTQ  40
+100874   128  QSAFHKVVAGVANALAHKYH                                          147
+100874   4                         LTDAEKALVTGLWGKVNADA--VGAEALGRLLVVYPWTQ  40
+72232    1                        VLSDNDKTNVKATWSKVGDHASDYVAEALERMFFSFPTTK  40
+72232    122  HASLDKFLSNVSTVLTSKY                                           140
+90876    127  QAAWQKLVSGVAHALGHKYH                                          146
+90876    3                         LSGGEKSAVTNLWGKVNIN--ELGGEALGRLLVVYPWTQ  39
+136762   128  QASWQKMVTGVASALSSRYH                                          147
+136762   4                         FTEEDKATITSLWGKVNVE--DAGGETLGRLLVVYPWTQ  40
+135874   128  QASWQKMVTGVASALSSRYH                                          147
+135874   4                         FTEEDKATITSLWGKVNVE--DAGGETLGRLLVVYPWTQ  40
+135427   128  QASWQKMVTGVASALSSRYH                                          147
+135427   4                         FTEEDKATITSLWGKVNVE--DAGGETLGRLLVVYPWTQ  40
+135869   126  QADFQKVVAGVANALAHRYH                                          145
+135869   1                        MLTAEEKAAVTAFWGKV--KVDEVGGEALGRLLVVYPWTQ  38
+129274   128  QASWQKMVTAVASALSSRYH                                          147
+129274   4                         FTEEDKATITSLWGKVNVE--DAGGETLGRLLVVYPWTQ  40
+137989   123  QAEFQKVVAGVASALAHRYH                                          142
+137989   3                             NKALITGFWSKV--KVDEVGAEALGRLLVVYPWTQ  35
+136954   127  QASWQKMVAGVASALSSRYH                                          146
+136954   3                         FTEEDKATITSLWGKVNVE--DAGGETLGRLLVVYPWTQ  39
+134195   128  QASWQKMVTAVASALSSRYH                                          147
+134195   4                         FTEEDKATITSLWGKVNVE--DAGGETLGRLLVVYPWTQ  40
+76708    128  QASWQKMVTAVASALSSRYH                                          147
+76708    4                         FTEEDKATITSLWGKVNVE--DAGGETLGRLLVVYPWTQ  40
+137791   128  QASWQKMVTAVASALSSRYH                                          147
+137791   4                         FTEEDKATITSLWGKVNVE--DAGGETLGRLLVVYPWTQ  40
+98085    127  QASYQKVVAGVANALAHKYH                                          146
+98085    3                         LSGEEKAAVLALWDKVNEE--EVGGEALGRLLVVYPWTQ  39
+70611    128  QAAWQKLVAGVATALSHKYH                                          147
+70611    4                         FTAEEKTLINGLWSKVNVE--EVGGEALGRLLVVYPWTQ  40
+69854    127  QAAFQKVTAGVANALAHKYH                                          146
+69854    3                         LTAAEKSAILDLWGKV--NVGEIGAEALGRLLVVYPWTQ  39
+137987   128  QASWQKLTNAVANALAHKYH                                          147
+137987   4                         FTTEEKAAVASLWAKVNVEV--VGGESLARLLIVYPWTQ  40
+96642    128  QSAWQKLVAGVATALAHKYH                                          147
+96642    4                         FTAEEKAAITSTWKLVDVE--DAGAEALGRLLVVYPWTQ  40
+82556    128  QAAWQKLTNAVANALAHKYH                                          147
+82556    4                         FTTEEKAAVASLWAKVNVEV--VGGESLARLLIVYPWTQ  40
+72259    128  QASWQKMVAGVASALASRYH                                          147
+72259    8                             DKAAITSLWAKVNVE--DAGGETLGRLLVVYPWTQ  40
+139834   126  QADFQKVVAGVANALAHKYH                                          145
+139834   1                        MLTAEEKAAVTGFWGKV--KVDEVGAEALGRLLVVYPWTQ  38
+
+Query_1  328  TYFPHF------DLS-----H------G-----SA-----QVKGHGKKVADALTNAVAHV  360
+131000   41   RFFESFG-----DLSTPDAVM------G-----NP-----KVKAHGKKVLGAFSDGLAHL  79
+128274   41   RFFESFG-----DLSTPDAVM------G-----NP-----KVKAHGKKVLGAFSDGLAHL  79
+53564    41   RFFESFG-----DLSTPDAVM------G-----NP-----KVKAHGKKVLGAFSDGLAHL  79
+134601   41   RFFESFG-----DLSTPDAVM------G-----NP-----KVKAHGKKVLGAFSDGLAHL  79
+137790   41   RFFESFG-----DLS-----SPDAVM-G-----NP-----KVKAHGKKVLGAFSDGLNHL  79
+134194   41   RFFESFG-----DLS-----SPDAVM-G-----NP-----KVKAHGKKVLGAFSDGLNHL  79
+127207   41   RFFESFG-----DLS-----T------P-----DAVMNNPKVKAHGKKVLGAFSDGLTHL  79
+127208   40   RFFESFG-----DLS-----SPDAVM-G-----NP-----KVKAHGKKVLGAFSDGLNHL  78
+129526   40   RFFESFG-----DLS-----NPDAVM-G-----NP-----KVKAHGKKVLGAFSDGLNHL  78
+136952   41   RFFDSFG-----DLS-----SPAAVM-G-----NP-----KVKAHGKKVLGAFSDGLNHL  79
+136764   41   RFFESFG-----DLS-----SPDAVM-G-----NP-----KVKAHGKKVLGAFSDGLAHL  79
+126855   41   RFFESFG-----DLS-----SPDAVM-G-----NP-----KVKAHGKKVLGAFSDGLAHL  79
+137174   41   RFFESFG-----DLS-----SPDAVM-G-----NP-----KVKAHGKKVLGAFSDGLAHL  79
+139468   42   TYFPHF------DLS-----H------G-----SA-----QVKGHGKKVADALTNAVAHV  74
+135108   42   TYFPHF------DLS-----H------G-----SA-----QVKGHGKKVADALTNAVAHV  74
+129272   42   TYFPHF------DLS-----H------G-----SA-----QVKGHGKKVADALTNAVAHV  74
+135867   41   TYFPHF------DLS-----H------G-----SA-----QVKGHGKKVADALTNAVAHV  73
+134919   40   RFFDSFG-----DLS-----SPDAVM-G-----NP-----KVKAHGKKVLNSFSDGLKNL  78
+136955   40   RFFDSFG-----DLS-----S------P-----NAIMSNPKVKAHGKKVLNSFSDGLKNL  78
+134921   40   RFFDSFG-----DLSTPDAVM------G-----NA-----KVKAHGKKVLNSFSDGLKNL  78
+139471   41   RFFESFG-----DLS-----S------A-----NAVMNNPKVKAHGKKVLAAFSEGLSHL  79
+126604   40   RFFDSFG-----DLS-----S------P-----DAVMSNPKVKAHGKKVLNSFSEGLKNL  78
+129275   41   RFFDSFG-----DLS-----T------P-----DAVMNNPKVKAHGKKVLNSFSEGLKNL  79
+71566    42   TYFPHF------DLS-----H------G-----SA-----QVKGHGKKVADALTLAVGHV  74
+135421   41   RFFDSFG-----DLSTPAAVM------S-----NA-----KVKAHGKKVLNAFSDGMAHL  79
+140223   40   RFFDSFG-----DLSTPDAVM------S-----NA-----KVKAHGKKVLNSFSDGLKNL  78
+129271   40   RFFDSFG-----DLS-----S------A-----DAIMNNPKVKAHGKKVLNSFSDGLKNL  78
+131154   41   TYFPHF------DLS-----H------G-----SA-----QVKGHGKKVADALTLAVGHV  73
+72255    41   RFFDSFG-----DLS-----T------P-----DAVMNNPKVKAHGKKVLNSFSEGLKNL  79
+137981   41   TYFPHF------DLS-----H------G-----SA-----QVKGHGKKVADALTLAVDHV  73
+140219   41   TYFPHF------DLS-----H------G-----SA-----ZVKGHGKKVAKALSBAVZHL  73
+101318   41   TYFPHF------DLS-----H------G-----SA-----ZVKGHGKKVAKALTBAVZHL  73
+122232   41   TYFPHF------NLS-----H------G-----SD-----QVKGHGKKVADALTLAVGHV  73
+137988   42   TYFPHF------DLS-----H------G-----SD-----QVNKHGKKVADALTLAVGHV  74
+100879   41   RFFESFG-----DLS-----NADAVM-G-----NP-----KVKAHGKKVLQSFSDGLKHL  79
+71580    40   RFFESFG-----DLS-----S------ADAIMSNA-----KVKAHGKKVLNSFSDGLKNI  78
+58316    40   RFFDSFG-----DLS-----SADAVM-G-----NP-----KVKAHGAKVLQSMGDGIKNL  78
+130997   41   TYFPHF------DLS-----H------G-----SA-----QVKAHGKKVADALTNAVAHV  73
+70608    41   RFFDSFG-----DLSTPAAVM------S-----NA-----KVKAHGKKVLNAFSDGMAHL  79
+131158   41   RYFDSFG-----DLS-----S------A-----SAIMGNPKVKAHGKKVINAFNDGLKHL  79
+74688    41   TYFPHF------DVS-----H------G-----SA-----QVKGHGKKVADALTNAVGHL  73
+138660   41   RYFDSFG-----DLS-----SASAIM-G-----NA-----KVKAHGKKVITAFNDGLNHL  79
+95169    41   TYFPHF------DLS-----H------G-----SA-----QVKAHGQKVADALTQAVAHM  73
+97667    42   TYFPHF------DLS-----H------G-----SA-----QVKAHGKKVGDALTLAVGHL  74
+94746    41   RFFDTFG-----NLS-----S------A-----SAIMGNPRVKAHGKKVLTSFGDAVKNL  79
+91973    42   TYFPHF------DVS-----H------G-----SA-----QVKGHGKKVADALASAAGHL  74
+91499    41   RFFDSFG-----NMS-----SPSAIM-G-----NP-----KVKAHGKKVLTAFGDAVKNM  79
+134193   40   RFFDSFG-----NMS-----SPSAIM-G-----NP-----KVKAHGKKVLTSFGDAVKNM  78
+94743    41   RYFDSFG-----DLS-----S------A-----SAIMGNPKVKAHGKKVITAFNEGLKNL  79
+92518    41   TYFSHF------DLG-----H------G-----SA-----QIKGHGKKVADALTKAVGHI  73
+140214   42   TYFPHF------DLS-----H------G-----SA-----QVKGHGAKVAAALTKAVEHL  74
+129983   42   TYFPHF------DLS-----P------G-----SA-----QVKAHGKKVADALTTAVGHL  74
+136949   41   TYFPHF------DLS-----P------G-----SA-----QVKAHGKKVADALTTAVAHI  73
+72251    41   RFFDNFG-----NLS-----S------S-----SAIMGNPKVKAHGKKVLTSFGDAIKNM  79
+77401    41   RFFDSFG-----NLS-----S------A-----SAIMGNPKVKAHGKKVLTSFGEAIKNL  79
+50774    41   RYFSKFG-----DLS-----S------A-----SAIMGNPQVKAHGKKVINAFNDGLKHL  79
+72247    41   TYFSHF------DLG-----H------N-----ST-----QVKGHGKKVADALTKAVGHL  73
+71577    42   TYFPHF------DFT-----H------G-----SE-----QIKAHGKKVSEALTKAVGHL  74
+129269   42   TYFPHF------DLS-----H------G-----SA-----QVKGHGEKVAAALTKAVGHL  74
+71575    42   TYFPHF------DLS-----H------G-----SA-----QVKGHGEKVAAALTKAVGHL  74
+128982   41   TYFPHF------DLS-----P------G-----SA-----QVKTHGKKVADALTTAVSHI  73
+50127    42   TYFPHF------DLS-----P------G-----SA-----QVKAHGKKVADALTTAAGHL  74
+50776    41   RFFDNFG-----NLS-----SPSAIL-G-----NP-----KVKAHGKKVLTSFGDAIKNM  79
+131162   41   RFFDSFG-----NLS-----SPSAIL-G-----NP-----KVKAHGKKVLTSFGDAIKNM  79
+128987   42   TYFPHF------DLS-----H------G-----SA-----QVKGHGEKVAAALTKAVGHL  74
+79293    41   RFFEHFG-----DLS-----T------AEAVLHNA-----KVLAHGEKVLTSFGEGLKHL  79
+128986   40   RFFEHFG-----DLS-----T------AEAVLHNA-----KVLAHGEKVLTSFGEGLKHL  78
+126602   41   TYFPHF------DLS-----P------G-----SA-----QVKAHGKKVADALTTAVAHL  73
+71584    40   RFFESFG-----DLS-----T------A-----DAVMKNPNVKKHGQKVLASFGEGLKHL  78
+131001   40   RFFEHFG-----DLS-----T------A-----DAVMKNPKVKKHGQKVLASFGEGLKHL  78
+95181    41   RFFDNFG-----NLS-----S------S-----SAIMGNPKVKAHGKKVLTSFGDAIKNM  79
+128271   41   RFFDNFG-----NLS-----SPSAIL-G-----NP-----KVKAHGKKVLTSFGDAIKNM  79
+126853   41   TYFPHF------DLS-----P------G-----SA-----QVKAHGKKVADALTTAVAHL  73
+134918   41   RFFDSFG-----NLS-----SPSAIL-G-----NP-----KVKAHGKKVLTSFGDAIKNM  79
+128775   41   RFFDSFG-----NLS-----SPSAIL-G-----NP-----KVKAHGKKVLTSFGDAIKNM  79
+126603   41   RFFDSFG-----NLS-----SPSAIL-G-----NP-----KVKAHGKKVLTSFGDAIKNM  79
+137792   41   RFFDSFG-----NLS-----SPSAIL-G-----NP-----KVKAHGKKVLTSFGDAIKNM  79
+72252    41   TYFPHF------NLS-----H------G-----SD-----QVKAHGQKVADALTKAVGHL  73
+128985   41   RFFDSFG-----NLS-----S------A-----SAIMGNPKVKAHGKKVLTSLGDAIKNL  79
+100874   41   RFFEHFG-----DLS-----S------A-----SAVMNNPQVKAHGKKVIHSFADGLKHL  79
+72232    41   TYFPHF------DLG-----H------G-----SG-----QVKAHGKKVGEALTQAVGHL  73
+90876    40   RFFEAFG-----DLS-----SAGAVM-G-----NP-----KVKAHGAKVLTSFGDALKNL  78
+136762   41   RFFDSFG-----NLS-----S------A-----SAIMGNPKVKAHGKKVLTSLGDAIKHL  79
+135874   41   RFFDSFG-----NLS-----S------A-----SAIMGNPKVKAHGKKVLTSLGDAIKHL  79
+135427   41   RFFDSFG-----NLS-----S------A-----SAIMGNPKVKAHGKKVLTSLGDAIKHL  79
+135869   39   RFFESFG-----DLS-----T------A-----DAVMNNPKVKAHGKKVLDSFSNGMKHL  77
+129274   41   RFFDSFG-----NLS-----S------A-----SAIMGNPKVKAHGKKVLTSLGDAIKHL  79
+137989   36   RFFEHFG-----DLS-----SADAVL-G-----NA-----KVKAHGKKVLDSFSNGVQHL  74
+136954   40   RFFDSFG-----NLS-----S------A-----SAIMGNPKVKAHGKKVLTSLGDAIKNL  78
+134195   41   RFFDSFG-----NLS-----S------A-----SAIMGNPKVKAHGKKVLTSLGDAIKHL  79
+76708    41   RFFDSFG-----NLS-----S------A-----SAIMGNPKVKAHGKKVLTSLGDAIKHL  79
+137791   41   RFFDSFG-----NLS-----S------A-----SAIMGNPKVKAHGKKVLTSLGGAIKHL  79
+98085    40   RFFDSFG-----DLS-----NPGAVM-G-----NP-----KVKAHGKKVLHSFGEGVHHL  78
+70611    41   RFFDSFG-----NLS-----S------A-----SAIMGNPRVKAHGKKVLTAFGESIKNL  79
+69854    40   RFFEKFG-----DLS-----S------A-----SAIMSNAHVKSHGAKVLASFSEGLKHL  78
+137987   41   RFFDSF------GNL-----YSESAIMG-----NP-----KVKAHGRKVLNSFGNAIEHM  79
+96642    41   RFFDSFG-----NLS-----S------S-----SAIMGNPKVKAHGKKVLTAFGDAVKNV  79
+82556    41   RFFDSFGNLCSESAI-----M------G-----NP-----KVKAHGRKVLNSFGNAIKHM  79
+72259    41   RFFDSFG-----SLS-----SPSAIM-G-----NP-----KVKAHGVKVLTSLGEAIKNL  79
+139834   39   RFFEHFG-----DLS-----N------A-----DAVMNNPKVKAHGKKVLDSFSNGMKHL  77
+
+Query_1  361  DDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVS  420
+131000   80   DNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVA  139
+128274   80   DNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVA  139
+53564    80   DNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVA  139
+134601   80   DNLKGTFATLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVA  139
+137790   80   DNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVA  139
+134194   80   DNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVA  139
+127207   80   DNLKGTFAHLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPVVQAAYQKVVAGVA  139
+127208   79   DNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVA  138
+129526   79   DNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVA  138
+136952   80   DNLKGTFAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVA  139
+136764   80   DNLKGTFSQLSELHCDKLHVDPENFRLLGNVLVCVLARNFGKEFTPQVQAAYQKVVAGVA  139
+126855   80   DNLKGTFSQLSELHCDKLHVDPENFRLLGNVLVCVLARNFGKEFTPQVQAAYQKVVAGVA  139
+137174   80   DNLKGTFSQLSELHCDKLHVDPENFRLLGNVLVCVLARNFGKEFTPQMQAAYQKVVAGVA  139
+139468   75   DDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVS  134
+135108   75   DDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVS  134
+129272   75   DDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVS  134
+135867   74   DDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVS  133
+134919   79   DNLKGTFAKLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVA  138
+136955   79   DNLKGTFAKLSELHCDQLHVDPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVA  138
+134921   79   DNLKGTFAKLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVA  138
+139471   80   DNLKGTFAKLSELHCDKLHVDPENFRLLGNVLVIVLSHHFGKEFTPQVQAAYQKVVAGVA  139
+126604   79   DNLKGTFAKLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVA  138
+129275   80   DNLKGTFAKLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVA  139
+71566    75   DDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVS  134
+135421   80   DNLKGTFAKLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVA  139
+140223   79   DNLKGTFAKLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVA  138
+129271   79   DNLKGTFAKLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVA  138
+131154   74   DDMPQALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVS  133
+72255    80   DNLKGTFVKLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVA  139
+137981   74   DDMPQALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVG  133
+140219   74   DDMPNALSALSBLHAHKLRVBPVBFKLLNHCLLVTLAABFPSZFTPAVHASVDKFLASVS  133
+101318   74   DDMPNALSALSBLHAHKLRVBPVBFKLLNHCLLVTLAABFPSZFTPAVHASVDKFLASVS  133
+122232   74   DDMPHALSKLSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVS  133
+137988   75   DDMPQALSKLSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVS  134
+100879   80   DNLKGTFAKLSELHCDQLHVDPENFRLLGNVIVVVLARRLGHDFNPNVQAAFQKVVAGVA  139
+71580    79   DDLKGAFAKLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGHDFNPQVQAAFQKVVAGVA  138
+58316    79   DNLKGTFSKLSELHCDKLHVDPENFRLLGNVLVCVLARHFGKDFTPAAQAAFQKVVAGVA  138
+130997   74   DDLPGALSALSDLHAYKLRVDPVNFKLLSHCLLVTLACHHPAEFTPAVHASLDKFFSAVS  133
+70608    80   DNLKGTFAKLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKQFTPQLQAAYQKVVAGVA  139
+131158   80   DNLKGTFAHLSELHCDKLHVDPENFRLLGNMIVIVLGHHLGKEFTPCAQAAFQKVVAGVA  139
+74688    74   DDLPGALSALSDLHAHKLRVDPVNFKLLSHCLLVTLANHHPADFTPAVHASLDKFFASVS  133
+138660   80   DSLKGTFASLSELHCDKLHVDPENFRLLGNMIVIVLGHHLGKDFTPAAQAAFQKVVAGVA  139
+95169    74   DDLPTAMSALSDLHAYKLRVDPVNFKFLSHCLLVTLACHHPAEFTPAVHASLDKFFSAVS  133
+97667    75   DDLPGALSNLSDLHAHKLRVDPVNFKLLSHCLLSTLAVHLPNDFTPAVHASLDKFLSSVS  134
+94746    80   DNLKGTFAKLSELHCDKLHVDPENFRLLGNVLVIVLANHFGKEFTPQVQAAWQKMVTGVA  139
+91973    75   DDLPGALSALSDLHAHKLRVDPVNFKLLSHCLLVTLASHHPADFTPAVHASLDKFLASVS  134
+91499    80   DNLKGTFAKLSELHCDKLHVDPENFRLLGNMIVIILASHFGGEFTPEVQAAWQKLVAGVA  139
+134193   79   DNLKGTFAKLSELHCDKLHVDPENFRLLGNMIVIILASHFGGEFTPEVQAAWQKLVAGVA  138
+94743    80   DNLKGTFASLSELHCDKLHVDPENFRLLGNAIVIVLGHHLGKDFTPAAQAAFQKVVAGVA  139
+92518    74   DNLPDALSELSDLHAHKLRVDPVNFKLLSHCLLVTLALHLPADFTPSVHASLDKFLASVS  133
+140214   75   DDLPGALSELSDLHAHKLRVDPVNFKLLSHSLLVTLASHLPSDFTPAVHASLDKFLANVS  134
+129983   75   DDLPGALSALSDLHAHKLRVDPVNFKLLSHCLLVTLASHHPAEFTPAVHASLDKFFSAVS  134
+136949   74   DDLPGALSALSDLHAYKLRVDPVNFKLLSHCLLVTLACHHPAEFTPAVHASLDKFFSTVS  133
+72251    80   DNLKGAFAKLSELHCDKLHVDPENFRLLGNVLVIILVTHFGKDFTPEVQVAWQKLVSGVA  139
+77401    80   DNLKGAFAKLSELHCDKLHVDPENFRLLGNVIVIILATHFGREFTPDVQAAWQKLVSGVA  139
+50774    80   DNLKGTFAHLSELHCDKLHVDPENFRLLGNMIVIVLGHHLGKEFTPCAQAAFQKVVAGVA  139
+72247    74   DTLPDALSDLSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPGDFTPSVHASLDKFLASVS  133
+71577    75   DDLPGALSTLSDLHAHKLRVDPVNFKLLSHCLLVTLANHHPSEFTPAVHASLDKFLANVS  134
+129269   75   DDLPGTLSDLSDLHAHKLRVDPVNFKLLSHSLLVTLACHLPNDFTPAVHASLDKFLANVS  134
+71575    75   DDLPGTLSDLSDLHAHKLRVDPVNFKLLSHSLLVTLACHLPNDFTPAVHASLDKFLANVS  134
+128982   74   DDLPGALSALSDLHAYKLRVDPVNFKLLSHCLLVTLACHHPADFTPAVHASLDKFFSAVS  133
+50127    75   DDLPGALSALSDLHAHKLRVDPVNFKFLSHCLLVTLASHHPAEFTPAVHASLDKFFSAVS  134
+50776    80   DNLKTTFAKLSELHCDKLHVDPENFRLLGNVLVIILATHFGKEFTPEVQAAWQKLVSAVA  139
+131162   80   DNLKITFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVA  139
+128987   75   DDLPGTLSDLSDLHAHKLRVDPVNFKLLSHSLLVTLACHHPSDFTPAVHASLDKFLANVS  134
+79293    80   DNLKGTFADLSELHCDKLHVDPENFRLLGNVLVIVLARHFGKEFTPDVQAAYEKVVAGVA  139
+128986   79   DNLKGTFADLSELHCDKLHVDPENFRLLGNVLVIVLARHFGKEFTPDVQAAYEKVVAGVA  138
+126602   74   DDLPGALSALSDLHAYKLRVDPVNFKLLSHCLLVTLACHHPTEFTPAVHASLDKFFAAVS  133
+71584    79   DDLKGTFAALSELHCDKLHVDPENFRLLGNVLVVVLARHFGKEFTPELQSAYQKVVAGVA  138
+131001   79   DNLKGTFATLSELHCDKLHVDPENFRLLGNVLVVVLARHFGKEFTPELQTAYQKVVAGVA  138
+95181    80   DNLKGAFAKLSELHCDKLHVDPENFKLLGNVLLIVLATHFGKEFTPEVQAAWQKLVSGVA  139
+128271   80   DNLKTTFAKLSELHCDKLHVDPENFRLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVA  139
+126853   74   DDLPGALSALSDLHAYKLRVDPVNFKLLSHCLLVTLACHHPNEFTPAVHASLDKFFTAVS  133
+134918   80   DNLKPAFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVA  139
+128775   80   DNLKPAFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVA  139
+126603   80   DNLKPAFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVA  139
+137792   80   DNLKPAFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVA  139
+72252    74   DDLPGALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHHPDDFNPSVHASLDKFLANVS  133
+128985   80   DDLKGTFAQLSELHCDKLHVDPENFRLLGNVLVTVLAIHFGKEFTPEVQASWQKMVAGVA  139
+100874   80   DNLKGAFSSLSELHCDKLHVDPENFKLLGNMIIIVLSHDLGKDFTPSAQSAFHKVVAGVA  139
+72232    74   DDLPSALSALSDLHAHKLRVDPVNFKLLSHCLLVTLSSHQPTEFTPEVHASLDKFLSNVS  133
+90876    79   DDLKGTFAKLSELHCDKLHVDPENFNRLGNVLIVVLARHFSKDFSPEVQAAWQKLVSGVA  138
+136762   80   DDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTGVA  139
+135874   80   DDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTGVA  139
+135427   80   DDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTGVA  139
+135869   78   DDLKGTFAALSELHCDKLHVDPENFKLLGNVLVVVLARNFGKEFTPVLQADFQKVVAGVA  137
+129274   80   DDLKGTFAQLSELHCDKLHVDPENFRLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTAVA  139
+137989   75   DDLKGTFAELSELHCDKLHVDPENFRLLGNVLVIVLARHFGKEFTPELQAEFQKVVAGVA  134
+136954   79   DDLKGTFAQLSELHCDKLHVDPENFRLLGNVLVTVLAIRFGKEFTPEVQASWQKMVAGVA  138
+134195   80   DDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTAVA  139
+76708    80   DDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTAVA  139
+137791   80   DDLKGTFAQLSELHCDKLHVDPENFRLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTAVA  139
+98085    79   DNLKGTFAALSELHCDKLHVDPENFRLLGNVLVVVLARHFGKDFTPELQASYQKVVAGVA  138
+70611    80   DNLKSALAKLSELHCDKLHVDPENFKLLGNVLVIVLASHFGNEFTAEMQAAWQKLVAGVA  139
+69854    79   QDLKGTFAKLSELHCDKLHVDPENFRLLGNMIVIALAHHHPSEFTPCTQAAFQKVTAGVA  138
+137987   80   DDLKGTFADLSELHCDKLHVDPENFRLLGNMILIVLATHFSKEFTPQMQASWQKLTNAVA  139
+96642    80   DDLKNTFAHLSELHCDRLHVDPENFKLLGNVLVIVLAKYFGKEFTPQVQSAWQKLVAGVA  139
+82556    80   DDLKGTFADLSELHCDKLHVDPPNFRLLGNMILIVLATHFSKEFTPQMQAAWQKLTNAVA  139
+72259    80   DDLKGTFGQLSELHCDKLHVDPENFRLLGNVLVTVLAILYGKEFTPEVQASWQKMVAGVA  139
+139834   78   DDLKGTFAQLSELHCDKLHVDPENFRLLGNVLVVVLARHHGNEFTPVLQADFQKVVAGVA  137
+
+Query_1  421  TVLTSKYRVHLTPEEKSAVTALWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFG  474
+131000   2            VHLTPEEKSAVTALWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFG  47
+131000   140  NALAHKY                                                       146
+128274   2            VHLTPEEKSAVTALWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFG  47
+128274   140  NALAHKY                                                       146
+53564    2            VHLTPEEKSAVTALWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFG  47
+53564    140  NALAHKY                                                       146
+134601   2            VHLTPEEKSAVTALWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFG  47
+134601   140  NALAHKY                                                       146
+137790   2            VHLTPEEKNAVTTLWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFG  47
+137790   140  NALAHKY                                                       146
+134194   2            VHLTPEEKNAVTTLWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFG  47
+134194   140  NALAHKY                                                       146
+127207   2            VHLTGEEKSAVTALWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFG  47
+127207   140  NALAHKY                                                       146
+127208   1            VHLTPEEKNAVTTLWGKV--NV--D--EVGGEALGRLLLVYPWTQRFFESFG  46
+127208   139  NALAHKY                                                       145
+129526   1            VHLTPEEKVAVTTLWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFG  46
+129526   139  NALAHKY                                                       145
+136952   2            VHLTPEEKNAVTALWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFDSFG  47
+136952   140  NALAHKY                                                       146
+136764   2            VHLTPEEKTAVNALWGKV--NV--D--AVGGEALGRLLVVYPWTQRFFESFG  47
+136764   140  NALAHKY                                                       146
+126855   2            VHLTPEEKTAVNALWGKV--NV--D--AVGGEALGRLLVVYPWTQRFFESFG  47
+126855   140  NALAHKY                                                       146
+137174   2            VHLTPEEKTAVNALWGKV--NV--D--AVGGEALGRLLVVYPWTQRFFESFG  47
+137174   140  NALAHKY                                                       146
+139468   135  TVLTSKYR                                                      142
+139468   3              LSPADKTNVKAAWGKVGAHA--G--EYGAEALERMFLSFPTTKTYFPHF-  47
+135108   135  TVLTSKYR                                                      142
+135108   3              LSPADKTNVKAAWGKVGAHA--G--EYGAEALERMFLSFPTTKTYFPHF-  47
+129272   135  TVLTSKYR                                                      142
+129272   3              LSPADKTNVKAAWGKVGAHA--G--EYGAEALERMFLSFPTTKTYFPHF-  47
+135867   134  TVLTSKYR                                                      141
+135867   2              LSPADKTNVKAAWGKVGAHA--G--DYGAEALERMFLSFPTTKTYFPHF-  46
+134919   1            VHLTADEKAAVTALWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFDSFG  46
+134919   139  NALAHKY                                                       145
+136955   1            VHLTAEEKSAVTALWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFDSFG  46
+136955   139  NALAHKY                                                       145
+134921   1            VHLTAEEKSLVTGLWGKV--NV--D--EVGGEALGRLLIVYPWTQRFFDSFG  46
+134921   139  NALAHKY                                                       145
+139471   2            VHLSSEEKSAVTALWGKV--NV--E--EVGGEALGRLLVVYPWTQRFFESFG  47
+139471   140  NALAHKY                                                       146
+126604   1            VHLTGEEKAAVTALWGKV--NV--D--EVGGETLGRLLVVYPWTQRFFDSFG  46
+126604   139  NALAHKY                                                       145
+129275   2            VHLTGEEKAAVTGLWSKV--NV--D--EVGGEALGRLLVVYPWTQRFFDSFG  47
+129275   140  NALAHKY                                                       146
+71566    135  TVLTSKYR                                                      142
+71566    3              LSPADKSNVKAAWGKVGGHA--G--EYGAEALERMFLSFPTTKTYFPHF-  47
+135421   2            VHLTAEEKAAVTALWGKV--DV--E--DVGGEALGRLLVVYPWTQRFFDSFG  47
+135421   140  TALAHKY                                                       146
+140223   1            VHLTAEEKSLVSGLWGKV--NV--D--EVGGEALGRLLIVYPWTQRFFDSFG  46
+140223   139  NALAHKY                                                       145
+129271   1            VHLTGEEKSLVTGLWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFDSFG  46
+129271   139  NALAHKY                                                       145
+131154   134  TVLTSKYR                                                      141
+131154   2              LSPADKTNVKAAWGKVGGHA--G--EYGAEALERMFLSFPTTKTYFPHF-  46
+72255    2            VHLTGEEKAAVTGLWSKV--NV--D--EVGGEALGRLLVVYPWTQRFFDSFG  47
+72255    140  NALAHKY                                                       146
+137981   134  TVLTSKYR                                                      141
+137981   2              LSPADKTNVKAAWGKVGGHA--G--EYGAEALERMFLSFPTTKTYFPHF-  46
+140219   134  TVLTSKYR                                                      141
+140219   2              LSPADKTNVKAAWGKVGAHA--G--ZYGAEALERMFLSFPTTKTYFPHF-  46
+101318   134  TVLTSKYR                                                      141
+101318   2              LSPADKTNVKAAWGKVGAHA--G--DYGAEALERMFLSFPTTKTYFPHF-  46
+122232   134  TVLTSKYR                                                      141
+122232   2              LSPDDKKHVKAAWGKVGEHA--G--EYGAEALERMFLSFPTTKTYFPHF-  46
+137988   135  TVLTSKYR                                                      142
+137988   3              LSPDDKKHVKAAWGKVGEHA--G--EYGAEALERMFLSFPTTKTYFPHF-  47
+100879   2            VHLSAEEKEAVLGLWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFG  47
+100879   140  NALAHKY                                                       146
+71580    3              LTAEEKGLVNGLWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFG  46
+71580    139  NALAHKY                                                       145
+58316    1            VHLTAEEKALVTGLWGKV--KV--E--EFGGEALGRLLVVYPWTQRFFDSFG  46
+58316    139  NALAAKY                                                       145
+130997   134  TVLTSKYR                                                      141
+130997   2              LSPADKTNVKSTWDKIGGHA--G--EYGGEALERTFASFPTTKTYFPHF-  46
+70608    2            VHLTADEKAAVTALWSKV--NV--E--DVGGEALGRLLVVYPWTQRFFDSFG  47
+70608    140  AALAHKY                                                       146
+131158   2            VHLTDAEKAAVNGLWGKV--NP--D--DVGGEALGRLLVVYPWTQRYFDSFG  47
+131158   140  SALAHKY                                                       146
+74688    134  TVLTSKYR                                                      141
+74688    2              LSAKDKTNISEAWGKIGGHA--G--EYGAEALERMFFVYPTTKTYFPHF-  46
+138660   2            VHLTDAEKAAVSCLWGKV--NS--D--EVGGEALGRLLVVYPWTQRYFDSFG  47
+138660   140  TALAHKY                                                       146
+95169    134  TVLTSKYR                                                      141
+95169    2              LSAADKSNVKACWGKIGSHA--G--EYGAEALERTFCSFPTTKTYFPHF-  46
+97667    135  TVLTSKYR                                                      142
+97667    3              LSAADKTNVKAAWSKVGGHA--G--EYGAEALERMFLGFPTTKTYFPHF-  47
+94746    2            VHFTAEEKAAIASLWGQV--NV--E--ETGGEALGRLLVVYPWTQRFFDTFG  47
+94746    140  NALAYKY                                                       146
+91973    135  TVLTSKYR                                                      142
+91973    3              LSGEDKSNIKAAWGKI--GG--HGAEYGAEALERMFASFPTTKTYFPHF-  47
+91499    2            VHFTAEEKSVITGLWGKV--NV--E--ETGGQAVGRLLVVYPWTQRFFDSFG  47
+91499    140  TALAHKY                                                       146
+134193   1            VHFTAEEKSVITGLWGKV--NV--E--ETGGEAVGRLLVVYPWTQRFFDSFG  46
+134193   139  TALAHKY                                                       145
+94743    2            VHLTDAEKSAVSCLWAKV--NP--D--EVGGEALGRLLVVYPWTQRYFDSFG  47
+94743    140  TALAHKY                                                       146
+92518    134  TVLTSKYR                                                      141
+92518    2              LSPADKTNVKGTWSKIGNHS--A--EYGAEALERMFINFPSTKTYFSHF-  46
+140214   135  TVLTSKYR                                                      142
+140214   3              LSAADKGNVKAAWGKVGGHA--A--EYGAEALERMFLSFPTTKTYFPHF-  47
+129983   135  TVLTSKYR                                                      142
+129983   3              LSPADKTNVKATWDKIGGHA--G--EYGGEALERTFASFPTTKTYFPHF-  47
+136949   134  TVLTSKYR                                                      141
+136949   2              LSPADKTNVKTTWDKLGGHA--G--EYGGEALERTFMSFPTTKTYFPHF-  46
+72251    2            VHLTAEEKSSVTSLWGKM--NV--D--EAGGEALGRLLVVYPWTQRFFDNFG  47
+72251    140  TALAHKY                                                       146
+77401    2            VHFTAEEKAAITGLWGKV--NV--E--EAGGEALGRLLVVYPWTQRFFDSFG  47
+77401    140  TALAHKY                                                       146
+50774    2            VHLTDAEKATVSGLWGKV--NA--D--NVGAEALGRLLVVYPWTQRYFSKFG  47
+50774    140  SALAHKY                                                       146
+72247    134  TVLTSKYR                                                      141
+72247    2              LSPADKTNVKAAWAKVGNHA--A--DFGAEALERMFMSFPSTKTYFSHF-  46
+71577    135  TVLTSKYR                                                      142
+71577    3              LSPADKTNIKTAWEKI--GSHGG--EYGAEAVERMFLGFPTTKTYFPHF-  47
+129269   135  TVLTSKYR                                                      142
+129269   3              LSAADKSNVKAAWGKVGGNA--G--AYGAEALERMFLSFPTTKTYFPHF-  47
+71575    135  TVLTSKYR                                                      142
+71575    3              LSAADKSNVKAAWGKVGGNA--G--AYGAEALERMFLSFPTTKTYFPHF-  47
+128982   134  TVLTSKYR                                                      141
+128982   2              LSPADKTNVKTTWDKIGGHA--G--EYGGEALERTFMAFPTTKTYFPHF-  46
+50127    135  TVLTSKYR                                                      142
+50127    3              LSPADKSNVKATWDKIGSHA--G--EYGGEALERTFASFPTTKTYFPHF-  47
+50776    2            VHFTAEEKAAITSLWGKM--NV--E--EAGGEALGRLLVVYPWTQRFFDNFG  47
+50776    140  IALGHKY                                                       146
+131162   2            VHFTAEEKAAVTSLWSKM--NV--E--ETGGEALGRLLVVYPWTQRFFDSFG  47
+131162   140  IALAHKY                                                       146
+128987   135  TVLTSKYR                                                      142
+128987   3              LSAADKSNVKAAWGKVGSNA--G--AYGAEALERMFLSFPTTKTYFPHF-  47
+79293    2            VNLTAAEKTQVTNLWGKV--NV--K--ELGGEALSRLLVVYPWTRRFFEHFG  47
+79293    140  NALAHKY                                                       146
+128986   1            VNLTAAEKTQVTNLWGKV--NV--K--ELGGEALSRLLVVYPWTRRFFEHFG  46
+128986   139  NALAHKY                                                       145
+126602   134  TVLTSKYR                                                      141
+126602   2              LSPADKTNIKSTWDKIGGHA--G--DYGGEALDRTFQSFPTTKTYFPHF-  46
+71584    1            VHLTGEEKSAVTALWGKV--NV--E--EVGGEALGRLLVVYPWTQRFFESFG  46
+71584    139  TALAHKY                                                       145
+131001   1            VHLTGEEKSGLTALWAKV--NV--E--EIGGEALGRLLVVYPWTQRFFEHFG  46
+131001   139  NALAHKY                                                       145
+95181    2            VHFTPEEKCIISKQWGQV--NI--D--ETGGEALGRLLVVYPWTQRFFDNFG  47
+95181    140  IALAHKY                                                       146
+128271   2            VHFTAEEKAAITSLWSKM--NV--E--EAGGEALGRLLVVYPWTQRFFDNFG  47
+128271   140  IALGHKY                                                       146
+126853   134  TVLTSKYR                                                      141
+126853   2              LSPADKTNIKSTWDKIGGHA--G--DYGGEALDRTFQSFPTTKTYFPHF-  46
+134918   2            VHFTAEEKAAVTSLWSKM--NV--E--EAGGEALGRLLVVYPWTQRFFDSFG  47
+134918   140  IALAHKY                                                       146
+128775   2            VHFTAEEKAAVTSLWSKM--NV--E--EAGGEALGRLLVVYPWTQRFFDSFG  47
+128775   140  IALAHKY                                                       146
+126603   2            VHFTAEEKAAVTSLWSKM--NV--E--EAGGEALGRLLVVYPWTQRFFDSFG  47
+126603   140  IALAHKY                                                       146
+137792   2            VHFTAEEKAAVTSLWSKM--NV--E--EAGGEALGRLLIVYPWTQRFFDSFG  47
+137792   140  IALAHKY                                                       146
+72252    134  TVLTSKYR                                                      141
+72252    2              LSAADKANVKAAWGKVGGQA--G--AHGAEALERMFLGFPTTKTYFPHF-  46
+128985   3             HFTEEDKATITSLWGKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFG  47
+128985   140  SALSSRY                                                       146
+100874   2            VHLTDAEKALVTGLWGKV--NA--D--AVGAEALGRLLVVYPWTQRFFEHFG  47
+100874   140  NALAHKY                                                       146
+72232    134  TVLTSKYR                                                      141
+72232    2              LSDNDKTNVKATWSKVGDHA--S--DYVAEALERMFFSFPTTKTYFPHF-  46
+90876    1            VHLSGGEKSAVTNLWGKV--NI--N--ELGGEALGRLLVVYPWTQRFFEAFG  46
+90876    139  HALGHKY                                                       145
+136762   3             HFTEEDKATITSLWGKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFG  47
+136762   140  SALSSRY                                                       146
+135874   3             HFTEEDKATITSLWGKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFG  47
+135874   140  SALSSRY                                                       146
+135427   3             HFTEEDKATITSLWGKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFG  47
+135427   140  SALSSRY                                                       146
+135869   2              LTAEEKAAVTAFWGKV--KV--D--EVGGEALGRLLVVYPWTQRFFESFG  45
+135869   138  NALAHRY                                                       144
+129274   3             HFTEEDKATITSLWGKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFG  47
+129274   140  SALSSRY                                                       146
+137989   4                   KALITGFWSKV--KV--D--EVGAEALGRLLVVYPWTQRFFEHFG  42
+137989   135  SALAHRY                                                       141
+136954   2             HFTEEDKATITSLWGKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFG  46
+136954   139  SALSSRY                                                       145
+134195   3             HFTEEDKATITSLWGKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFG  47
+134195   140  SALSSRY                                                       146
+76708    3             HFTEEDKATITSLWGKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFG  47
+76708    140  SALSSRY                                                       146
+137791   3             HFTEEDKATITSLWGKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFG  47
+137791   140  SALSSRY                                                       146
+98085    1            VQLSGEEKAAVLALWDKV--NE--E--EVGGEALGRLLVVYPWTQRFFDSFG  46
+98085    139  NALAHKY                                                       145
+70611    2            VNFTAEEKTLINGLWSKV--NV--E--EVGGEALGRLLVVYPWTQRFFDSFG  47
+70611    140  TALSHKY                                                       146
+69854    1            VHLTAAEKSAILDLWGKV--NV--G--EIGAEALGRLLVVYPWTQRFFEKFG  46
+69854    139  NALAHKY                                                       145
+137987   2            VHFTTEEKAAVASLWAKV--NV--E--VVGGESLARLLIVYPWTQRFFDSFG  47
+137987   140  NALAHKY                                                       146
+96642    2            VHFTAEEKAAITSTWKLV--DV--E--DAGAEALGRLLVVYPWTQRFFDSFG  47
+96642    140  TALAHKY                                                       146
+82556    2            VHFTTEEKAAVASLWAKV--NV--E--VVGGESLARLLIVYPWTQRFFDSFG  47
+82556    140  NALAHKY                                                       146
+72259    3             NFTAEDKAAITSLWAKV--NV--E--DAGGETLGRLLVVYPWTQRFFDSFG  47
+72259    140  SALASRY                                                       146
+139834   2              LTAEEKAAVTGFWGKV--KV--D--EVGAEALGRLLVVYPWTQRFFEHFG  45
+139834   138  NALAHKY                                                       144
+
+Query_1  475  DLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLL  534
+131000   48   DLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLL  107
+128274   48   DLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLL  107
+53564    48   DLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLL  107
+134601   48   DLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFKLL  107
+137790   48   DLSSPDAVMGNPKVKAHGKKVLGAFSDGLNHLDNLKGTFAQLSELHCDKLHVDPENFKLL  107
+134194   48   DLSSPDAVMGNPKVKAHGKKVLGAFSDGLNHLDNLKGTFAQLSELHCDKLHVDPENFKLL  107
+127207   48   DLSTPDAVMNNPKVKAHGKKVLGAFSDGLTHLDNLKGTFAHLSELHCDKLHVDPENFRLL  107
+127208   47   DLSSPDAVMGNPKVKAHGKKVLGAFSDGLNHLDNLKGTFAQLSELHCDKLHVDPENFKLL  106
+129526   47   DLSNPDAVMGNPKVKAHGKKVLGAFSDGLNHLDNLKGTFAQLSELHCDKLHVDPENFKLL  106
+136952   48   DLSSPAAVMGNPKVKAHGKKVLGAFSDGLNHLDNLKGTFAQLSELHCDKLHVDPENFKLL  107
+136764   48   DLSSPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFSQLSELHCDKLHVDPENFRLL  107
+126855   48   DLSSPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFSQLSELHCDKLHVDPENFRLL  107
+137174   48   DLSSPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFSQLSELHCDKLHVDPENFRLL  107
+139468   48   DLS-----HGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLL  102
+135108   48   DLS-----HGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLL  102
+129272   48   DLS-----HGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLL  102
+135867   47   DLS-----HGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLL  101
+134919   47   DLSSPDAVMGNPKVKAHGKKVLNSFSDGLKNLDNLKGTFAKLSELHCDKLHVDPENFKLL  106
+136955   47   DLSSPNAIMSNPKVKAHGKKVLNSFSDGLKNLDNLKGTFAKLSELHCDQLHVDPENFKLL  106
+134921   47   DLSTPDAVMGNAKVKAHGKKVLNSFSDGLKNLDNLKGTFAKLSELHCDKLHVDPENFKLL  106
+139471   48   DLSSANAVMNNPKVKAHGKKVLAAFSEGLSHLDNLKGTFAKLSELHCDKLHVDPENFRLL  107
+126604   47   DLSSPDAVMSNPKVKAHGKKVLNSFSEGLKNLDNLKGTFAKLSELHCDKLHVDPENFKLL  106
+129275   48   DLSTPDAVMNNPKVKAHGKKVLNSFSEGLKNLDNLKGTFAKLSELHCDKLHVDPENFKLL  107
+71566    48   DLS-----HGSAQVKGHGKKVADALTLAVGHVDDMPNALSALSDLHAHKLRVDPVNFKLL  102
+135421   48   DLSTPAAVMSNAKVKAHGKKVLNAFSDGMAHLDNLKGTFAKLSELHCDKLHVDPENFRLL  107
+140223   47   DLSTPDAVMSNAKVKAHGKKVLNSFSDGLKNLDNLKGTFAKLSELHCDKLHVDPENFKLL  106
+129271   47   DLSSADAIMNNPKVKAHGKKVLNSFSDGLKNLDNLKGTFAKLSELHCDKLHVDPENFKLL  106
+131154   47   DLS-----HGSAQVKGHGKKVADALTLAVGHVDDMPQALSALSDLHAHKLRVDPVNFKLL  101
+72255    48   DLSTPDAVMNNPKVKAHGKKVLNSFSEGLKNLDNLKGTFVKLSELHCDKLHVDPENFKLL  107
+137981   47   DLS-----HGSAQVKGHGKKVADALTLAVDHVDDMPQALSALSDLHAHKLRVDPVNFKLL  101
+140219   47   DLS-----HGSAZVKGHGKKVAKALSBAVZHLDDMPNALSALSBLHAHKLRVBPVBFKLL  101
+101318   47   DLS-----HGSAZVKGHGKKVAKALTBAVZHLDDMPNALSALSBLHAHKLRVBPVBFKLL  101
+122232   47   NLS-----HGSDQVKGHGKKVADALTLAVGHVDDMPHALSKLSDLHAHKLRVDPVNFKLL  101
+137988   48   DLS-----HGSDQVNKHGKKVADALTLAVGHVDDMPQALSKLSDLHAHKLRVDPVNFKLL  102
+100879   48   DLSNADAVMGNPKVKAHGKKVLQSFSDGLKHLDNLKGTFAKLSELHCDQLHVDPENFRLL  107
+71580    47   DLSSADAIMSNAKVKAHGKKVLNSFSDGLKNIDDLKGAFAKLSELHCDKLHVDPENFRLL  106
+58316    47   DLSSADAVMGNPKVKAHGAKVLQSMGDGIKNLDNLKGTFSKLSELHCDKLHVDPENFRLL  106
+130997   47   DLS-----HGSAQVKAHGKKVADALTNAVAHVDDLPGALSALSDLHAYKLRVDPVNFKLL  101
+70608    48   DLSTPAAVMSNAKVKAHGKKVLNAFSDGMAHLDNLKGTFAKLSELHCDKLHVDPENFRLL  107
+131158   48   DLSSASAIMGNPKVKAHGKKVINAFNDGLKHLDNLKGTFAHLSELHCDKLHVDPENFRLL  107
+74688    47   -----DVSHGSAQVKGHGKKVADALTNAVGHLDDLPGALSALSDLHAHKLRVDPVNFKLL  101
+138660   48   DLSSASAIMGNAKVKAHGKKVITAFNDGLNHLDSLKGTFASLSELHCDKLHVDPENFRLL  107
+95169    47   DLS-----HGSAQVKAHGQKVADALTQAVAHMDDLPTAMSALSDLHAYKLRVDPVNFKFL  101
+97667    48   DLS-----HGSAQVKAHGKKVGDALTLAVGHLDDLPGALSNLSDLHAHKLRVDPVNFKLL  102
+94746    48   NLSSASAIMGNPRVKAHGKKVLTSFGDAVKNLDNLKGTFAKLSELHCDKLHVDPENFRLL  107
+91973    48   -----DVSHGSAQVKGHGKKVADALASAAGHLDDLPGALSALSDLHAHKLRVDPVNFKLL  102
+91499    48   NMSSPSAIMGNPKVKAHGKKVLTAFGDAVKNMDNLKGTFAKLSELHCDKLHVDPENFRLL  107
+134193   47   NMSSPSAIMGNPKVKAHGKKVLTSFGDAVKNMDNLKGTFAKLSELHCDKLHVDPENFRLL  106
+94743    48   DLSSASAIMGNPKVKAHGKKVITAFNEGLKNLDNLKGTFASLSELHCDKLHVDPENFRLL  107
+92518    47   -----DLGHGSAQIKGHGKKVADALTKAVGHIDNLPDALSELSDLHAHKLRVDPVNFKLL  101
+140214   48   DLS-----HGSAQVKGHGAKVAAALTKAVEHLDDLPGALSELSDLHAHKLRVDPVNFKLL  102
+129983   48   DLSP-----GSAQVKAHGKKVADALTTAVGHLDDLPGALSALSDLHAHKLRVDPVNFKLL  102
+136949   47   DLSP-----GSAQVKAHGKKVADALTTAVAHIDDLPGALSALSDLHAYKLRVDPVNFKLL  101
+72251    48   NLSSSSAIMGNPKVKAHGKKVLTSFGDAIKNMDNLKGAFAKLSELHCDKLHVDPENFRLL  107
+77401    48   NLSSASAIMGNPKVKAHGKKVLTSFGEAIKNLDNLKGAFAKLSELHCDKLHVDPENFRLL  107
+50774    48   DLSSASAIMGNPQVKAHGKKVINAFNDGLKHLDNLKGTFAHLSELHCDKLHVDPENFRLL  107
+72247    47   -----DLGHNSTQVKGHGKKVADALTKAVGHLDTLPDALSDLSDLHAHKLRVDPVNFKLL  101
+71577    48   -----DFTHGSEQIKAHGKKVSEALTKAVGHLDDLPGALSTLSDLHAHKLRVDPVNFKLL  102
+129269   48   DLS-----HGSAQVKGHGEKVAAALTKAVGHLDDLPGTLSDLSDLHAHKLRVDPVNFKLL  102
+71575    48   DLS-----HGSAQVKGHGEKVAAALTKAVGHLDDLPGTLSDLSDLHAHKLRVDPVNFKLL  102
+128982   47   DLSP-----GSAQVKTHGKKVADALTTAVSHIDDLPGALSALSDLHAYKLRVDPVNFKLL  101
+50127    48   DLSP-----GSAQVKAHGKKVADALTTAAGHLDDLPGALSALSDLHAHKLRVDPVNFKFL  102
+50776    48   NLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKTTFAKLSELHCDKLHVDPENFRLL  107
+131162   48   NLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKITFAKLSELHCDKLHVDPENFKLL  107
+128987   48   DLS-----HGSAQVKGHGEKVAAALTKAVGHLDDLPGTLSDLSDLHAHKLRVDPVNFKLL  102
+79293    48   DLSTAEAVLHNAKVLAHGEKVLTSFGEGLKHLDNLKGTFADLSELHCDKLHVDPENFRLL  107
+128986   47   DLSTAEAVLHNAKVLAHGEKVLTSFGEGLKHLDNLKGTFADLSELHCDKLHVDPENFRLL  106
+126602   47   DLSP-----GSAQVKAHGKKVADALTTAVAHLDDLPGALSALSDLHAYKLRVDPVNFKLL  101
+71584    47   DLSTADAVMKNPNVKKHGQKVLASFGEGLKHLDDLKGTFAALSELHCDKLHVDPENFRLL  106
+131001   47   DLSTADAVMKNPKVKKHGQKVLASFGEGLKHLDNLKGTFATLSELHCDKLHVDPENFRLL  106
+95181    48   NLSSSSAIMGNPKVKAHGKKVLTSFGDAIKNMDNLKGAFAKLSELHCDKLHVDPENFKLL  107
+128271   48   NLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKTTFAKLSELHCDKLHVDPENFRLL  107
+126853   47   DLSP-----GSAQVKAHGKKVADALTTAVAHLDDLPGALSALSDLHAYKLRVDPVNFKLL  101
+134918   48   NLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKPAFAKLSELHCDKLHVDPENFKLL  107
+128775   48   NLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKPAFAKLSELHCDKLHVDPENFKLL  107
+126603   48   NLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKPAFAKLSELHCDKLHVDPENFKLL  107
+137792   48   NLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKPAFAKLSELHCDKLHVDPENFKLL  107
+72252    47   NLS-----HGSDQVKAHGQKVADALTKAVGHLDDLPGALSALSDLHAHKLRVDPVNFKLL  101
+128985   48   NLSSASAIMGNPKVKAHGKKVLTSLGDAIKNLDDLKGTFAQLSELHCDKLHVDPENFRLL  107
+100874   48   DLSSASAVMNNPQVKAHGKKVIHSFADGLKHLDNLKGAFSSLSELHCDKLHVDPENFKLL  107
+72232    47   -----DLGHGSGQVKAHGKKVGEALTQAVGHLDDLPSALSALSDLHAHKLRVDPVNFKLL  101
+90876    47   DLSSAGAVMGNPKVKAHGAKVLTSFGDALKNLDDLKGTFAKLSELHCDKLHVDPENFNRL  106
+136762   48   NLSSASAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLL  107
+135874   48   NLSSASAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLL  107
+135427   48   NLSSASAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLL  107
+135869   46   DLSTADAVMNNPKVKAHGKKVLDSFSNGMKHLDDLKGTFAALSELHCDKLHVDPENFKLL  105
+129274   48   NLSSASAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFRLL  107
+137989   43   DLSSADAVLGNAKVKAHGKKVLDSFSNGVQHLDDLKGTFAELSELHCDKLHVDPENFRLL  102
+136954   47   NLSSASAIMGNPKVKAHGKKVLTSLGDAIKNLDDLKGTFAQLSELHCDKLHVDPENFRLL  106
+134195   48   NLSSASAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLL  107
+76708    48   NLSSASAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLL  107
+137791   48   NLSSASAIMGNPKVKAHGKKVLTSLGGAIKHLDDLKGTFAQLSELHCDKLHVDPENFRLL  107
+98085    47   DLSNPGAVMGNPKVKAHGKKVLHSFGEGVHHLDNLKGTFAALSELHCDKLHVDPENFRLL  106
+70611    48   NLSSASAIMGNPRVKAHGKKVLTAFGESIKNLDNLKSALAKLSELHCDKLHVDPENFKLL  107
+69854    47   DLSSASAIMSNAHVKSHGAKVLASFSEGLKHLQDLKGTFAKLSELHCDKLHVDPENFRLL  106
+137987   48   NLYSESAIMGNPKVKAHGRKVLNSFGNAIEHMDDLKGTFADLSELHCDKLHVDPENFRLL  107
+96642    48   NLSSSSAIMGNPKVKAHGKKVLTAFGDAVKNVDDLKNTFAHLSELHCDRLHVDPENFKLL  107
+82556    48   NLCSESAIMGNPKVKAHGRKVLNSFGNAIKHMDDLKGTFADLSELHCDKLHVDPPNFRLL  107
+72259    48   SLSSPSAIMGNPKVKAHGVKVLTSLGEAIKNLDDLKGTFGQLSELHCDKLHVDPENFRLL  107
+139834   46   DLSNADAVMNNPKVKAHGKKVLDSFSNGMKHLDDLKGTFAQLSELHCDKLHVDPENFRLL  105
+
+Query_1  535  GNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH  574
+131000   108  GNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH  147
+128274   108  GNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH  147
+53564    108  GNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH  147
+134601   108  GNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH  147
+137790   108  GNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKYH  147
+134194   108  GNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKYH  147
+127207   108  GNVLVCVLAHHFGKEFTPVVQAAYQKVVAGVANALAHKYH  147
+127208   107  GNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKYH  146
+129526   107  GNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKYH  146
+136952   108  GNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKYH  147
+136764   108  GNVLVCVLARNFGKEFTPQVQAAYQKVVAGVANALAHKYH  147
+126855   108  GNVLVCVLARNFGKEFTPQVQAAYQKVVAGVANALAHKYH  147
+137174   108  GNVLVCVLARNFGKEFTPQMQAAYQKVVAGVANALAHKYH  147
+139468   103  SHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY   141
+135108   103  SHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY   141
+129272   103  SHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY   141
+135867   102  SHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY   140
+134919   107  GNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKYH  146
+136955   107  GNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKYH  146
+134921   107  GNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKYH  146
+139471   108  GNVLVIVLSHHFGKEFTPQVQAAYQKVVAGVANALAHKYH  147
+126604   107  GNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKYH  146
+129275   108  GNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKYH  147
+71566    103  SHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY   141
+135421   108  GNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVATALAHKYH  147
+140223   107  GNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKYH  146
+129271   107  GNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKYH  146
+131154   102  SHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY   140
+72255    108  GNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKYH  147
+137981   102  SHCLLVTLAAHLPAEFTPAVHASLDKFLASVGTVLTSKY   140
+140219   102  NHCLLVTLAABFPSZFTPAVHASVDKFLASVSTVLTSKY   140
+101318   102  NHCLLVTLAABFPSZFTPAVHASVDKFLASVSTVLTSKY   140
+122232   102  SHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY   140
+137988   103  SHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY   141
+100879   108  GNVIVVVLARRLGHDFNPNVQAAFQKVVAGVANALAHKYH  147
+71580    107  GNVLVCVLAHHFGHDFNPQVQAAFQKVVAGVANALAHKYH  146
+58316    107  GNVLVCVLARHFGKDFTPAAQAAFQKVVAGVANALAAKYH  146
+130997   102  SHCLLVTLACHHPAEFTPAVHASLDKFFSAVSTVLTSKY   140
+70608    108  GNVLVCVLAHHFGKQFTPQLQAAYQKVVAGVAAALAHKYH  147
+131158   108  GNMIVIVLGHHLGKEFTPCAQAAFQKVVAGVASALAHKYH  147
+74688    102  SHCLLVTLANHHPADFTPAVHASLDKFFASVSTVLTSKY   140
+138660   108  GNMIVIVLGHHLGKDFTPAAQAAFQKVVAGVATALAHKYH  147
+95169    102  SHCLLVTLACHHPAEFTPAVHASLDKFFSAVSTVLTSKY   140
+97667    103  SHCLLSTLAVHLPNDFTPAVHASLDKFLSSVSTVLTSKY   141
+94746    108  GNVLVIVLANHFGKEFTPQVQAAWQKMVTGVANALAYKYH  147
+91973    103  SHCLLVTLASHHPADFTPAVHASLDKFLASVSTVLTSKY   141
+91499    108  GNMIVIILASHFGGEFTPEVQAAWQKLVAGVATALAHKYH  147
+134193   107  GNMIVIILASHFGGEFTPEVQAAWQKLVAGVATALAHKYH  146
+94743    108  GNAIVIVLGHHLGKDFTPAAQAAFQKVVAGVATALAHKYH  147
+92518    102  SHCLLVTLALHLPADFTPSVHASLDKFLASVSTVLTSKY   140
+140214   103  SHSLLVTLASHLPSDFTPAVHASLDKFLANVSTVLTSKY   141
+129983   103  SHCLLVTLASHHPAEFTPAVHASLDKFFSAVSTVLTSKY   141
+136949   102  SHCLLVTLACHHPAEFTPAVHASLDKFFSTVSTVLTSKY   140
+72251    108  GNVLVIILVTHFGKDFTPEVQVAWQKLVSGVATALAHKYH  147
+77401    108  GNVIVIILATHFGREFTPDVQAAWQKLVSGVATALAHKYH  147
+50774    108  GNMIVIVLGHHLGKEFTPCAQAAFQKVVAGVASALAHKYH  147
+72247    102  SHCLLVTLAAHLPGDFTPSVHASLDKFLASVSTVLTSKY   140
+71577    103  SHCLLVTLANHHPSEFTPAVHASLDKFLANVSTVLTSKY   141
+129269   103  SHSLLVTLACHLPNDFTPAVHASLDKFLANVSTVLTSKY   141
+71575    103  SHSLLVTLACHLPNDFTPAVHASLDKFLANVSTVLTSKY   141
+128982   102  SHCLLVTLACHHPADFTPAVHASLDKFFSAVSTVLTSKY   140
+50127    103  SHCLLVTLASHHPAEFTPAVHASLDKFFSAVSTVLTSKY   141
+50776    108  GNVLVIILATHFGKEFTPEVQAAWQKLVSAVAIALGHKYH  147
+131162   108  GNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALAHKYH  147
+128987   103  SHSLLVTLACHHPSDFTPAVHASLDKFLANVSTVLTSKY   141
+79293    108  GNVLVIVLARHFGKEFTPDVQAAYEKVVAGVANALAHKYH  147
+128986   107  GNVLVIVLARHFGKEFTPDVQAAYEKVVAGVANALAHKYH  146
+126602   102  SHCLLVTLACHHPTEFTPAVHASLDKFFAAVSTVLTSKY   140
+71584    107  GNVLVVVLARHFGKEFTPELQSAYQKVVAGVATALAHKYH  146
+131001   107  GNVLVVVLARHFGKEFTPELQTAYQKVVAGVANALAHKYH  146
+95181    108  GNVLLIVLATHFGKEFTPEVQAAWQKLVSGVAIALAHKYH  147
+128271   108  GNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALGHKYH  147
+126853   102  SHCLLVTLACHHPNEFTPAVHASLDKFFTAVSTVLTSKY   140
+134918   108  GNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALAHKYH  147
+128775   108  GNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALAHKYH  147
+126603   108  GNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALAHKYH  147
+137792   108  GNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALAHKYH  147
+72252    102  SHCLLVTLAAHHPDDFNPSVHASLDKFLANVSTVLTSKY   140
+128985   108  GNVLVTVLAIHFGKEFTPEVQASWQKMVAGVASALSSRYH  147
+100874   108  GNMIIIVLSHDLGKDFTPSAQSAFHKVVAGVANALAHKYH  147
+72232    102  SHCLLVTLSSHQPTEFTPEVHASLDKFLSNVSTVLTSKY   140
+90876    107  GNVLIVVLARHFSKDFSPEVQAAWQKLVSGVAHALGHKYH  146
+136762   108  GNVLVTVLAIHFGKEFTPEVQASWQKMVTGVASALSSRYH  147
+135874   108  GNVLVTVLAIHFGKEFTPEVQASWQKMVTGVASALSSRYH  147
+135427   108  GNVLVTVLAIHFGKEFTPEVQASWQKMVTGVASALSSRYH  147
+135869   106  GNVLVVVLARNFGKEFTPVLQADFQKVVAGVANALAHRYH  145
+129274   108  GNVLVTVLAIHFGKEFTPEVQASWQKMVTAVASALSSRYH  147
+137989   103  GNVLVIVLARHFGKEFTPELQAEFQKVVAGVASALAHRYH  142
+136954   107  GNVLVTVLAIRFGKEFTPEVQASWQKMVAGVASALSSRYH  146
+134195   108  GNVLVTVLAIHFGKEFTPEVQASWQKMVTAVASALSSRYH  147
+76708    108  GNVLVTVLAIHFGKEFTPEVQASWQKMVTAVASALSSRYH  147
+137791   108  GNVLVTVLAIHFGKEFTPEVQASWQKMVTAVASALSSRYH  147
+98085    107  GNVLVVVLARHFGKDFTPELQASYQKVVAGVANALAHKYH  146
+70611    108  GNVLVIVLASHFGNEFTAEMQAAWQKLVAGVATALSHKYH  147
+69854    107  GNMIVIALAHHHPSEFTPCTQAAFQKVTAGVANALAHKYH  146
+137987   108  GNMILIVLATHFSKEFTPQMQASWQKLTNAVANALAHKYH  147
+96642    108  GNVLVIVLAKYFGKEFTPQVQSAWQKLVAGVATALAHKYH  147
+82556    108  GNMILIVLATHFSKEFTPQMQAAWQKLTNAVANALAHKYH  147
+72259    108  GNVLVTVLAILYGKEFTPEVQASWQKMVAGVASALASRYH  147
+139834   106  GNVLVVVLARHHGNEFTPVLQADFQKVVAGVANALAHKYH  145
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.404    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 24514408624
+
+
+  Database: 90_ref
+    Posted date:  Nov 11, 2022  10:32 AM
+  Number of letters in database: 70,279,549
+  Number of sequences in database:  142,201
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
