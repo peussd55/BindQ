@@ -37,12 +37,13 @@ https://github.com/PDB-REDO/dssp
 - msms 설치
 https://ccsb.scripps.edu/msms/downloads/
 
+- msms 설치 가이드
 https://ssbio.readthedocs.io/en/latest/instructions/msms.html
 
 - hbplus 설치
 https://www.ebi.ac.uk/thornton-srv/software/HBPLUS/install.html
-### 3. RFdiffusion은 하위 Dockerfile로 이미지생성한다.
-### 4. ScanNet은 별도의 conda 가상환경으로 기동한다. (ScanNet/requirements.txt, ScanNet/environmemt.yml 참조)
+### 4. RFdiffusion은 하위 Dockerfile로 이미지생성한다.
+### 5. ScanNet은 별도의 conda 가상환경으로 기동한다. (ScanNet/requirements.txt, ScanNet/environmemt.yml 참조)
 
 ### ***출처 :
   https://github.com/RosettaCommons/RFdiffusion/tree/main
