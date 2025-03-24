@@ -1,4 +1,5 @@
 # BindQ
+![image](https://github.com/user-attachments/assets/1b18a37e-0042-4831-a866-d82b1a3aa1c4)
 ## 다운방법
 ### 1. 모든 디렉토리를 내려받기
 - ProteinMPNN 하위에 params 디렉토리를 생성하고 wget으로 파라미터를 다운로드받는다.
