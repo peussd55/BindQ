@@ -1,0 +1,35 @@
+output,timestamp
+"'
+<div id=""molstar-viewer"" style=""position: relative; width: 500px; height: 500px;""></div>
+<script>
+    molstar.Viewer.create('molstar-viewer', {
+        layoutIsExpanded: false,
+        layoutShowControls: false
+    }).then(viewer => {
+        viewer.loadPdb('7bv2');
+    });
+</script>
+",2025-02-18 13:04:47.713150
+"'
+<iframe
+    id=""molstar-frame""
+    style=""width: 100%; height: 600px; border: none;""
+    srcdoc='
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+  <script src=""https://cdn.jsdelivr.net/npm/molstar@latest/build/viewer/molstar.js""></script>
+  <link rel=""stylesheet"" type=""text/css"" href=""https://cdn.jsdelivr.net/npm/molstar@latest/build/viewer/molstar.css"" />
+</head>
+<body>
+  <div id=""molstar-viewer"" style=""width: 100%; height: 600px;""></div>
+  <script>
+    (async function() {
+      const viewer = await molstar.Viewer.create(""molstar-viewer"", { layoutIsExpanded: true });
+      await viewer.loadStructureFromUrl(""https://files.rcsb.org/download/1cbs.cif"", ""mmcif"");
+    })();
+  </script>
+</body>
+</html>'>
+</iframe>
+",2025-02-18 14:52:15.394236

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <meta name="KEYWORDS" content="Binding site annotations of protein structures">
+        <meta name="DESCRIPTION" content="ScanNet binding site prediction">
+        <title>ScanNet Server</title>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F4TC8RBVWD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F4TC8RBVWD');
+</script>
+        <link rel="stylesheet" href="../style.css">
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            #jobinformation {
+                position: absolute;
+                left: 20px;
+                top: 70px;
+                width: 800px;
+
+            }
+
+            #download {
+                position: absolute;
+                left: 20px;
+                top: 200px;
+                width: 800px;
+
+            }
+
+            #acknowledgements {
+                position: absolute;
+                left: 20px;
+                top: 1160px;
+                width: 800px;
+
+            }            
+            #app {
+                position: absolute;
+                left: 160px;
+                top: 90px;
+                width: 800px;
+                height: 800px;
+                border: 1px solid #ccc;
+            }
+
+            #controls {
+                position: absolute;
+                width: 150px;
+                height: 800px;
+                top: 90px;
+                left: 10px;
+                background-color:#ebe8e3  ;
+                border: 2px solid #5d3673;
+            }
+
+            #controls > button {
+                display: block;
+                width: 100%;
+                text-align: left;
+                background-color: #ebe8e3;
+                border: 2px solid #5d3673;
+            }
+
+            #controls > hr {
+                margin: 5px 0;
+                border: 0px solid #f3f2ed;
+            }
+
+            #controls > input, #controls > select {
+                width: 100%;
+                display: block;
+            }
+            #controls {
+                font-family: verdana, sans;
+                font-size: 14px;
+                color: #5d3673;
+
+            }
+
+        </style>
+
+        <link rel="stylesheet" type="text/css" href="../molstar.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="../utils.js"></script>
+        <script type="text/javascript" src="../scannetmolstar.js"></script>
+    </head>
+    <body>
+        <div id='controls'> </div>
+        <div id="app"></div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function () {
+                // Handler for .ready() called.
+                jQuery('html, body').animate({
+                    scrollTop: jQuery('#app').offset().top-100
+                }, 'slow');
+            });          
+        </script>        
+        <script>
+            var stringContainingTheWholePdbFile = ``;
+            var colorRange = [0.0,0.7];
+            var format = 'mmcif';
+
+            function $(id) { return document.getElementById(id); }
+
+            // create an instance of the plugin
+            var PluginWrapper = new ScanNetMolStarWrapper();
+
+            var representationStyle = {
+                sequence: { kind:'cartoon', coloring: 'scannet-binding-probability' },
+                hetGroups: { kind: 'ball-and-stick' },
+                water: { hide: true },
+                snfg3d: { hide: false }
+            };
+
+            PluginWrapper.init('app',{colorRange:colorRange} /** or document.getElementById('app') */).then(() => {
+                PluginWrapper.setBackground(0xffffff);
+                PluginWrapper.loadstr({ string: stringContainingTheWholePdbFile,
+                    format: format,representationStyle: representationStyle });
+            });
+
+            var current_representation = 'cartoon';
+            var current_color = 'scannet-binding-probability';                        
+            addSeparator();
+            addHeader('Representation');
+            addControl('Cartoon', () => {current_representation = 'cartoon'; PluginWrapper.updateStyle({ sequence: { kind:current_representation,coloring: current_color}},true);});
+            addControl('Ball-and-stick', () => {current_representation = 'ball-and-stick'; PluginWrapper.updateStyle({ sequence: { kind:current_representation,coloring: current_color}},true);});
+            addControl('Spacefill', () => {current_representation = 'spacefill'; PluginWrapper.updateStyle({ sequence: { kind:current_representation,coloring: current_color}},true);});
+            addControl('Surface', () => {current_representation = 'molecular-surface'; PluginWrapper.updateStyle({ sequence: { kind:current_representation,coloring: current_color}},true);});
+            addSeparator();
+
+            addSeparator();
+            addHeader('Color');
+            addControl('ScanNet binding probability', () => {current_color = 'scannet-binding-probability'; PluginWrapper.updateStyle({ sequence: { kind:current_representation,coloring: current_color}},true);});
+            addControl('Hydrophobicity', () => {current_color = 'hydrophobicity'; PluginWrapper.updateStyle({ sequence: { kind:current_representation,coloring: current_color}},true);});
+            addControl('Chain ID', () => {current_color = 'unit-index'; PluginWrapper.updateStyle({ sequence: { kind:current_representation,coloring: current_color}},true);});
+            addControl('Residue Index', () => {current_color = 'sequence-id'; PluginWrapper.updateStyle({ sequence: { kind:current_representation,coloring: current_color}},true);});
+
+
+            addSeparator()
+            addHeader('Display');
+            addControl('Hide non-query chains', () => {PluginWrapper.makeTransparent(1.0)});
+            addControl('Show non-query chains', () => {PluginWrapper.makeTransparent(0.0)});
+            addSeparator();    
+            addHeader('Camera');
+            addControl('Reset view', () => {PluginWrapper.plugin.clear().then(() => {
+                PluginWrapper.setBackground(0xffffff);
+                PluginWrapper.loadstr({ string: stringContainingTheWholePdbFile,
+                    format: format,representationStyle: representationStyle });
+            });
+});
+
+            addControl('Unzoom', () => PluginWrapper.resetPosition());
+            addControl('Toggle Spin', () => PluginWrapper.toggleSpin());
+
+
+            var snapshot;
+            addControl('Set Snapshot', () => {
+                snapshot = PluginWrapper.plugin.state.getSnapshot(/** options */);
+            });
+            addControl('Restore Snapshot', () => {
+                if (!snapshot) return;
+                PluginWrapper.snapshot.set(snapshot);
+            });
+            addControl('Download session', () => {
+                PluginWrapper.snapshot.download();
+            });
+
+            ////////////////////////////////////////////////////////
+
+            function addHetGroupsContainer() {
+                var div = document.createElement('div');
+                div.id = 'het-groups';
+                $('controls').appendChild(div);
+            }
+
+            function addControl(label, action) {
+                var btn = document.createElement('button');
+                btn.onclick = action;
+                btn.innerText = label;
+                $('controls').appendChild(btn);
+            }
+
+            function addSeparator() {
+                var hr = document.createElement('hr');
+                $('controls').appendChild(hr);
+            }
+
+            function addHeader(header) {
+                var h = document.createElement('h3');
+                h.innerText = header;
+                $('controls').appendChild(h);
+            }
+        </script>
+    </body>
+</html>            
