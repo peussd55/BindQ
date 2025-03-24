@@ -30,7 +30,7 @@
    wget http://files.ipd.uw.edu/pub/RFdiffusion/12fc204edeae5b57713c5ad7dcb97d39/Base_epoch8_ckpt.pt
 
 ### 2. DeepBSRPred, ProteinMPNN, dssp, freesasa 4개의 디렉토리를 Gradio 디렉토리 하위로 이동시킨다.(같은 환경설정. Gradio/requirements.txt 참조)
-### 3. DeepBSRPred 의존성 패키지 : 
+### 3. DeepBSRPred 의존성 패키지 설치 : 
 - dssp 설치
 https://github.com/PDB-REDO/dssp
 
