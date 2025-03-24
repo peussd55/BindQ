@@ -1,0 +1,94 @@
+-
+  version: '{branch}-{build}'
+  environment:
+    matrix:
+      - arch: x64
+        CMAKE_GENERATOR: Visual Studio 16 2019
+        CMAKE_CONFIG: RelWithDebInfo
+        APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2019
+        PY_PYTHON: 3.8
+        CMAKE_ARGS: -DCMAKE_CXX_STANDARD=11 -DUSE_PYTHON=1 -DPYTHON_EXECUTABLE="C:\\Python38-x64\\python.exe"
+        USE_PIP: 1
+      - arch: x86
+        CMAKE_GENERATOR: Visual Studio 15 2017
+        CMAKE_CONFIG: Release
+        APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
+        PY_PYTHON: 2.7-32
+        CMAKE_ARGS: -DCMAKE_CXX_STANDARD=14 -DUSE_PYTHON=1
+      - arch: x64
+        CMAKE_GENERATOR: Visual Studio 14 2015 Win64
+        CMAKE_CONFIG: MinSizeRel
+        APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
+        PY_PYTHON: 3.6
+        USE_SETUP_PY: 1
+      - arch: x64
+        CMAKE_GENERATOR: MSYS Makefiles
+        COMPILER: MinGW64-gcc-7.2.0
+        CMAKE_CONFIG: Release
+        APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
+        PY_PYTHON: 3.7-32
+        USE_SETUP_PY: 1
+        BINDIR: C:\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin;C:\msys64\usr\bin
+
+  build_script:
+  - if "%APPVEYOR_BUILD_WORKER_IMAGE%"=="Visual Studio 2015" (del "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets")
+  - if defined BINDIR (set "PATH=%BINDIR%;%PATH%")
+  - path
+  - cmake --version
+  - if defined CMAKE_ARGS (git clone --depth=1 -b stable https://github.com/pybind/pybind11.git)
+  - cmake -G "%CMAKE_GENERATOR%" %CMAKE_ARGS% .
+  - cmake --build . --config %CMAKE_CONFIG%
+  - cmake --build . --config %CMAKE_CONFIG% --target check
+  - if exist gemmi.exe  strip gemmi.exe
+  - if exist "%CMAKE_CONFIG%\gemmi.exe" copy "%CMAKE_CONFIG%\gemmi.exe" . /y
+  - dir gemmi.exe
+  - if defined CMAKE_ARGS (copy "%CMAKE_CONFIG%\gemmi*.pyd" . /y)
+  - dir C:\mingw-w64\
+  - py -c "import sys; print(sys.version+'\n'+sys.executable)"
+  - if defined USE_SETUP_PY (py setup.py install)
+  - cmd: '"%VS140COMNTOOLS%\..\..\VC\vcvarsall.bat" %ARCH%'
+  - if defined USE_PIP (py -m pip install --upgrade .)
+
+  test_script:
+  - ctest -C "%CMAKE_CONFIG%" --output-on-failure
+  - py -m pip install numpy
+  - if defined USE_PIP (py -m pip install pandas)
+  - py -m unittest discover -v -s tests/
+  - if "%PY_PYTHON%"=="2.7-32" (appveyor exit)
+  - cd docs
+  - set PYTHONPATH=..
+  - py -m pip install --no-warn-script-location sphinx
+  - py -m sphinx -M doctest . _build -n -E
+
+  artifacts:
+    - path: gemmi.exe
+    - path: gemmi*.pyd
+
+-
+  branches:
+    only:
+      - /v\d*\.\d*\.\d*/
+  # see https://packaging.python.org/guides/supporting-windows-using-appveyor/
+  environment:
+    matrix:
+      # cf. https://www.appveyor.com/docs/windows-images-software/#python
+      # Python 3.9 is not visible by default,
+      # probably requires image: Visual Studio 2019
+      #- PYTHON: "C:\\Python39"
+      #- PYTHON: "C:\\Python39-x64"
+      - PYTHON: "C:\\Python36"
+      - PYTHON: "C:\\Python37"
+      - PYTHON: "C:\\Python38"
+      - PYTHON: "C:\\Python36-x64"
+      - PYTHON: "C:\\Python37-x64"
+      - PYTHON: "C:\\Python38-x64"
+  install:
+    - "%PYTHON%\\python.exe -m pip install wheel pybind11"
+  build_script:
+    - "%PYTHON%\\python.exe setup.py install"
+  test_script:
+    - "%PYTHON%\\python.exe -m unittest discover -s tests"
+  after_test:
+    - "%PYTHON%\\python.exe setup.py bdist_wheel"
+  artifacts:
+    - path: dist\*
