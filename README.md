@@ -33,7 +33,7 @@
 ### 3. RFdiffusion은 하위 Dockerfile로 이미지생성한다.
 ### 4. ScanNet은 별도의 conda 가상환경으로 기동한다. (ScanNet/requirements.txt 참조)
 
-### 출처 :
+### ***출처 :
   https://github.com/RosettaCommons/RFdiffusion/tree/main
   
   https://github.com/ScanNet/ScanNet
