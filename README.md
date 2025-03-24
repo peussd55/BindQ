@@ -29,8 +29,8 @@
  
    wget http://files.ipd.uw.edu/pub/RFdiffusion/12fc204edeae5b57713c5ad7dcb97d39/Base_epoch8_ckpt.pt
 
-### 2. DeepBSRPred, ProteinMPNN, dssp, freesasa 4개의 디렉토리를 Gradio 디렉토리 하위로 이동시킨다.(같은 환경설정. Gradio/requirements.txt 참조)
-### 3. DeepBSRPred 의존성 패키지 설치 : 
+### 2. DeepBSRPred, ProteinMPNN, dssp, freesasa 4개의 디렉토리를 Gradio 디렉토리 하위로 이동시킨다.(같은 환경설정. Gradio/requirements.txt 참조하여 의존성 패키지 설치)
+### 3. DeepBSRPred 의존성 패키지 별도 설치 : 
 - dssp 설치
 https://github.com/PDB-REDO/dssp
 
@@ -43,7 +43,7 @@ https://ssbio.readthedocs.io/en/latest/instructions/msms.html
 - hbplus 설치
 https://www.ebi.ac.uk/thornton-srv/software/HBPLUS/install.html
 ### 4. RFdiffusion은 하위 Dockerfile로 이미지생성한다.
-### 5. ScanNet은 별도의 conda 가상환경으로 기동한다. (ScanNet/requirements.txt, ScanNet/environmemt.yml 참조)
+### 5. ScanNet은 별도의 conda 가상환경으로 기동한다. (ScanNet/requirements.txt, ScanNet/environmemt.yml 참조하여 의존성 패키지 설치)
 
 ### ***출처 :
   https://github.com/RosettaCommons/RFdiffusion/tree/main
