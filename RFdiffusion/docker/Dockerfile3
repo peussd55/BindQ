@@ -1,0 +1,42 @@
+FROM nvcr.io/nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
+
+# 기본 설정
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Miniconda 설치
+RUN apt-get update && apt-get install -y wget git \
+    && wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh -O /tmp/miniconda.sh \
+    && bash /tmp/miniconda.sh -b -p /opt/conda \
+    && rm /tmp/miniconda.sh \
+    && ln -s /opt/conda/bin/conda /usr/local/bin/conda \
+    && rm -rf /var/lib/apt/lists/*
+
+ENV PATH="/opt/conda/bin:${PATH}"
+# Conda 설정 최적화
+RUN conda update -n base -c conda-forge conda
+
+COPY . /app/RFdiffusion
+WORKDIR /app/RFdiffusion
+
+RUN conda env create -f env/SE3nv1.yml
+
+# Conda 환경 활성화
+RUN . ~/.bashrc && \
+    /opt/conda/bin/conda init bash
+RUN echo "source activate SE3nv" >> ~/.bashrc
+ENV PATH="/opt/conda/envs/SE3nv/bin:$PATH"
+
+# Conda 환경 내 추가 패키지 설치 (최적화)
+# SHELL ["conda", "run", "-n", "SE3nv", "/bin/bash", "-c"]
+
+WORKDIR /app/RFdiffusion/env/SE3Transformer
+
+RUN pip install --no-cache-dir -r requirements.txt
+RUN python3 setup.py install
+WORKDIR /app/RFdiffusion
+RUN pip install -e .
+
+WORKDIR /app/RFdiffusion
+ENV DGLBACKEND="pytorch"
+
+# ENTRYPOINT ["python3.9", "scripts/run_inference.py"]

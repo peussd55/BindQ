@@ -1,0 +1,6 @@
+[2025-02-14 18:19:42,075][__main__][INFO] - Found GPU with device_name NVIDIA GeForce RTX 4070. Will run RFdiffusion on NVIDIA GeForce RTX 4070
+[2025-02-14 18:19:42,076][rfdiffusion.inference.model_runners][INFO] - Reading checkpoint from /mnt/c/Users/user/Desktop/FinalProject/RFdiffusion/rfdiffusion/inference/../../models/Base_ckpt.pt
+[2025-02-14 18:19:45,949][rfdiffusion.inference.model_runners][INFO] - Loading checkpoint.
+[2025-02-14 18:19:46,065][rfdiffusion.diffusion][INFO] - Using cached IGSO3.
+[2025-02-14 18:19:46,099][__main__][INFO] - Making design output/GPU_test_0
+[2025-02-14 18:19:46,104][rfdiffusion.inference.model_runners][INFO] - Using contig: ['50-100', 'A84-87', '50-100']

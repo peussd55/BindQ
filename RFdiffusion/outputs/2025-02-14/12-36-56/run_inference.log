@@ -1,0 +1,6 @@
+[2025-02-14 12:36:56,846][__main__][INFO] - ////////////////////////////////////////////////
+[2025-02-14 12:36:56,846][__main__][INFO] - ///// NO GPU DETECTED! Falling back to CPU /////
+[2025-02-14 12:36:56,846][__main__][INFO] - ////////////////////////////////////////////////
+[2025-02-14 12:36:56,847][rfdiffusion.inference.model_runners][INFO] - Reading checkpoint from /mnt/c/Users/user/Desktop/FinalProject/RFdiffusion/rfdiffusion/inference/../../models/Complex_base_ckpt.pt
+[2025-02-14 12:36:59,515][rfdiffusion.inference.model_runners][INFO] - Loading checkpoint.
+[2025-02-14 12:37:00,855][rfdiffusion.diffusion][INFO] - Using cached IGSO3.

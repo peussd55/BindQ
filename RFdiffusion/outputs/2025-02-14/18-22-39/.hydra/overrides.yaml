@@ -1,0 +1,5 @@
+- inference.output_prefix=output/GPU_test
+- inference.input_pdb=examples/input_pdbs/1haz.pdb
+- contigmap.contigs=[50-100,A84-87,50-100]
+- contigmap.length=400-400
+- inference.num_designs=1

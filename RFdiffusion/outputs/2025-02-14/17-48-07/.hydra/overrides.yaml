@@ -1,0 +1,3 @@
+- contigmap.contigs=[400-400]
+- inference.output_prefix=test_outputs/test
+- inference.num_designs=1
