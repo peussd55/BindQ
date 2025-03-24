@@ -32,3 +32,8 @@
 ### 2. DeepBSRPred, ProteinMPNN, dssp, freesasa 4개의 디렉토리를 Gradio 디렉토리 하위로 이동시킨다.(같은 환경설정. Gradio/requirements.txt 참조)
 ### 3. RFdiffusion은 하위 Dockerfile로 이미지생성한다.
 ### 4. ScanNet은 별도의 conda 가상환경으로 기동한다. (ScanNet/requirements.txt 참조)
+
+### 출처 :
+  https://github.com/RosettaCommons/RFdiffusion/tree/main
+  https://github.com/ScanNet/ScanNet
+  https://huggingface.co/spaces/simonduerr/ProteinMPNN
