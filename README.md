@@ -34,7 +34,7 @@
 - dssp 설치
 https://github.com/PDB-REDO/dssp
 
--msms 설치
+- msms 설치
 https://ccsb.scripps.edu/msms/downloads/
 
 https://ssbio.readthedocs.io/en/latest/instructions/msms.html
