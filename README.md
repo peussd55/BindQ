@@ -78,10 +78,10 @@ BindQ는 구조 기반 결합제 설계를 위한 여러 연구 도구를 하나
 - PRODIGY 분석 후에는 업로드한 ZIP 및 중간 PDB 파일이 자동 정리되지만, 실패 시 수동 삭제가 필요할 수 있습니다.【F:Gradio/function.py†L785-L807】
 
 <img width="1338" height="633" alt="화면 캡처 2025-10-18 192549" src="https://github.com/user-attachments/assets/d9188200-ec90-4062-928f-f9c72ae9bdeb" />
-<img width="1334" height="621" alt="화면 캡처 2025-10-18 192652" src="https://github.com/user-attachments/assets/0c26faa6-e9e4-4729-ab90-364e14d20e8a" />
-<img width="1335" height="626" alt="화면 캡처 2025-10-18 192630" src="https://github.com/user-attachments/assets/8821ccce-b50b-478e-960a-b23f5019ac3b" />
-<img width="1336" height="629" alt="화면 캡처 2025-10-18 192620" src="https://github.com/user-attachments/assets/3b67ef6c-6b41-44ea-9fef-15f7477d22dc" />
 <img width="1330" height="628" alt="화면 캡처 2025-10-18 192608" src="https://github.com/user-attachments/assets/644221e8-0c7b-41b1-947d-432842dc4adf" />
+<img width="1336" height="629" alt="화면 캡처 2025-10-18 192620" src="https://github.com/user-attachments/assets/3b67ef6c-6b41-44ea-9fef-15f7477d22dc" />
+<img width="1335" height="626" alt="화면 캡처 2025-10-18 192630" src="https://github.com/user-attachments/assets/8821ccce-b50b-478e-960a-b23f5019ac3b" />
+<img width="1334" height="621" alt="화면 캡처 2025-10-18 192652" src="https://github.com/user-attachments/assets/0c26faa6-e9e4-4729-ab90-364e14d20e8a" />
 
 ## 의존성파일 다운방법
 ### 1. 모든 디렉토리를 내려받기
