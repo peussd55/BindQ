@@ -76,8 +76,14 @@ BindQ는 구조 기반 결합제 설계를 위한 여러 연구 도구를 하나
 - RFdiffusion 출력은 컨티그/핫스팟 별 폴더로 정리되므로, 동일한 입력에 대한 반복 실험 시 해당 디렉터리를 삭제하거나 별도 보관하세요.【F:Gradio/function.py†L117-L209】
 - ProteinMPNN 결과(`proteinmpnn_output/probs/*.npz`)는 후속 분석을 위해 CSV로 자동 변환되므로, 외부 분석 파이프라인과 쉽게 연계할 수 있습니다.【F:Gradio/run_pipeline.py†L372-L430】
 - PRODIGY 분석 후에는 업로드한 ZIP 및 중간 PDB 파일이 자동 정리되지만, 실패 시 수동 삭제가 필요할 수 있습니다.【F:Gradio/function.py†L785-L807】
-![image](https://github.com/user-attachments/assets/1b18a37e-0042-4831-a866-d82b1a3aa1c4)
-## 다운방법
+
+<img width="1334" height="621" alt="화면 캡처 2025-10-18 192652" src="https://github.com/user-attachments/assets/0c26faa6-e9e4-4729-ab90-364e14d20e8a" />
+<img width="1335" height="626" alt="화면 캡처 2025-10-18 192630" src="https://github.com/user-attachments/assets/8821ccce-b50b-478e-960a-b23f5019ac3b" />
+<img width="1336" height="629" alt="화면 캡처 2025-10-18 192620" src="https://github.com/user-attachments/assets/3b67ef6c-6b41-44ea-9fef-15f7477d22dc" />
+<img width="1330" height="628" alt="화면 캡처 2025-10-18 192608" src="https://github.com/user-attachments/assets/644221e8-0c7b-41b1-947d-432842dc4adf" />
+<img width="1338" height="633" alt="화면 캡처 2025-10-18 192549" src="https://github.com/user-attachments/assets/d9188200-ec90-4062-928f-f9c72ae9bdeb" />
+
+## 의존성파일 다운방법
 ### 1. 모든 디렉토리를 내려받기
 - ProteinMPNN 하위에 params 디렉토리를 생성하고 wget으로 파라미터를 다운로드받는다.
 
