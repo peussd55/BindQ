@@ -150,4 +150,4 @@ https://www.ebi.ac.uk/thornton-srv/software/HBPLUS/install.html
   https://web.iitm.ac.in/bioinfo2/deepbsrpred/download.html
 
 ## 참고
-- RFdiffusion, ProteinMPNN, ScanNet, DeepBSRPred는 각각의 원저자 저장소 라이선스를 따르므로 사용 전에 해당 프로젝트의 정책을 확인하십시오.【F:RFdiffusion/README.md†L1-L80】【F:ProteinMPNN/README.md†L1-L60】【F:ScanNet/README.md†L1-L40】
+- RFdiffusion, ProteinMPNN, ScanNet, DeepBSRPred는 각각의 원저자 저장소 라이선스를 따르므로 사용 전에 해당 프로젝트의 정책을 확인하십시오.
