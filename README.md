@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Mol*-00A9E0?style=for-the-badge&logoColor=white">
 </p>
 
-## 👥 참여인원 (Contributors)
+## 👥 참여인원 (Members)
 <p>
   <img src="https://img.shields.io/badge/개발%20(Development)-2명-3776AB?style=flat-square&logo=github&logoColor=white">
   <img src="https://img.shields.io/badge/연구%20(Research)-3명-EE4C2C?style=flat-square&logo=googlescholar&logoColor=white">
