@@ -12,10 +12,9 @@
   <img src="https://img.shields.io/badge/Mol*-00A9E0?style=for-the-badge&logoColor=white">
 </p>
 
-## 👥 프로젝트 팀 (Project Team)
+## 💻 만든 사람 (Creator)
 <p>
-  <img src="https://img.shields.io/badge/개발%20(Development)-2명-3776AB?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/연구%20(Research)-3명-EE4C2C?style=for-the-badge&logo=googlescholar&logoColor=white">
+  <img src="https://img.shields.io/badge/개발%20(Development)-1명-3776AB?style=flat-square&logo=github&logoColor=white">
 </p>
 
 ## 프로젝트 개요
