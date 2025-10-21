@@ -12,6 +12,12 @@
   <img src="https://img.shields.io/badge/Mol*-00A9E0?style=for-the-badge&logoColor=white">
 </p>
 
+## 👩‍💻 참여인원 (Contributors)
+<p>
+  <img src="https://img.shields.io/badge/개발%20(Development)-2명-3776AB?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/연구%20(Research)-3명-EE4C2C?style=for-the-badge&logo=googlescholar&logoColor=white">
+</p>
+
 ## 프로젝트 개요
 BindQ는 구조 기반 결합제 설계를 위한 여러 연구 도구를 하나의 FastAPI · Gradio 애플리케이션으로 통합한 플랫폼입니다. 사이드바 기반의 다섯 가지 탭(Home, 결합부위 예측, RFdiffusion, ProteinMPNN, Prodigy)에서 전체 설계 프로세스를 순차적으로 실행할 수 있으며, 실시간 채팅형 헬퍼와 정적 자산 제공 기능을 함께 제공합니다.
 
