@@ -151,11 +151,11 @@ https://www.ebi.ac.uk/thornton-srv/software/HBPLUS/install.html
 ### ***라이브러리 출처 :
   https://github.com/RosettaCommons/RFdiffusion/tree/main
   
-  https://github.com/ScanNet/ScanNet
+  https://github.com/jertubiana/ScanNet
   
   https://huggingface.co/spaces/simonduerr/ProteinMPNN
 
-  https://web.iitm.ac.in/bioinfo2/deepbsrpred/download.html
+  https://web.iitm.ac.in/bioinfo2/deepbsrpred/index.html
 
 ## 참고
 - RFdiffusion, ProteinMPNN, ScanNet, DeepBSRPred는 각각의 원저자 저장소 라이선스를 따르므로 사용 전에 해당 프로젝트의 정책을 확인하십시오.
